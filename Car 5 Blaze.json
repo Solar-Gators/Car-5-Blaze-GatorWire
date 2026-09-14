@@ -1,7 +1,7 @@
 {
   "format": "gatorwire-workspace",
   "version": 1,
-  "saved_at": "2026-09-14T23:07:39.493Z",
+  "saved_at": "2026-09-14T23:09:33.751Z",
   "project": "Car 5 Electrical",
   "dataset": {
     "project": {
@@ -8566,17 +8566,8 @@
           "cavity": "S6"
         },
         "harness_id": null,
-        "length_mm": {
-          "state": "UNSET"
-        },
-        "overrides": {
-          "color": {
-            "state": "UNSET"
-          },
-          "gauge": {
-            "state": "UNSET"
-          }
-        }
+        "resolution": "UNRESOLVED",
+        "resolution_note": "Created in the connection editor; wire spec not chosen yet."
       }
     ],
     "netdefs": [
