@@ -1,7 +1,7 @@
 {
   "format": "gatorwire-workspace",
   "version": 1,
-  "saved_at": "2026-09-14T23:09:33.751Z",
+  "saved_at": "2026-09-14T23:09:55.372Z",
   "project": "Car 5 Electrical",
   "dataset": {
     "project": {
@@ -661,6 +661,13 @@
           },
           {
             "pin": "GND",
+            "status": {
+              "physical_status": "EMPTY",
+              "usage_status": "SPARE"
+            }
+          },
+          {
+            "pin": "HV_GND",
             "status": {
               "physical_status": "EMPTY",
               "usage_status": "SPARE"
@@ -8490,22 +8497,6 @@
         "resolution_note": "Created in the connection editor; wire spec not chosen yet."
       },
       {
-        "id": "W-184",
-        "end_a": {
-          "kind": "component_pin",
-          "component": "C-BMS",
-          "pin": "GND"
-        },
-        "end_b": {
-          "kind": "connector_cavity",
-          "connector": "J-B01",
-          "cavity": "P2"
-        },
-        "harness_id": null,
-        "resolution": "UNRESOLVED",
-        "resolution_note": "Created in the connection editor; wire spec not chosen yet."
-      },
-      {
         "id": "W-185",
         "end_a": {
           "kind": "component_pin",
@@ -10376,7 +10367,6 @@
           "source_ref": "cell:w-bus-bms"
         },
         "conductor_ids": [
-          "W-184",
           "W-185",
           "W-186",
           "W-187",
