@@ -39,7 +39,7 @@ the organisation first.
 1. Open **https://solar-gators.github.io/Custom-Apps/gatorwire**.
 2. At the top right of the header, click **In this browser · Share**.
 3. **Repository:** `Solar-Gators/Gator-Wire` (already filled in).
-4. **File in the repository:** `project.json` (leave as is).
+4. **File in the repository:** `Car 5 Blaze.json` (name of whichever project you are working on, or a new name for a new project).
 5. Paste your token and click **Connect**.
 
 The Car 5 project opens, and the header now says **Shared · up to date**.
