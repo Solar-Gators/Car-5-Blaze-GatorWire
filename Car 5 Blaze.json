@@ -1,7 +1,7 @@
 {
   "format": "gatorwire-workspace",
   "version": 1,
-  "saved_at": "2026-09-17T02:07:59.983Z",
+  "saved_at": "2026-09-17T02:09:24.476Z",
   "project": "Car 5 Electrical",
   "dataset": {
     "project": {
@@ -798,10 +798,31 @@
         "location_id": "ENC-BATT",
         "pins": [
           {
-            "pin": "CHAIN_OUT",
+            "pin": "+5V",
             "status": {
               "physical_status": "POPULATED",
               "usage_status": "ACTIVE"
+            }
+          },
+          {
+            "pin": "DBCAN_H",
+            "status": {
+              "physical_status": "EMPTY",
+              "usage_status": "SPARE"
+            }
+          },
+          {
+            "pin": "DBCAN_L",
+            "status": {
+              "physical_status": "EMPTY",
+              "usage_status": "SPARE"
+            }
+          },
+          {
+            "pin": "GND",
+            "status": {
+              "physical_status": "EMPTY",
+              "usage_status": "SPARE"
             }
           }
         ],
@@ -819,17 +840,31 @@
         "location_id": "ENC-BATT",
         "pins": [
           {
-            "pin": "CHAIN_IN",
+            "pin": "+5V",
             "status": {
               "physical_status": "POPULATED",
               "usage_status": "ACTIVE"
             }
           },
           {
-            "pin": "CHAIN_OUT",
+            "pin": "DBCAN_H",
             "status": {
               "physical_status": "POPULATED",
               "usage_status": "ACTIVE"
+            }
+          },
+          {
+            "pin": "DBCAN_L",
+            "status": {
+              "physical_status": "EMPTY",
+              "usage_status": "SPARE"
+            }
+          },
+          {
+            "pin": "GND",
+            "status": {
+              "physical_status": "EMPTY",
+              "usage_status": "SPARE"
             }
           }
         ],
@@ -5951,12 +5986,12 @@
         "end_a": {
           "kind": "component_pin",
           "component": "C-DBMS-1",
-          "pin": "CHAIN_OUT"
+          "pin": "+5V"
         },
         "end_b": {
           "kind": "component_pin",
           "component": "C-DBMS-2",
-          "pin": "CHAIN_IN"
+          "pin": "+5V"
         },
         "overrides": {
           "gauge": {
@@ -5982,7 +6017,7 @@
         "end_a": {
           "kind": "component_pin",
           "component": "C-DBMS-2",
-          "pin": "CHAIN_OUT"
+          "pin": "DBCAN_H"
         },
         "end_b": {
           "kind": "component_pin",
@@ -8624,6 +8659,63 @@
         "end_b": {
           "kind": "component_pin",
           "component": "C-BMS",
+          "pin": "GND"
+        },
+        "harness_id": null,
+        "length_mm": {
+          "state": "UNSET"
+        },
+        "overrides": {
+          "color": {
+            "state": "UNSET"
+          },
+          "gauge": {
+            "state": "UNSET"
+          }
+        }
+      },
+      {
+        "id": "W-194",
+        "end_a": {
+          "kind": "component_pin",
+          "component": "C-DBMS-2",
+          "pin": "DBCAN_H"
+        },
+        "end_b": {
+          "kind": "component_pin",
+          "component": "C-DBMS-1",
+          "pin": "DBCAN_H"
+        },
+        "harness_id": null,
+        "resolution": "UNRESOLVED",
+        "resolution_note": "Created in the connection editor; wire spec not chosen yet."
+      },
+      {
+        "id": "W-195",
+        "end_a": {
+          "kind": "component_pin",
+          "component": "C-DBMS-2",
+          "pin": "DBCAN_L"
+        },
+        "end_b": {
+          "kind": "component_pin",
+          "component": "C-DBMS-1",
+          "pin": "DBCAN_L"
+        },
+        "harness_id": null,
+        "resolution": "UNRESOLVED",
+        "resolution_note": "Created in the connection editor; wire spec not chosen yet."
+      },
+      {
+        "id": "W-196",
+        "end_a": {
+          "kind": "component_pin",
+          "component": "C-DBMS-2",
+          "pin": "GND"
+        },
+        "end_b": {
+          "kind": "component_pin",
+          "component": "C-DBMS-1",
           "pin": "GND"
         },
         "harness_id": null,
