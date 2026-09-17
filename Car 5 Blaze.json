@@ -1,7 +1,7 @@
 {
   "format": "gatorwire-workspace",
   "version": 1,
-  "saved_at": "2026-09-17T03:03:16.563Z",
+  "saved_at": "2026-09-17T23:52:58.153Z",
   "project": "Car 5 Electrical",
   "dataset": {
     "project": {
@@ -10584,7 +10584,8 @@
         "provenance": {
           "source": "drawio",
           "source_ref": "cell:w-a1-p"
-        }
+        },
+        "conductor_ids": []
       },
       {
         "id": "L-0012",
