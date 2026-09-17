@@ -1,7 +1,7 @@
 {
   "format": "gatorwire-workspace",
   "version": 1,
-  "saved_at": "2026-09-17T02:10:00.690Z",
+  "saved_at": "2026-09-17T02:12:24.718Z",
   "project": "Car 5 Electrical",
   "dataset": {
     "project": {
@@ -1710,6 +1710,27 @@
             "status": {
               "physical_status": "POPULATED",
               "usage_status": "ACTIVE"
+            }
+          },
+          {
+            "pin": "12V_Main",
+            "status": {
+              "physical_status": "EMPTY",
+              "usage_status": "SPARE"
+            }
+          },
+          {
+            "pin": "12V_Supp",
+            "status": {
+              "physical_status": "EMPTY",
+              "usage_status": "SPARE"
+            }
+          },
+          {
+            "pin": "GND",
+            "status": {
+              "physical_status": "EMPTY",
+              "usage_status": "SPARE"
             }
           }
         ],
@@ -8787,6 +8808,79 @@
             "state": "UNSET"
           }
         }
+      },
+      {
+        "id": "W-200",
+        "end_a": {
+          "kind": "connector_cavity",
+          "connector": "J-R01",
+          "cavity": "S3"
+        },
+        "end_b": {
+          "kind": "component_pin",
+          "component": "C-REAR-VCU",
+          "pin": "12V_Main"
+        },
+        "harness_id": null,
+        "resolution": "UNRESOLVED",
+        "resolution_note": "Created in the connection editor; wire spec not chosen yet."
+      },
+      {
+        "id": "W-201",
+        "end_a": {
+          "kind": "connector_cavity",
+          "connector": "J-R01",
+          "cavity": "S4"
+        },
+        "end_b": {
+          "kind": "component_pin",
+          "component": "C-REAR-VCU",
+          "pin": "12V_Supp"
+        },
+        "harness_id": null,
+        "resolution": "UNRESOLVED",
+        "resolution_note": "Created in the connection editor; wire spec not chosen yet."
+      },
+      {
+        "id": "W-202",
+        "end_a": {
+          "kind": "connector_cavity",
+          "connector": "J-R01",
+          "cavity": "S5"
+        },
+        "end_b": {
+          "kind": "component_pin",
+          "component": "C-REAR-VCU",
+          "pin": "GND"
+        },
+        "harness_id": null,
+        "resolution": "UNRESOLVED",
+        "resolution_note": "Created in the connection editor; wire spec not chosen yet."
+      },
+      {
+        "id": "W-203",
+        "end_a": {
+          "kind": "connector_cavity",
+          "connector": "J-R01",
+          "cavity": "S6"
+        },
+        "end_b": {
+          "kind": "component_pin",
+          "component": "C-REAR-VCU",
+          "pin": "GND"
+        },
+        "harness_id": null,
+        "length_mm": {
+          "state": "UNSET"
+        },
+        "overrides": {
+          "color": {
+            "state": "UNSET"
+          },
+          "gauge": {
+            "state": "UNSET"
+          }
+        }
       }
     ],
     "netdefs": [
@@ -10598,7 +10692,11 @@
           "W-185",
           "W-186",
           "W-187",
-          "W-188"
+          "W-188",
+          "W-200",
+          "W-201",
+          "W-202",
+          "W-203"
         ]
       },
       {
