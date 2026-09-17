@@ -1,7 +1,7 @@
 {
   "format": "gatorwire-workspace",
   "version": 1,
-  "saved_at": "2026-09-17T02:12:24.718Z",
+  "saved_at": "2026-09-17T02:38:05.129Z",
   "project": "Car 5 Electrical",
   "dataset": {
     "project": {
@@ -1533,7 +1533,7 @@
             }
           },
           {
-            "pin": "LV_GND",
+            "pin": "GND",
             "status": {
               "physical_status": "POPULATED",
               "usage_status": "ACTIVE"
@@ -6132,7 +6132,7 @@
         "end_a": {
           "kind": "component_pin",
           "component": "C-POWER-BOARD",
-          "pin": "LV_GND"
+          "pin": "GND"
         },
         "end_b": {
           "kind": "component_pin",
@@ -6192,7 +6192,7 @@
         "end_a": {
           "kind": "component_pin",
           "component": "C-POWER-BOARD",
-          "pin": "LV_GND"
+          "pin": "GND"
         },
         "end_b": {
           "kind": "component_pin",
@@ -6629,7 +6629,7 @@
         "end_a": {
           "kind": "component_pin",
           "component": "C-POWER-BOARD",
-          "pin": "LV_GND"
+          "pin": "GND"
         },
         "end_b": {
           "kind": "connector_cavity",
