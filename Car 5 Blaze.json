@@ -1,7 +1,7 @@
 {
   "format": "gatorwire-workspace",
   "version": 1,
-  "saved_at": "2026-09-14T23:09:55.372Z",
+  "saved_at": "2026-09-17T02:07:34.109Z",
   "project": "Car 5 Electrical",
   "dataset": {
     "project": {
@@ -625,13 +625,6 @@
             }
           },
           {
-            "pin": "DBMS_IN",
-            "status": {
-              "physical_status": "POPULATED",
-              "usage_status": "ACTIVE"
-            }
-          },
-          {
             "pin": "SHUNT_SENSE-",
             "status": {
               "physical_status": "POPULATED",
@@ -660,14 +653,28 @@
             }
           },
           {
-            "pin": "GND",
+            "pin": "+5V",
             "status": {
               "physical_status": "EMPTY",
               "usage_status": "SPARE"
             }
           },
           {
-            "pin": "HV_GND",
+            "pin": "DBCAN_H",
+            "status": {
+              "physical_status": "EMPTY",
+              "usage_status": "SPARE"
+            }
+          },
+          {
+            "pin": "DBCAN_L",
+            "status": {
+              "physical_status": "EMPTY",
+              "usage_status": "SPARE"
+            }
+          },
+          {
+            "pin": "GND",
             "status": {
               "physical_status": "EMPTY",
               "usage_status": "SPARE"
@@ -840,17 +847,31 @@
         "location_id": "ENC-BATT",
         "pins": [
           {
-            "pin": "CHAIN_IN",
+            "pin": "DBCAN_H",
             "status": {
               "physical_status": "POPULATED",
               "usage_status": "ACTIVE"
             }
           },
           {
-            "pin": "CHAIN_OUT",
+            "pin": "DBCAN_L",
             "status": {
               "physical_status": "POPULATED",
               "usage_status": "ACTIVE"
+            }
+          },
+          {
+            "pin": "+5V",
+            "status": {
+              "physical_status": "EMPTY",
+              "usage_status": "SPARE"
+            }
+          },
+          {
+            "pin": "GND",
+            "status": {
+              "physical_status": "EMPTY",
+              "usage_status": "SPARE"
             }
           }
         ],
@@ -5966,7 +5987,7 @@
         "end_b": {
           "kind": "component_pin",
           "component": "C-DBMS-3",
-          "pin": "CHAIN_IN"
+          "pin": "DBCAN_H"
         },
         "overrides": {
           "gauge": {
@@ -5984,37 +6005,6 @@
           "source": "master-sheet",
           "source_ref": "CONNECTIONS!99",
           "note": "Circuit / Function column read \"DBMS daisy chain\"; it seeds the net name, not this conductor."
-        }
-      },
-      {
-        "id": "W-096",
-        "harness_id": null,
-        "end_a": {
-          "kind": "component_pin",
-          "component": "C-DBMS-3",
-          "pin": "CHAIN_OUT"
-        },
-        "end_b": {
-          "kind": "component_pin",
-          "component": "C-BMS",
-          "pin": "DBMS_IN"
-        },
-        "overrides": {
-          "gauge": {
-            "state": "TBD"
-          },
-          "color": {
-            "state": "TBD"
-          }
-        },
-        "length_mm": {
-          "state": "TBD"
-        },
-        "notes": "DBMS chain pin names are not given in the diagram",
-        "provenance": {
-          "source": "master-sheet",
-          "source_ref": "CONNECTIONS!100",
-          "note": "Circuit / Function column read \"DBMS chain to BMS\"; it seeds the net name, not this conductor."
         }
       },
       {
@@ -10939,7 +10929,8 @@
         "provenance": {
           "source": "drawio",
           "source_ref": "cell:GhK0Wp2T6Vn-Yok_kaB0-9"
-        }
+        },
+        "conductor_ids": []
       },
       {
         "id": "L-0061",
