@@ -1,7 +1,7 @@
 {
   "format": "gatorwire-workspace",
   "version": 1,
-  "saved_at": "2026-09-17T02:07:34.109Z",
+  "saved_at": "2026-09-17T02:07:59.983Z",
   "project": "Car 5 Electrical",
   "dataset": {
     "project": {
@@ -847,6 +847,13 @@
         "location_id": "ENC-BATT",
         "pins": [
           {
+            "pin": "+5V",
+            "status": {
+              "physical_status": "EMPTY",
+              "usage_status": "SPARE"
+            }
+          },
+          {
             "pin": "DBCAN_H",
             "status": {
               "physical_status": "POPULATED",
@@ -858,13 +865,6 @@
             "status": {
               "physical_status": "POPULATED",
               "usage_status": "ACTIVE"
-            }
-          },
-          {
-            "pin": "+5V",
-            "status": {
-              "physical_status": "EMPTY",
-              "usage_status": "SPARE"
             }
           },
           {
@@ -8549,6 +8549,95 @@
         "harness_id": null,
         "resolution": "UNRESOLVED",
         "resolution_note": "Created in the connection editor; wire spec not chosen yet."
+      },
+      {
+        "id": "W-189",
+        "end_a": {
+          "kind": "component_pin",
+          "component": "C-DBMS-3",
+          "pin": "+5V"
+        },
+        "end_b": {
+          "kind": "component_pin",
+          "component": "C-BMS",
+          "pin": "DBMS_IN"
+        },
+        "harness_id": null,
+        "resolution": "UNRESOLVED",
+        "resolution_note": "Created in the connection editor; wire spec not chosen yet."
+      },
+      {
+        "id": "W-190",
+        "end_a": {
+          "kind": "component_pin",
+          "component": "C-DBMS-3",
+          "pin": "+5V"
+        },
+        "end_b": {
+          "kind": "component_pin",
+          "component": "C-BMS",
+          "pin": "+5V"
+        },
+        "harness_id": null,
+        "resolution": "UNRESOLVED",
+        "resolution_note": "Created in the connection editor; wire spec not chosen yet."
+      },
+      {
+        "id": "W-191",
+        "end_a": {
+          "kind": "component_pin",
+          "component": "C-DBMS-3",
+          "pin": "DBCAN_H"
+        },
+        "end_b": {
+          "kind": "component_pin",
+          "component": "C-BMS",
+          "pin": "DBCAN_H"
+        },
+        "harness_id": null,
+        "resolution": "UNRESOLVED",
+        "resolution_note": "Created in the connection editor; wire spec not chosen yet."
+      },
+      {
+        "id": "W-192",
+        "end_a": {
+          "kind": "component_pin",
+          "component": "C-DBMS-3",
+          "pin": "DBCAN_L"
+        },
+        "end_b": {
+          "kind": "component_pin",
+          "component": "C-BMS",
+          "pin": "DBCAN_L"
+        },
+        "harness_id": null,
+        "resolution": "UNRESOLVED",
+        "resolution_note": "Created in the connection editor; wire spec not chosen yet."
+      },
+      {
+        "id": "W-193",
+        "end_a": {
+          "kind": "component_pin",
+          "component": "C-DBMS-3",
+          "pin": "GND"
+        },
+        "end_b": {
+          "kind": "component_pin",
+          "component": "C-BMS",
+          "pin": "GND"
+        },
+        "harness_id": null,
+        "length_mm": {
+          "state": "UNSET"
+        },
+        "overrides": {
+          "color": {
+            "state": "UNSET"
+          },
+          "gauge": {
+            "state": "UNSET"
+          }
+        }
       }
     ],
     "netdefs": [
@@ -10930,7 +11019,13 @@
           "source": "drawio",
           "source_ref": "cell:GhK0Wp2T6Vn-Yok_kaB0-9"
         },
-        "conductor_ids": []
+        "conductor_ids": [
+          "W-189",
+          "W-190",
+          "W-191",
+          "W-192",
+          "W-193"
+        ]
       },
       {
         "id": "L-0061",
