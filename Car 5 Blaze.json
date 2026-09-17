@@ -1,7 +1,7 @@
 {
   "format": "gatorwire-workspace",
   "version": 1,
-  "saved_at": "2026-09-17T02:09:24.476Z",
+  "saved_at": "2026-09-17T02:10:00.690Z",
   "project": "Car 5 Electrical",
   "dataset": {
     "project": {
@@ -8716,6 +8716,63 @@
         "end_b": {
           "kind": "component_pin",
           "component": "C-DBMS-1",
+          "pin": "GND"
+        },
+        "harness_id": null,
+        "length_mm": {
+          "state": "UNSET"
+        },
+        "overrides": {
+          "color": {
+            "state": "UNSET"
+          },
+          "gauge": {
+            "state": "UNSET"
+          }
+        }
+      },
+      {
+        "id": "W-197",
+        "end_a": {
+          "kind": "component_pin",
+          "component": "C-DBMS-2",
+          "pin": "+5V"
+        },
+        "end_b": {
+          "kind": "component_pin",
+          "component": "C-DBMS-3",
+          "pin": "+5V"
+        },
+        "harness_id": null,
+        "resolution": "UNRESOLVED",
+        "resolution_note": "Created in the connection editor; wire spec not chosen yet."
+      },
+      {
+        "id": "W-198",
+        "end_a": {
+          "kind": "component_pin",
+          "component": "C-DBMS-2",
+          "pin": "DBCAN_L"
+        },
+        "end_b": {
+          "kind": "component_pin",
+          "component": "C-DBMS-3",
+          "pin": "DBCAN_L"
+        },
+        "harness_id": null,
+        "resolution": "UNRESOLVED",
+        "resolution_note": "Created in the connection editor; wire spec not chosen yet."
+      },
+      {
+        "id": "W-199",
+        "end_a": {
+          "kind": "component_pin",
+          "component": "C-DBMS-2",
+          "pin": "GND"
+        },
+        "end_b": {
+          "kind": "component_pin",
+          "component": "C-DBMS-3",
           "pin": "GND"
         },
         "harness_id": null,
