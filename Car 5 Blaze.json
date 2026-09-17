@@ -1,7 +1,7 @@
 {
   "format": "gatorwire-workspace",
   "version": 1,
-  "saved_at": "2026-09-17T23:58:56.152Z",
+  "saved_at": "2026-09-17T23:59:18.483Z",
   "project": "Car 5 Electrical",
   "dataset": {
     "project": {
@@ -8923,22 +8923,6 @@
             "state": "UNSET"
           }
         }
-      },
-      {
-        "id": "W-214",
-        "end_a": {
-          "kind": "component_pin",
-          "component": "C-MPPT-3",
-          "pin": "OUT_HV+"
-        },
-        "end_b": {
-          "kind": "component_pin",
-          "component": "C-MPPT-2",
-          "pin": "OUT_HV+"
-        },
-        "harness_id": null,
-        "resolution": "UNRESOLVED",
-        "resolution_note": "Created in the connection editor; wire spec not chosen yet."
       }
     ],
     "netdefs": [
@@ -10658,9 +10642,7 @@
           "source": "drawio",
           "source_ref": "cell:w-a3-p"
         },
-        "conductor_ids": [
-          "W-214"
-        ]
+        "conductor_ids": []
       },
       {
         "id": "L-0016",
