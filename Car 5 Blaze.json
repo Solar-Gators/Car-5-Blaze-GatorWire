@@ -1,7 +1,7 @@
 {
   "format": "gatorwire-workspace",
   "version": 1,
-  "saved_at": "2026-09-17T02:38:05.129Z",
+  "saved_at": "2026-09-17T02:39:10.045Z",
   "project": "Car 5 Electrical",
   "dataset": {
     "project": {
@@ -1540,10 +1540,24 @@
             }
           },
           {
-            "pin": "SUPP_12V+",
+            "pin": "12V_Supp",
             "status": {
               "physical_status": "POPULATED",
               "usage_status": "ACTIVE"
+            }
+          },
+          {
+            "pin": "12V_Main",
+            "status": {
+              "physical_status": "EMPTY",
+              "usage_status": "SPARE"
+            }
+          },
+          {
+            "pin": "6",
+            "status": {
+              "physical_status": "EMPTY",
+              "usage_status": "SPARE"
             }
           }
         ],
@@ -6069,7 +6083,7 @@
         "end_a": {
           "kind": "component_pin",
           "component": "C-POWER-BOARD",
-          "pin": "SUPP_12V+"
+          "pin": "12V_Supp"
         },
         "end_b": {
           "kind": "component_pin",
@@ -6162,7 +6176,7 @@
         "end_a": {
           "kind": "component_pin",
           "component": "C-POWER-BOARD",
-          "pin": "SUPP_12V+"
+          "pin": "12V_Supp"
         },
         "end_b": {
           "kind": "component_pin",
@@ -6561,7 +6575,7 @@
         "end_a": {
           "kind": "component_pin",
           "component": "C-POWER-BOARD",
-          "pin": "SUPP_12V+"
+          "pin": "12V_Supp"
         },
         "end_b": {
           "kind": "connector_cavity",
