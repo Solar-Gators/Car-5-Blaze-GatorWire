@@ -1,7 +1,7 @@
 {
   "format": "gatorwire-workspace",
   "version": 1,
-  "saved_at": "2026-09-17T02:43:46.814Z",
+  "saved_at": "2026-09-17T02:44:23.231Z",
   "project": "Car 5 Electrical",
   "dataset": {
     "project": {
@@ -1209,14 +1209,14 @@
             "resolution_note": "The master sheet recorded this contact's function as \"Sealed/spare\", which conflates the physical and usage axes. Migrated as POPULATED + SPARE because a conductor is present. Confirm what the motor sensor interface actually does at this position."
           },
           {
-            "pin": "HV-",
+            "pin": "HV+",
             "status": {
               "physical_status": "POPULATED",
               "usage_status": "ACTIVE"
             }
           },
           {
-            "pin": "HV+",
+            "pin": "HV-",
             "status": {
               "physical_status": "POPULATED",
               "usage_status": "ACTIVE"
@@ -8991,8 +8991,17 @@
           "pin": "HV-"
         },
         "harness_id": null,
-        "resolution": "UNRESOLVED",
-        "resolution_note": "Created in the connection editor; wire spec not chosen yet."
+        "length_mm": {
+          "state": "UNSET"
+        },
+        "overrides": {
+          "color": {
+            "state": "UNSET"
+          },
+          "gauge": {
+            "state": "UNSET"
+          }
+        }
       }
     ],
     "netdefs": [
