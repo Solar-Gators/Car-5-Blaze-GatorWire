@@ -1,7 +1,7 @@
 {
   "format": "gatorwire-workspace",
   "version": 1,
-  "saved_at": "2026-09-17T02:39:10.045Z",
+  "saved_at": "2026-09-17T02:40:12.951Z",
   "project": "Car 5 Electrical",
   "dataset": {
     "project": {
@@ -1519,24 +1519,10 @@
         "location_id": "ENC-REAR",
         "pins": [
           {
-            "pin": "CAN_H",
+            "pin": "12V_Main",
             "status": {
-              "physical_status": "POPULATED",
-              "usage_status": "ACTIVE"
-            }
-          },
-          {
-            "pin": "CAN_L",
-            "status": {
-              "physical_status": "POPULATED",
-              "usage_status": "ACTIVE"
-            }
-          },
-          {
-            "pin": "GND",
-            "status": {
-              "physical_status": "POPULATED",
-              "usage_status": "ACTIVE"
+              "physical_status": "EMPTY",
+              "usage_status": "SPARE"
             }
           },
           {
@@ -1547,17 +1533,24 @@
             }
           },
           {
-            "pin": "12V_Main",
+            "pin": "RearCAN_H",
             "status": {
-              "physical_status": "EMPTY",
-              "usage_status": "SPARE"
+              "physical_status": "POPULATED",
+              "usage_status": "ACTIVE"
             }
           },
           {
-            "pin": "6",
+            "pin": "RearCAN_L",
             "status": {
-              "physical_status": "EMPTY",
-              "usage_status": "SPARE"
+              "physical_status": "POPULATED",
+              "usage_status": "ACTIVE"
+            }
+          },
+          {
+            "pin": "GND",
+            "status": {
+              "physical_status": "POPULATED",
+              "usage_status": "ACTIVE"
             }
           }
         ],
@@ -1742,6 +1735,20 @@
           },
           {
             "pin": "GND",
+            "status": {
+              "physical_status": "EMPTY",
+              "usage_status": "SPARE"
+            }
+          },
+          {
+            "pin": "RearCAN_H",
+            "status": {
+              "physical_status": "EMPTY",
+              "usage_status": "SPARE"
+            }
+          },
+          {
+            "pin": "RearCAN_L",
             "status": {
               "physical_status": "EMPTY",
               "usage_status": "SPARE"
@@ -6228,66 +6235,6 @@
           "source": "master-sheet",
           "source_ref": "CONNECTIONS!105",
           "note": "Circuit / Function column read \"Controller LV return\"; it seeds the net name, not this conductor."
-        }
-      },
-      {
-        "id": "W-102",
-        "harness_id": null,
-        "end_a": {
-          "kind": "component_pin",
-          "component": "C-POWER-BOARD",
-          "pin": "CAN_H"
-        },
-        "end_b": {
-          "kind": "component_pin",
-          "component": "C-REAR-VCU",
-          "pin": "CAN_H"
-        },
-        "overrides": {
-          "gauge": {
-            "state": "TBD"
-          },
-          "color": {
-            "state": "TBD"
-          }
-        },
-        "length_mm": {
-          "state": "TBD"
-        },
-        "provenance": {
-          "source": "master-sheet",
-          "source_ref": "CONNECTIONS!106",
-          "note": "Circuit / Function column read \"CAN high\"; it seeds the net name, not this conductor."
-        }
-      },
-      {
-        "id": "W-103",
-        "harness_id": null,
-        "end_a": {
-          "kind": "component_pin",
-          "component": "C-POWER-BOARD",
-          "pin": "CAN_L"
-        },
-        "end_b": {
-          "kind": "component_pin",
-          "component": "C-REAR-VCU",
-          "pin": "CAN_L"
-        },
-        "overrides": {
-          "gauge": {
-            "state": "TBD"
-          },
-          "color": {
-            "state": "TBD"
-          }
-        },
-        "length_mm": {
-          "state": "TBD"
-        },
-        "provenance": {
-          "source": "master-sheet",
-          "source_ref": "CONNECTIONS!107",
-          "note": "Circuit / Function column read \"CAN low\"; it seeds the net name, not this conductor."
         }
       },
       {
