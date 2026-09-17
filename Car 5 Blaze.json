@@ -1,7 +1,7 @@
 {
   "format": "gatorwire-workspace",
   "version": 1,
-  "saved_at": "2026-09-17T03:01:02.855Z",
+  "saved_at": "2026-09-17T03:03:16.563Z",
   "project": "Car 5 Electrical",
   "dataset": {
     "project": {
@@ -6189,66 +6189,6 @@
           "source": "master-sheet",
           "source_ref": "CONNECTIONS!103",
           "note": "Circuit / Function column read \"Supp battery return\"; it seeds the net name, not this conductor."
-        }
-      },
-      {
-        "id": "W-100",
-        "harness_id": null,
-        "end_a": {
-          "kind": "component_pin",
-          "component": "C-POWER-BOARD",
-          "pin": "12V_Supp"
-        },
-        "end_b": {
-          "kind": "component_pin",
-          "component": "C-MITSUBA-MOTOR-CONTROLLER",
-          "pin": "LV_12V+"
-        },
-        "overrides": {
-          "gauge": {
-            "state": "TBD"
-          },
-          "color": {
-            "state": "TBD"
-          }
-        },
-        "length_mm": {
-          "state": "TBD"
-        },
-        "provenance": {
-          "source": "master-sheet",
-          "source_ref": "CONNECTIONS!104",
-          "note": "Circuit / Function column read \"Controller LV supply\"; it seeds the net name, not this conductor."
-        }
-      },
-      {
-        "id": "W-101",
-        "harness_id": null,
-        "end_a": {
-          "kind": "component_pin",
-          "component": "C-POWER-BOARD",
-          "pin": "GND"
-        },
-        "end_b": {
-          "kind": "component_pin",
-          "component": "C-MITSUBA-MOTOR-CONTROLLER",
-          "pin": "LV_GND"
-        },
-        "overrides": {
-          "gauge": {
-            "state": "TBD"
-          },
-          "color": {
-            "state": "TBD"
-          }
-        },
-        "length_mm": {
-          "state": "TBD"
-        },
-        "provenance": {
-          "source": "master-sheet",
-          "source_ref": "CONNECTIONS!105",
-          "note": "Circuit / Function column read \"Controller LV return\"; it seeds the net name, not this conductor."
         }
       },
       {
