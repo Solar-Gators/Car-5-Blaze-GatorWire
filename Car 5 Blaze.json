@@ -1,7 +1,7 @@
 {
   "format": "gatorwire-workspace",
   "version": 1,
-  "saved_at": "2026-09-17T02:40:12.951Z",
+  "saved_at": "2026-09-17T02:40:53.900Z",
   "project": "Car 5 Electrical",
   "dataset": {
     "project": {
@@ -1734,13 +1734,6 @@
             }
           },
           {
-            "pin": "GND",
-            "status": {
-              "physical_status": "EMPTY",
-              "usage_status": "SPARE"
-            }
-          },
-          {
             "pin": "RearCAN_H",
             "status": {
               "physical_status": "EMPTY",
@@ -1749,6 +1742,13 @@
           },
           {
             "pin": "RearCAN_L",
+            "status": {
+              "physical_status": "EMPTY",
+              "usage_status": "SPARE"
+            }
+          },
+          {
+            "pin": "GND",
             "status": {
               "physical_status": "EMPTY",
               "usage_status": "SPARE"
@@ -8842,6 +8842,102 @@
             "state": "UNSET"
           }
         }
+      },
+      {
+        "id": "W-204",
+        "end_a": {
+          "kind": "component_pin",
+          "component": "C-POWER-BOARD",
+          "pin": "12V_Supp"
+        },
+        "end_b": {
+          "kind": "component_pin",
+          "component": "C-REAR-VCU",
+          "pin": "RearCan_H"
+        },
+        "harness_id": null,
+        "resolution": "UNRESOLVED",
+        "resolution_note": "Created in the connection editor; wire spec not chosen yet."
+      },
+      {
+        "id": "W-205",
+        "end_a": {
+          "kind": "component_pin",
+          "component": "C-POWER-BOARD",
+          "pin": "12V_Supp"
+        },
+        "end_b": {
+          "kind": "component_pin",
+          "component": "C-REAR-VCU",
+          "pin": "12V_Supp"
+        },
+        "harness_id": null,
+        "resolution": "UNRESOLVED",
+        "resolution_note": "Created in the connection editor; wire spec not chosen yet."
+      },
+      {
+        "id": "W-206",
+        "end_a": {
+          "kind": "component_pin",
+          "component": "C-POWER-BOARD",
+          "pin": "12V_Main"
+        },
+        "end_b": {
+          "kind": "component_pin",
+          "component": "C-REAR-VCU",
+          "pin": "12V_Main"
+        },
+        "harness_id": null,
+        "resolution": "UNRESOLVED",
+        "resolution_note": "Created in the connection editor; wire spec not chosen yet."
+      },
+      {
+        "id": "W-207",
+        "end_a": {
+          "kind": "component_pin",
+          "component": "C-POWER-BOARD",
+          "pin": "RearCAN_H"
+        },
+        "end_b": {
+          "kind": "component_pin",
+          "component": "C-REAR-VCU",
+          "pin": "RearCAN_H"
+        },
+        "harness_id": null,
+        "resolution": "UNRESOLVED",
+        "resolution_note": "Created in the connection editor; wire spec not chosen yet."
+      },
+      {
+        "id": "W-208",
+        "end_a": {
+          "kind": "component_pin",
+          "component": "C-POWER-BOARD",
+          "pin": "RearCAN_L"
+        },
+        "end_b": {
+          "kind": "component_pin",
+          "component": "C-REAR-VCU",
+          "pin": "RearCAN_L"
+        },
+        "harness_id": null,
+        "resolution": "UNRESOLVED",
+        "resolution_note": "Created in the connection editor; wire spec not chosen yet."
+      },
+      {
+        "id": "W-209",
+        "end_a": {
+          "kind": "component_pin",
+          "component": "C-POWER-BOARD",
+          "pin": "GND"
+        },
+        "end_b": {
+          "kind": "component_pin",
+          "component": "C-REAR-VCU",
+          "pin": "GND"
+        },
+        "harness_id": null,
+        "resolution": "UNRESOLVED",
+        "resolution_note": "Created in the connection editor; wire spec not chosen yet."
       }
     ],
     "netdefs": [
@@ -11124,7 +11220,15 @@
         "provenance": {
           "source": "drawio",
           "source_ref": "cell:B0svhFu7hVh1GH4Wotb_-28"
-        }
+        },
+        "conductor_ids": [
+          "W-204",
+          "W-205",
+          "W-206",
+          "W-207",
+          "W-208",
+          "W-209"
+        ]
       },
       {
         "id": "L-0054",
