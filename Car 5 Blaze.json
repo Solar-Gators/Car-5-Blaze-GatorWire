@@ -1,7 +1,7 @@
 {
   "format": "gatorwire-workspace",
   "version": 1,
-  "saved_at": "2026-09-17T02:41:11.680Z",
+  "saved_at": "2026-09-17T02:41:57.929Z",
   "project": "Car 5 Electrical",
   "dataset": {
     "project": {
@@ -1518,6 +1518,20 @@
         "type": "Board/device",
         "location_id": "ENC-REAR",
         "pins": [
+          {
+            "pin": "HV+",
+            "status": {
+              "physical_status": "EMPTY",
+              "usage_status": "SPARE"
+            }
+          },
+          {
+            "pin": "HV-",
+            "status": {
+              "physical_status": "EMPTY",
+              "usage_status": "SPARE"
+            }
+          },
           {
             "pin": "12V_Main",
             "status": {
