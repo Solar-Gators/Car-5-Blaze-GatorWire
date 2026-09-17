@@ -1,7 +1,7 @@
 {
   "format": "gatorwire-workspace",
   "version": 1,
-  "saved_at": "2026-09-17T02:41:57.929Z",
+  "saved_at": "2026-09-17T02:43:46.814Z",
   "project": "Car 5 Electrical",
   "dataset": {
     "project": {
@@ -8961,6 +8961,38 @@
             "state": "UNSET"
           }
         }
+      },
+      {
+        "id": "W-210",
+        "end_a": {
+          "kind": "component_pin",
+          "component": "C-POWER-BOARD",
+          "pin": "HV+"
+        },
+        "end_b": {
+          "kind": "component_pin",
+          "component": "C-MITSUBA-MOTOR-CONTROLLER",
+          "pin": "HV+"
+        },
+        "harness_id": null,
+        "resolution": "UNRESOLVED",
+        "resolution_note": "Created in the connection editor; wire spec not chosen yet."
+      },
+      {
+        "id": "W-211",
+        "end_a": {
+          "kind": "component_pin",
+          "component": "C-POWER-BOARD",
+          "pin": "HV-"
+        },
+        "end_b": {
+          "kind": "component_pin",
+          "component": "C-MITSUBA-MOTOR-CONTROLLER",
+          "pin": "HV-"
+        },
+        "harness_id": null,
+        "resolution": "UNRESOLVED",
+        "resolution_note": "Created in the connection editor; wire spec not chosen yet."
       }
     ],
     "netdefs": [
@@ -11340,7 +11372,11 @@
         "provenance": {
           "source": "drawio",
           "source_ref": "cell:B0svhFu7hVh1GH4Wotb_-37"
-        }
+        },
+        "conductor_ids": [
+          "W-210",
+          "W-211"
+        ]
       },
       {
         "id": "L-0060",
