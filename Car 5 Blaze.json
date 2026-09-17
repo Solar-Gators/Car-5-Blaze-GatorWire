@@ -1,7 +1,7 @@
 {
   "format": "gatorwire-workspace",
   "version": 1,
-  "saved_at": "2026-09-17T02:40:53.900Z",
+  "saved_at": "2026-09-17T02:41:11.680Z",
   "project": "Car 5 Electrical",
   "dataset": {
     "project": {
@@ -8936,8 +8936,17 @@
           "pin": "GND"
         },
         "harness_id": null,
-        "resolution": "UNRESOLVED",
-        "resolution_note": "Created in the connection editor; wire spec not chosen yet."
+        "length_mm": {
+          "state": "UNSET"
+        },
+        "overrides": {
+          "color": {
+            "state": "UNSET"
+          },
+          "gauge": {
+            "state": "UNSET"
+          }
+        }
       }
     ],
     "netdefs": [
