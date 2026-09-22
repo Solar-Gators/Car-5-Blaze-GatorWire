@@ -1,7 +1,7 @@
 {
   "format": "gatorwire-workspace",
   "version": 1,
-  "saved_at": "2026-09-22T19:17:37.078Z",
+  "saved_at": "2026-09-22T19:18:40.497Z",
   "project": "Car 5 Electrical",
   "dataset": {
     "project": {
@@ -8095,37 +8095,6 @@
         }
       },
       {
-        "id": "W-141",
-        "harness_id": null,
-        "end_a": {
-          "kind": "component_pin",
-          "component": "C-REAR-VCU",
-          "pin": "BODY_1"
-        },
-        "end_b": {
-          "kind": "connector_cavity",
-          "connector": "J-R06",
-          "cavity": "12V+"
-        },
-        "overrides": {
-          "gauge": {
-            "state": "TBD"
-          },
-          "color": {
-            "state": "TBD"
-          }
-        },
-        "length_mm": {
-          "state": "TBD"
-        },
-        "notes": "Rear box internal",
-        "provenance": {
-          "source": "master-sheet",
-          "source_ref": "CONNECTIONS!145",
-          "note": "Circuit / Function column read \"Front Turn Signals 12V+\"; it seeds the net name, not this conductor."
-        }
-      },
-      {
         "id": "W-145",
         "harness_id": null,
         "end_a": {
@@ -11647,6 +11616,31 @@
             "state": "UNSET"
           }
         }
+      },
+      {
+        "id": "W-321",
+        "end_a": {
+          "kind": "component_pin",
+          "component": "C-REAR-VCU",
+          "pin": "12V_Main"
+        },
+        "end_b": {
+          "kind": "connector_cavity",
+          "connector": "J-R06",
+          "cavity": "12V+"
+        },
+        "harness_id": null,
+        "length_mm": {
+          "state": "UNSET"
+        },
+        "overrides": {
+          "color": {
+            "state": "UNSET"
+          },
+          "gauge": {
+            "state": "UNSET"
+          }
+        }
       }
     ],
     "netdefs": [
@@ -13495,7 +13489,8 @@
           "W-317",
           "W-318",
           "W-319",
-          "W-320"
+          "W-320",
+          "W-321"
         ]
       },
       {
