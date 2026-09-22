@@ -1,7 +1,7 @@
 {
   "format": "gatorwire-workspace",
   "version": 1,
-  "saved_at": "2026-09-22T19:03:09.129Z",
+  "saved_at": "2026-09-22T19:05:07.477Z",
   "project": "Car 5 Electrical",
   "dataset": {
     "project": {
@@ -1904,14 +1904,14 @@
             }
           },
           {
-            "pin": "RearCAN_H",
+            "pin": "CAN_H",
             "status": {
               "physical_status": "POPULATED",
               "usage_status": "ACTIVE"
             }
           },
           {
-            "pin": "RearCAN_L",
+            "pin": "CAN_L",
             "status": {
               "physical_status": "POPULATED",
               "usage_status": "ACTIVE"
@@ -2105,14 +2105,14 @@
             }
           },
           {
-            "pin": "RearCAN_H",
+            "pin": "Main CAN_H",
             "status": {
               "physical_status": "EMPTY",
               "usage_status": "SPARE"
             }
           },
           {
-            "pin": "RearCAN_L",
+            "pin": "Main CAN_L",
             "status": {
               "physical_status": "EMPTY",
               "usage_status": "SPARE"
@@ -9640,12 +9640,12 @@
         "end_a": {
           "kind": "component_pin",
           "component": "C-POWER-BOARD",
-          "pin": "RearCAN_H"
+          "pin": "CAN_H"
         },
         "end_b": {
           "kind": "component_pin",
           "component": "C-REAR-VCU",
-          "pin": "RearCAN_H"
+          "pin": "Main CAN_H"
         },
         "harness_id": null,
         "resolution": "UNRESOLVED",
@@ -9656,12 +9656,12 @@
         "end_a": {
           "kind": "component_pin",
           "component": "C-POWER-BOARD",
-          "pin": "RearCAN_L"
+          "pin": "CAN_L"
         },
         "end_b": {
           "kind": "component_pin",
           "component": "C-REAR-VCU",
-          "pin": "RearCAN_L"
+          "pin": "Main CAN_L"
         },
         "harness_id": null,
         "resolution": "UNRESOLVED",
