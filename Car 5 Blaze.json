@@ -1,7 +1,7 @@
 {
   "format": "gatorwire-workspace",
   "version": 1,
-  "saved_at": "2026-09-22T19:05:34.330Z",
+  "saved_at": "2026-09-22T19:06:20.632Z",
   "project": "Car 5 Electrical",
   "dataset": {
     "project": {
@@ -2007,14 +2007,14 @@
             }
           },
           {
-            "pin": "CAN_H",
+            "pin": "SW CAN_H",
             "status": {
               "physical_status": "POPULATED",
               "usage_status": "ACTIVE"
             }
           },
           {
-            "pin": "CAN_L",
+            "pin": "SW CAN_L",
             "status": {
               "physical_status": "POPULATED",
               "usage_status": "ACTIVE"
@@ -6504,7 +6504,7 @@
         "end_b": {
           "kind": "component_pin",
           "component": "C-REAR-VCU",
-          "pin": "CAN_H"
+          "pin": "SW CAN_H"
         },
         "overrides": {
           "gauge": {
@@ -6535,7 +6535,7 @@
         "end_b": {
           "kind": "component_pin",
           "component": "C-REAR-VCU",
-          "pin": "CAN_L"
+          "pin": "SW CAN_L"
         },
         "overrides": {
           "gauge": {
@@ -6632,7 +6632,7 @@
         "end_b": {
           "kind": "component_pin",
           "component": "C-REAR-VCU",
-          "pin": "CAN_H"
+          "pin": "SW CAN_H"
         },
         "overrides": {
           "gauge": {
@@ -6663,7 +6663,7 @@
         "end_b": {
           "kind": "component_pin",
           "component": "C-REAR-VCU",
-          "pin": "CAN_L"
+          "pin": "SW CAN_L"
         },
         "overrides": {
           "gauge": {
@@ -7332,7 +7332,7 @@
         "end_a": {
           "kind": "component_pin",
           "component": "C-REAR-VCU",
-          "pin": "CAN_H"
+          "pin": "SW CAN_H"
         },
         "end_b": {
           "kind": "connector_cavity",
@@ -7394,7 +7394,7 @@
         "end_a": {
           "kind": "component_pin",
           "component": "C-REAR-VCU",
-          "pin": "CAN_L"
+          "pin": "SW CAN_L"
         },
         "end_b": {
           "kind": "connector_cavity",
