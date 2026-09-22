@@ -1,7 +1,7 @@
 {
   "format": "gatorwire-workspace",
   "version": 1,
-  "saved_at": "2026-09-22T18:38:28.906Z",
+  "saved_at": "2026-09-22T18:39:02.783Z",
   "project": "Car 5 Electrical",
   "dataset": {
     "project": {
@@ -7119,37 +7119,6 @@
         }
       },
       {
-        "id": "W-112",
-        "harness_id": "H-RD01",
-        "end_a": {
-          "kind": "connector_cavity",
-          "connector": "J-R04",
-          "cavity": "3"
-        },
-        "end_b": {
-          "kind": "component_pin",
-          "component": "C-STEERING",
-          "pin": "STR_3"
-        },
-        "overrides": {
-          "gauge": {
-            "state": "TBD"
-          },
-          "color": {
-            "state": "TBD"
-          }
-        },
-        "length_mm": {
-          "state": "TBD"
-        },
-        "notes": "Steering-side pin function known, position TBD",
-        "provenance": {
-          "source": "master-sheet",
-          "source_ref": "CONNECTIONS!116",
-          "note": "Circuit / Function column read \"12V+ Main\"; it seeds the net name, not this conductor."
-        }
-      },
-      {
         "id": "W-113",
         "harness_id": null,
         "end_a": {
@@ -7180,40 +7149,6 @@
         "provenance": {
           "source": "master-sheet",
           "source_ref": "CONNECTIONS!117",
-          "note": "Circuit / Function column read \"12V+ Supp\"; it seeds the net name, not this conductor."
-        }
-      },
-      {
-        "id": "W-114",
-        "harness_id": "H-RD01",
-        "end_a": {
-          "kind": "connector_cavity",
-          "connector": "J-R04",
-          "cavity": "4"
-        },
-        "end_b": {
-          "kind": "component_pin",
-          "component": "C-STEERING",
-          "pin": "STR_4"
-        },
-        "signal_class": "LV_POWER",
-        "polarity": "POS",
-        "power_domain": "SUPPLEMENTAL_12V",
-        "overrides": {
-          "gauge": {
-            "state": "TBD"
-          },
-          "color": {
-            "state": "TBD"
-          }
-        },
-        "length_mm": {
-          "state": "TBD"
-        },
-        "notes": "Steering-side pin function known, position TBD",
-        "provenance": {
-          "source": "master-sheet",
-          "source_ref": "CONNECTIONS!118",
           "note": "Circuit / Function column read \"12V+ Supp\"; it seeds the net name, not this conductor."
         }
       },
@@ -7249,37 +7184,6 @@
         }
       },
       {
-        "id": "W-116",
-        "harness_id": "H-RD01",
-        "end_a": {
-          "kind": "connector_cavity",
-          "connector": "J-R04",
-          "cavity": "5"
-        },
-        "end_b": {
-          "kind": "component_pin",
-          "component": "C-STEERING",
-          "pin": "STR_5"
-        },
-        "overrides": {
-          "gauge": {
-            "state": "TBD"
-          },
-          "color": {
-            "state": "TBD"
-          }
-        },
-        "length_mm": {
-          "state": "TBD"
-        },
-        "notes": "Steering-side pin function known, position TBD",
-        "provenance": {
-          "source": "master-sheet",
-          "source_ref": "CONNECTIONS!120",
-          "note": "Circuit / Function column read \"GND\"; it seeds the net name, not this conductor."
-        }
-      },
-      {
         "id": "W-117",
         "harness_id": null,
         "end_a": {
@@ -7308,37 +7212,6 @@
         "provenance": {
           "source": "master-sheet",
           "source_ref": "CONNECTIONS!121",
-          "note": "Circuit / Function column read \"Spare\"; it seeds the net name, not this conductor."
-        }
-      },
-      {
-        "id": "W-118",
-        "harness_id": "H-RD01",
-        "end_a": {
-          "kind": "connector_cavity",
-          "connector": "J-R04",
-          "cavity": "6"
-        },
-        "end_b": {
-          "kind": "component_pin",
-          "component": "C-STEERING",
-          "pin": "STR_6"
-        },
-        "overrides": {
-          "gauge": {
-            "state": "TBD"
-          },
-          "color": {
-            "state": "TBD"
-          }
-        },
-        "length_mm": {
-          "state": "TBD"
-        },
-        "notes": "Steering-side pin function known, position TBD",
-        "provenance": {
-          "source": "master-sheet",
-          "source_ref": "CONNECTIONS!122",
           "note": "Circuit / Function column read \"Spare\"; it seeds the net name, not this conductor."
         }
       },
