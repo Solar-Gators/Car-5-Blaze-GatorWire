@@ -1,7 +1,7 @@
 {
   "format": "gatorwire-workspace",
   "version": 1,
-  "saved_at": "2026-09-22T19:13:25.723Z",
+  "saved_at": "2026-09-22T19:13:59.891Z",
   "project": "Car 5 Electrical",
   "dataset": {
     "project": {
@@ -3805,7 +3805,7 @@
         },
         "cavities": [
           {
-            "cavity": "1",
+            "cavity": "12V+",
             "status": {
               "physical_status": "POPULATED",
               "usage_status": "ACTIVE"
@@ -8105,7 +8105,7 @@
         "end_b": {
           "kind": "connector_cavity",
           "connector": "J-R06",
-          "cavity": "1"
+          "cavity": "12V+"
         },
         "overrides": {
           "gauge": {
@@ -8244,36 +8244,6 @@
         "provenance": {
           "source": "master-sheet",
           "source_ref": "CONNECTIONS!153",
-          "note": "Circuit / Function column read \"Brake Lights 12V+\"; it seeds the net name, not this conductor."
-        }
-      },
-      {
-        "id": "W-150",
-        "harness_id": "H-RL01",
-        "end_a": {
-          "kind": "connector_cavity",
-          "connector": "J-R06",
-          "cavity": "CANH / 12V+ Left"
-        },
-        "end_b": {
-          "kind": "component_pin",
-          "component": "C-BRAKE-LIGHTS",
-          "pin": "12V+"
-        },
-        "overrides": {
-          "gauge": {
-            "state": "TBD"
-          },
-          "color": {
-            "state": "TBD"
-          }
-        },
-        "length_mm": {
-          "state": "TBD"
-        },
-        "provenance": {
-          "source": "master-sheet",
-          "source_ref": "CONNECTIONS!154",
           "note": "Circuit / Function column read \"Brake Lights 12V+\"; it seeds the net name, not this conductor."
         }
       },
@@ -11561,6 +11531,31 @@
             "state": "UNSET"
           }
         }
+      },
+      {
+        "id": "W-316",
+        "end_a": {
+          "kind": "connector_cavity",
+          "connector": "J-R06",
+          "cavity": "12V+"
+        },
+        "end_b": {
+          "kind": "component_pin",
+          "component": "C-BRAKE-LIGHTS",
+          "pin": "12V+"
+        },
+        "harness_id": null,
+        "length_mm": {
+          "state": "UNSET"
+        },
+        "overrides": {
+          "color": {
+            "state": "UNSET"
+          },
+          "gauge": {
+            "state": "UNSET"
+          }
+        }
       }
     ],
     "netdefs": [
@@ -13404,7 +13399,8 @@
           "W-312",
           "W-313",
           "W-314",
-          "W-315"
+          "W-315",
+          "W-316"
         ]
       },
       {
