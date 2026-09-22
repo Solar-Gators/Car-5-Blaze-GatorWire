@@ -1,7 +1,7 @@
 {
   "format": "gatorwire-workspace",
   "version": 1,
-  "saved_at": "2026-09-22T19:18:40.497Z",
+  "saved_at": "2026-09-22T19:25:04.879Z",
   "project": "Car 5 Electrical",
   "dataset": {
     "project": {
@@ -1964,20 +1964,6 @@
         "type": "Primary board",
         "location_id": "ENC-REAR",
         "pins": [
-          {
-            "pin": "BODY_1",
-            "status": {
-              "physical_status": "POPULATED",
-              "usage_status": "ACTIVE"
-            }
-          },
-          {
-            "pin": "BODY_2",
-            "status": {
-              "physical_status": "POPULATED",
-              "usage_status": "ACTIVE"
-            }
-          },
           {
             "pin": "Left Turn Signals",
             "status": {
