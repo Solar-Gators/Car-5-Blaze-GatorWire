@@ -1,7 +1,7 @@
 {
   "format": "gatorwire-workspace",
   "version": 1,
-  "saved_at": "2026-09-22T19:06:20.632Z",
+  "saved_at": "2026-09-22T19:07:26.548Z",
   "project": "Car 5 Electrical",
   "dataset": {
     "project": {
@@ -3819,14 +3819,14 @@
             }
           },
           {
-            "cavity": "3",
+            "cavity": "12V+ Left Turn Signals",
             "status": {
               "physical_status": "POPULATED",
               "usage_status": "ACTIVE"
             }
           },
           {
-            "cavity": "4",
+            "cavity": "GND",
             "status": {
               "physical_status": "POPULATED",
               "usage_status": "ACTIVE"
@@ -8227,7 +8227,7 @@
         "end_b": {
           "kind": "connector_cavity",
           "connector": "J-R06",
-          "cavity": "3"
+          "cavity": "12V+ Left Turn Signals"
         },
         "overrides": {
           "gauge": {
@@ -8253,7 +8253,7 @@
         "end_a": {
           "kind": "connector_cavity",
           "connector": "J-R06",
-          "cavity": "3"
+          "cavity": "12V+ Left Turn Signals"
         },
         "end_b": {
           "kind": "component_pin",
@@ -8288,7 +8288,7 @@
         "end_b": {
           "kind": "connector_cavity",
           "connector": "J-R06",
-          "cavity": "4"
+          "cavity": "GND"
         },
         "overrides": {
           "gauge": {
@@ -8314,7 +8314,7 @@
         "end_a": {
           "kind": "connector_cavity",
           "connector": "J-R06",
-          "cavity": "4"
+          "cavity": "GND"
         },
         "end_b": {
           "kind": "component_pin",
