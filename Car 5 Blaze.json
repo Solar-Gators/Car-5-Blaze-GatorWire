@@ -1,7 +1,7 @@
 {
   "format": "gatorwire-workspace",
   "version": 1,
-  "saved_at": "2026-09-22T19:10:47.930Z",
+  "saved_at": "2026-09-22T19:12:12.235Z",
   "project": "Car 5 Electrical",
   "dataset": {
     "project": {
@@ -3812,14 +3812,14 @@
             }
           },
           {
-            "cavity": "2",
+            "cavity": "12V+ Left Turn Signals",
             "status": {
               "physical_status": "POPULATED",
               "usage_status": "ACTIVE"
             }
           },
           {
-            "cavity": "12V+ Left Turn Signals",
+            "cavity": "12V+ Right Turn Signals",
             "status": {
               "physical_status": "POPULATED",
               "usage_status": "ACTIVE"
@@ -8126,67 +8126,6 @@
         }
       },
       {
-        "id": "W-143",
-        "harness_id": null,
-        "end_a": {
-          "kind": "component_pin",
-          "component": "C-REAR-VCU",
-          "pin": "BODY_2"
-        },
-        "end_b": {
-          "kind": "connector_cavity",
-          "connector": "J-R06",
-          "cavity": "2"
-        },
-        "overrides": {
-          "gauge": {
-            "state": "TBD"
-          },
-          "color": {
-            "state": "TBD"
-          }
-        },
-        "length_mm": {
-          "state": "TBD"
-        },
-        "notes": "Rear box internal",
-        "provenance": {
-          "source": "master-sheet",
-          "source_ref": "CONNECTIONS!147",
-          "note": "Circuit / Function column read \"Front Turn Signals GND\"; it seeds the net name, not this conductor."
-        }
-      },
-      {
-        "id": "W-144",
-        "harness_id": "H-RL01",
-        "end_a": {
-          "kind": "connector_cavity",
-          "connector": "J-R06",
-          "cavity": "2"
-        },
-        "end_b": {
-          "kind": "component_pin",
-          "component": "C-FRONT-TURN-SIGNALS",
-          "pin": "GND"
-        },
-        "overrides": {
-          "gauge": {
-            "state": "TBD"
-          },
-          "color": {
-            "state": "TBD"
-          }
-        },
-        "length_mm": {
-          "state": "TBD"
-        },
-        "provenance": {
-          "source": "master-sheet",
-          "source_ref": "CONNECTIONS!148",
-          "note": "Circuit / Function column read \"Front Turn Signals GND\"; it seeds the net name, not this conductor."
-        }
-      },
-      {
         "id": "W-145",
         "harness_id": null,
         "end_a": {
@@ -11562,6 +11501,72 @@
             "state": "UNSET"
           }
         }
+      },
+      {
+        "id": "W-312",
+        "end_a": {
+          "kind": "connector_cavity",
+          "connector": "J-R06",
+          "cavity": "GND"
+        },
+        "end_b": {
+          "kind": "component_pin",
+          "component": "C-FRONT-TURN-SIGNALS",
+          "pin": "GND"
+        },
+        "harness_id": null,
+        "length_mm": {
+          "state": "UNSET"
+        },
+        "overrides": {
+          "color": {
+            "state": "UNSET"
+          },
+          "gauge": {
+            "state": "UNSET"
+          }
+        }
+      },
+      {
+        "id": "W-313",
+        "end_a": {
+          "kind": "connector_cavity",
+          "connector": "J-R06",
+          "cavity": "12V+ Right Turn Signals"
+        },
+        "end_b": {
+          "kind": "component_pin",
+          "component": "C-FRONT-TURN-SIGNALS",
+          "pin": "+12V Right"
+        },
+        "harness_id": null,
+        "resolution": "UNRESOLVED",
+        "resolution_note": "Created in the connection editor; wire spec not chosen yet."
+      },
+      {
+        "id": "W-314",
+        "end_a": {
+          "kind": "connector_cavity",
+          "connector": "J-R06",
+          "cavity": "12V+ Right Turn Signals"
+        },
+        "end_b": {
+          "kind": "component_pin",
+          "component": "C-SIDE-TURN-SIGNALS",
+          "pin": "+12V Right"
+        },
+        "harness_id": null,
+        "length_mm": {
+          "state": "UNSET"
+        },
+        "overrides": {
+          "color": {
+            "state": "UNSET"
+          },
+          "gauge": {
+            "state": "UNSET"
+          }
+        }
       }
     ],
     "netdefs": [
@@ -13401,7 +13406,10 @@
           "source_ref": "cell:w-rv-turn"
         },
         "conductor_ids": [
-          "W-310"
+          "W-310",
+          "W-312",
+          "W-313",
+          "W-314"
         ]
       },
       {
