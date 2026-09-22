@@ -1,7 +1,7 @@
 {
   "format": "gatorwire-workspace",
   "version": 1,
-  "saved_at": "2026-09-22T19:10:11.636Z",
+  "saved_at": "2026-09-22T19:10:47.930Z",
   "project": "Car 5 Electrical",
   "dataset": {
     "project": {
@@ -708,14 +708,14 @@
             }
           },
           {
-            "pin": "CANH / 12V+ Left Turn",
+            "pin": "CANH / 12V+ Left",
             "status": {
               "physical_status": "EMPTY",
               "usage_status": "SPARE"
             }
           },
           {
-            "pin": "CANL / 12V+ Right Turn",
+            "pin": "CANL / 12V+ Right",
             "status": {
               "physical_status": "EMPTY",
               "usage_status": "SPARE"
@@ -8370,67 +8370,6 @@
         }
       },
       {
-        "id": "W-151",
-        "harness_id": null,
-        "end_a": {
-          "kind": "component_pin",
-          "component": "C-REAR-VCU",
-          "pin": "BODY_6"
-        },
-        "end_b": {
-          "kind": "connector_cavity",
-          "connector": "J-R06",
-          "cavity": "6"
-        },
-        "overrides": {
-          "gauge": {
-            "state": "TBD"
-          },
-          "color": {
-            "state": "TBD"
-          }
-        },
-        "length_mm": {
-          "state": "TBD"
-        },
-        "notes": "Rear box internal",
-        "provenance": {
-          "source": "master-sheet",
-          "source_ref": "CONNECTIONS!155",
-          "note": "Circuit / Function column read \"Brake Lights GND\"; it seeds the net name, not this conductor."
-        }
-      },
-      {
-        "id": "W-152",
-        "harness_id": "H-RL01",
-        "end_a": {
-          "kind": "connector_cavity",
-          "connector": "J-R06",
-          "cavity": "6"
-        },
-        "end_b": {
-          "kind": "component_pin",
-          "component": "C-BRAKE-LIGHTS",
-          "pin": "GND"
-        },
-        "overrides": {
-          "gauge": {
-            "state": "TBD"
-          },
-          "color": {
-            "state": "TBD"
-          }
-        },
-        "length_mm": {
-          "state": "TBD"
-        },
-        "provenance": {
-          "source": "master-sheet",
-          "source_ref": "CONNECTIONS!156",
-          "note": "Circuit / Function column read \"Brake Lights GND\"; it seeds the net name, not this conductor."
-        }
-      },
-      {
         "id": "W-153",
         "harness_id": null,
         "end_a": {
@@ -11598,6 +11537,31 @@
             "state": "UNSET"
           }
         }
+      },
+      {
+        "id": "W-311",
+        "end_a": {
+          "kind": "connector_cavity",
+          "connector": "J-R06",
+          "cavity": "GND"
+        },
+        "end_b": {
+          "kind": "component_pin",
+          "component": "C-BRAKE-LIGHTS",
+          "pin": "GND"
+        },
+        "harness_id": null,
+        "length_mm": {
+          "state": "UNSET"
+        },
+        "overrides": {
+          "color": {
+            "state": "UNSET"
+          },
+          "gauge": {
+            "state": "UNSET"
+          }
+        }
       }
     ],
     "netdefs": [
@@ -13466,7 +13430,10 @@
         "provenance": {
           "source": "drawio",
           "source_ref": "cell:w-rv-brlt"
-        }
+        },
+        "conductor_ids": [
+          "W-311"
+        ]
       },
       {
         "id": "L-0025",
