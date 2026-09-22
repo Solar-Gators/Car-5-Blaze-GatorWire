@@ -1,7 +1,7 @@
 {
   "format": "gatorwire-workspace",
   "version": 1,
-  "saved_at": "2026-09-22T18:55:28.993Z",
+  "saved_at": "2026-09-22T18:56:04.087Z",
   "project": "Car 5 Electrical",
   "dataset": {
     "project": {
@@ -11221,6 +11221,54 @@
             "state": "UNSET"
           }
         }
+      },
+      {
+        "id": "W-287",
+        "end_a": {
+          "kind": "component_pin",
+          "component": "C-REAR-VCU",
+          "pin": "Throttle 1"
+        },
+        "end_b": {
+          "kind": "connector_cavity",
+          "connector": "J-003",
+          "cavity": "3"
+        },
+        "harness_id": null,
+        "resolution": "UNRESOLVED",
+        "resolution_note": "Created in the connection editor; wire spec not chosen yet."
+      },
+      {
+        "id": "W-288",
+        "end_a": {
+          "kind": "component_pin",
+          "component": "C-REAR-VCU",
+          "pin": "Throttle 2"
+        },
+        "end_b": {
+          "kind": "connector_cavity",
+          "connector": "J-003",
+          "cavity": "2"
+        },
+        "harness_id": null,
+        "resolution": "UNRESOLVED",
+        "resolution_note": "Created in the connection editor; wire spec not chosen yet."
+      },
+      {
+        "id": "W-289",
+        "end_a": {
+          "kind": "component_pin",
+          "component": "C-REAR-VCU",
+          "pin": "PWR/ECO"
+        },
+        "end_b": {
+          "kind": "connector_cavity",
+          "connector": "J-003",
+          "cavity": "5"
+        },
+        "harness_id": null,
+        "resolution": "UNRESOLVED",
+        "resolution_note": "Created in the connection editor; wire spec not chosen yet."
       }
     ],
     "netdefs": [
