@@ -1,7 +1,7 @@
 {
   "format": "gatorwire-workspace",
   "version": 1,
-  "saved_at": "2026-09-22T19:07:26.548Z",
+  "saved_at": "2026-09-22T19:07:46.774Z",
   "project": "Car 5 Electrical",
   "dataset": {
     "project": {
@@ -8126,36 +8126,6 @@
         }
       },
       {
-        "id": "W-142",
-        "harness_id": "H-RL01",
-        "end_a": {
-          "kind": "connector_cavity",
-          "connector": "J-R06",
-          "cavity": "1"
-        },
-        "end_b": {
-          "kind": "component_pin",
-          "component": "C-FRONT-TURN-SIGNALS",
-          "pin": "+12V Left"
-        },
-        "overrides": {
-          "gauge": {
-            "state": "TBD"
-          },
-          "color": {
-            "state": "TBD"
-          }
-        },
-        "length_mm": {
-          "state": "TBD"
-        },
-        "provenance": {
-          "source": "master-sheet",
-          "source_ref": "CONNECTIONS!146",
-          "note": "Circuit / Function column read \"Front Turn Signals 12V+\"; it seeds the net name, not this conductor."
-        }
-      },
-      {
         "id": "W-143",
         "harness_id": null,
         "end_a": {
@@ -11603,6 +11573,31 @@
             "state": "UNSET"
           }
         }
+      },
+      {
+        "id": "W-310",
+        "end_a": {
+          "kind": "connector_cavity",
+          "connector": "J-R06",
+          "cavity": "12V+ Left Turn Signals"
+        },
+        "end_b": {
+          "kind": "component_pin",
+          "component": "C-FRONT-TURN-SIGNALS",
+          "pin": "+12V Left"
+        },
+        "harness_id": null,
+        "length_mm": {
+          "state": "UNSET"
+        },
+        "overrides": {
+          "color": {
+            "state": "UNSET"
+          },
+          "gauge": {
+            "state": "UNSET"
+          }
+        }
       }
     ],
     "netdefs": [
@@ -13440,7 +13435,10 @@
         "provenance": {
           "source": "drawio",
           "source_ref": "cell:w-rv-turn"
-        }
+        },
+        "conductor_ids": [
+          "W-310"
+        ]
       },
       {
         "id": "L-0023",
