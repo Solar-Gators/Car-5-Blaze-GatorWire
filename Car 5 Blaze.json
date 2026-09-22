@@ -1,7 +1,7 @@
 {
   "format": "gatorwire-workspace",
   "version": 1,
-  "saved_at": "2026-09-22T18:39:02.783Z",
+  "saved_at": "2026-09-22T18:39:31.748Z",
   "project": "Car 5 Electrical",
   "dataset": {
     "project": {
@@ -10766,6 +10766,31 @@
           "pin": "20 GND"
         },
         "harness_id": "H-001",
+        "length_mm": {
+          "state": "UNSET"
+        },
+        "overrides": {
+          "color": {
+            "state": "UNSET"
+          },
+          "gauge": {
+            "state": "UNSET"
+          }
+        }
+      },
+      {
+        "id": "W-271",
+        "end_a": {
+          "kind": "connector_cavity",
+          "connector": "J-R04",
+          "cavity": "4"
+        },
+        "end_b": {
+          "kind": "component_pin",
+          "component": "C-STEERING",
+          "pin": "12V+"
+        },
+        "harness_id": null,
         "length_mm": {
           "state": "UNSET"
         },
