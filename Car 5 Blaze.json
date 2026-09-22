@@ -1,7 +1,7 @@
 {
   "format": "gatorwire-workspace",
   "version": 1,
-  "saved_at": "2026-09-22T19:16:21.583Z",
+  "saved_at": "2026-09-22T19:16:53.819Z",
   "project": "Car 5 Electrical",
   "dataset": {
     "project": {
@@ -11622,6 +11622,31 @@
             "state": "UNSET"
           }
         }
+      },
+      {
+        "id": "W-320",
+        "end_a": {
+          "kind": "component_pin",
+          "component": "C-REAR-VCU",
+          "pin": "BODY_6"
+        },
+        "end_b": {
+          "kind": "connector_cavity",
+          "connector": "J-R06",
+          "cavity": "CANL / 12V+ Right"
+        },
+        "harness_id": null,
+        "length_mm": {
+          "state": "UNSET"
+        },
+        "overrides": {
+          "color": {
+            "state": "UNSET"
+          },
+          "gauge": {
+            "state": "UNSET"
+          }
+        }
       }
     ],
     "netdefs": [
@@ -13469,7 +13494,8 @@
           "W-316",
           "W-317",
           "W-318",
-          "W-319"
+          "W-319",
+          "W-320"
         ]
       },
       {
