@@ -1,7 +1,7 @@
 {
   "format": "gatorwire-workspace",
   "version": 1,
-  "saved_at": "2026-09-22T00:00:40.697Z",
+  "saved_at": "2026-09-22T00:00:59.716Z",
   "project": "Car 5 Electrical",
   "dataset": {
     "project": {
@@ -8880,6 +8880,31 @@
           "kind": "component_pin",
           "component": "C-REAR-VCU",
           "pin": "RearCAN_L"
+        },
+        "harness_id": null,
+        "length_mm": {
+          "state": "UNSET"
+        },
+        "overrides": {
+          "color": {
+            "state": "UNSET"
+          },
+          "gauge": {
+            "state": "UNSET"
+          }
+        }
+      },
+      {
+        "id": "W-214",
+        "end_a": {
+          "kind": "component_pin",
+          "component": "C-SOLAR-CONTACTOR-A",
+          "pin": "A2"
+        },
+        "end_b": {
+          "kind": "connector_cavity",
+          "connector": "J-F02",
+          "cavity": "S4"
         },
         "harness_id": null,
         "length_mm": {
