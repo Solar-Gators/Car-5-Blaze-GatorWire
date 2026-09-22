@@ -1,7 +1,7 @@
 {
   "format": "gatorwire-workspace",
   "version": 1,
-  "saved_at": "2026-09-22T18:45:13.201Z",
+  "saved_at": "2026-09-22T18:45:28.974Z",
   "project": "Car 5 Electrical",
   "dataset": {
     "project": {
@@ -2250,7 +2250,7 @@
         "location_id": "ZONE-DRIVER",
         "pins": [
           {
-            "pin": "12V+",
+            "pin": "12V+ Main",
             "status": {
               "physical_status": "EMPTY",
               "usage_status": "SPARE"
@@ -10723,7 +10723,7 @@
         "end_b": {
           "kind": "component_pin",
           "component": "C-STEERING",
-          "pin": "12V+"
+          "pin": "12V+ Main"
         },
         "harness_id": null,
         "length_mm": {
