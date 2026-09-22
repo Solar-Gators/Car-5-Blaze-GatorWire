@@ -1,7 +1,7 @@
 {
   "format": "gatorwire-workspace",
   "version": 1,
-  "saved_at": "2026-09-22T19:02:26.235Z",
+  "saved_at": "2026-09-22T19:02:47.988Z",
   "project": "Car 5 Electrical",
   "dataset": {
     "project": {
@@ -1538,13 +1538,6 @@
             }
           },
           {
-            "pin": "FWD/REV",
-            "status": {
-              "physical_status": "EMPTY",
-              "usage_status": "SPARE"
-            }
-          },
-          {
             "pin": "MC_MAIN+",
             "status": {
               "physical_status": "EMPTY",
@@ -1616,6 +1609,13 @@
           },
           {
             "pin": "REGEN_VOL2",
+            "status": {
+              "physical_status": "EMPTY",
+              "usage_status": "SPARE"
+            }
+          },
+          {
+            "pin": "FWD/REV+",
             "status": {
               "physical_status": "EMPTY",
               "usage_status": "SPARE"
@@ -11606,6 +11606,22 @@
           "kind": "component_pin",
           "component": "C-MITSUBA-MOTOR-CONTROLLER",
           "pin": "MC_MAIN-"
+        },
+        "harness_id": null,
+        "resolution": "UNRESOLVED",
+        "resolution_note": "Created in the connection editor; wire spec not chosen yet."
+      },
+      {
+        "id": "W-309",
+        "end_a": {
+          "kind": "connector_cavity",
+          "connector": "J-003",
+          "cavity": "25 FWD/REV+"
+        },
+        "end_b": {
+          "kind": "component_pin",
+          "component": "C-MITSUBA-MOTOR-CONTROLLER",
+          "pin": "FWD/REV+"
         },
         "harness_id": null,
         "resolution": "UNRESOLVED",
