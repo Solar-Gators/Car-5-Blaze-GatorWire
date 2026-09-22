@@ -1,7 +1,7 @@
 {
   "format": "gatorwire-workspace",
   "version": 1,
-  "saved_at": "2026-09-22T19:02:06.532Z",
+  "saved_at": "2026-09-22T19:02:26.235Z",
   "project": "Car 5 Electrical",
   "dataset": {
     "project": {
@@ -11590,6 +11590,22 @@
           "kind": "component_pin",
           "component": "C-MITSUBA-MOTOR-CONTROLLER",
           "pin": "REGEN_VOL2"
+        },
+        "harness_id": null,
+        "resolution": "UNRESOLVED",
+        "resolution_note": "Created in the connection editor; wire spec not chosen yet."
+      },
+      {
+        "id": "W-308",
+        "end_a": {
+          "kind": "connector_cavity",
+          "connector": "J-003",
+          "cavity": "20 MC_MAIN-"
+        },
+        "end_b": {
+          "kind": "component_pin",
+          "component": "C-MITSUBA-MOTOR-CONTROLLER",
+          "pin": "MC_MAIN-"
         },
         "harness_id": null,
         "resolution": "UNRESOLVED",
