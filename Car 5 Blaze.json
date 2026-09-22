@@ -1,7 +1,7 @@
 {
   "format": "gatorwire-workspace",
   "version": 1,
-  "saved_at": "2026-09-22T18:50:22.279Z",
+  "saved_at": "2026-09-22T18:51:02.610Z",
   "project": "Car 5 Electrical",
   "dataset": {
     "project": {
@@ -2106,6 +2106,13 @@
           },
           {
             "pin": "MC CAN_L",
+            "status": {
+              "physical_status": "EMPTY",
+              "usage_status": "SPARE"
+            }
+          },
+          {
+            "pin": "Regen Vol",
             "status": {
               "physical_status": "EMPTY",
               "usage_status": "SPARE"
