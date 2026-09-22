@@ -1,7 +1,7 @@
 {
   "format": "gatorwire-workspace",
   "version": 1,
-  "saved_at": "2026-09-22T16:37:04.357Z",
+  "saved_at": "2026-09-22T16:38:18.120Z",
   "project": "Car 5 Electrical",
   "dataset": {
     "project": {
@@ -3228,7 +3228,7 @@
             }
           },
           {
-            "cavity": "CHMSL 12V+",
+            "cavity": "Canopy Brake Light 12V+",
             "status": {
               "physical_status": "POPULATED",
               "usage_status": "ACTIVE"
@@ -4686,7 +4686,7 @@
         "end_b": {
           "kind": "connector_cavity",
           "connector": "J-F04",
-          "cavity": "CHMSL 12V+"
+          "cavity": "Canopy Brake Light 12V+"
         },
         "overrides": {
           "gauge": {
@@ -4741,7 +4741,7 @@
         "end_a": {
           "kind": "connector_cavity",
           "connector": "J-F04",
-          "cavity": "CHMSL 12V+"
+          "cavity": "Canopy Brake Light 12V+"
         },
         "end_b": {
           "kind": "component_pin",
