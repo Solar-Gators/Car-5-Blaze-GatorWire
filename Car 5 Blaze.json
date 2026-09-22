@@ -1,7 +1,7 @@
 {
   "format": "gatorwire-workspace",
   "version": 1,
-  "saved_at": "2026-09-22T16:38:18.120Z",
+  "saved_at": "2026-09-22T18:38:09.530Z",
   "project": "Car 5 Electrical",
   "dataset": {
     "project": {
@@ -3501,14 +3501,14 @@
         },
         "cavities": [
           {
-            "cavity": "1",
+            "cavity": "SW CANH",
             "status": {
               "physical_status": "POPULATED",
               "usage_status": "ACTIVE"
             }
           },
           {
-            "cavity": "2",
+            "cavity": "SW CANL",
             "status": {
               "physical_status": "POPULATED",
               "usage_status": "ACTIVE"
@@ -6966,7 +6966,7 @@
         "end_b": {
           "kind": "connector_cavity",
           "connector": "J-R04",
-          "cavity": "1"
+          "cavity": "SW CANH"
         },
         "overrides": {
           "gauge": {
@@ -6992,7 +6992,7 @@
         "end_a": {
           "kind": "connector_cavity",
           "connector": "J-R04",
-          "cavity": "1"
+          "cavity": "SW CANH"
         },
         "end_b": {
           "kind": "component_pin",
@@ -7028,7 +7028,7 @@
         "end_b": {
           "kind": "connector_cavity",
           "connector": "J-R04",
-          "cavity": "2"
+          "cavity": "SW CANL"
         },
         "overrides": {
           "gauge": {
@@ -7054,7 +7054,7 @@
         "end_a": {
           "kind": "connector_cavity",
           "connector": "J-R04",
-          "cavity": "2"
+          "cavity": "SW CANL"
         },
         "end_b": {
           "kind": "component_pin",
