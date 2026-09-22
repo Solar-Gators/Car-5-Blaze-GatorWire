@@ -1,7 +1,7 @@
 {
   "format": "gatorwire-workspace",
   "version": 1,
-  "saved_at": "2026-09-22T18:38:09.530Z",
+  "saved_at": "2026-09-22T18:38:28.906Z",
   "project": "Car 5 Electrical",
   "dataset": {
     "project": {
@@ -2249,6 +2249,13 @@
         "type": "Operator control",
         "location_id": "ZONE-DRIVER",
         "pins": [
+          {
+            "pin": "12V+",
+            "status": {
+              "physical_status": "EMPTY",
+              "usage_status": "SPARE"
+            }
+          },
           {
             "pin": "GND",
             "status": {
