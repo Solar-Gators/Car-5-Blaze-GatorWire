@@ -1,7 +1,7 @@
 {
   "format": "gatorwire-workspace",
   "version": 1,
-  "saved_at": "2026-09-22T18:55:06.955Z",
+  "saved_at": "2026-09-22T18:55:28.993Z",
   "project": "Car 5 Electrical",
   "dataset": {
     "project": {
@@ -11167,6 +11167,47 @@
           "kind": "connector_cavity",
           "connector": "J-003",
           "cavity": "17"
+        },
+        "harness_id": null,
+        "length_mm": {
+          "state": "UNSET"
+        },
+        "overrides": {
+          "color": {
+            "state": "UNSET"
+          },
+          "gauge": {
+            "state": "UNSET"
+          }
+        }
+      },
+      {
+        "id": "W-285",
+        "end_a": {
+          "kind": "component_pin",
+          "component": "C-REAR-VCU",
+          "pin": "Regen 1"
+        },
+        "end_b": {
+          "kind": "connector_cavity",
+          "connector": "J-003",
+          "cavity": "22"
+        },
+        "harness_id": null,
+        "resolution": "UNRESOLVED",
+        "resolution_note": "Created in the connection editor; wire spec not chosen yet."
+      },
+      {
+        "id": "W-286",
+        "end_a": {
+          "kind": "component_pin",
+          "component": "C-REAR-VCU",
+          "pin": "Regen 2"
+        },
+        "end_b": {
+          "kind": "connector_cavity",
+          "connector": "J-003",
+          "cavity": "23"
         },
         "harness_id": null,
         "length_mm": {
