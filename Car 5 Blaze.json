@@ -1,7 +1,7 @@
 {
   "format": "gatorwire-workspace",
   "version": 1,
-  "saved_at": "2026-09-22T18:45:41.799Z",
+  "saved_at": "2026-09-22T18:48:51.389Z",
   "project": "Car 5 Electrical",
   "dataset": {
     "project": {
@@ -1452,6 +1452,20 @@
             }
           },
           {
+            "pin": "CAN_H",
+            "status": {
+              "physical_status": "EMPTY",
+              "usage_status": "SPARE"
+            }
+          },
+          {
+            "pin": "CAN_L",
+            "status": {
+              "physical_status": "EMPTY",
+              "usage_status": "SPARE"
+            }
+          },
+          {
             "pin": "HALL_A",
             "status": {
               "physical_status": "POPULATED",
@@ -2050,6 +2064,20 @@
           },
           {
             "pin": "GND",
+            "status": {
+              "physical_status": "EMPTY",
+              "usage_status": "SPARE"
+            }
+          },
+          {
+            "pin": "MC CAN_H",
+            "status": {
+              "physical_status": "EMPTY",
+              "usage_status": "SPARE"
+            }
+          },
+          {
+            "pin": "MC CAN_L",
             "status": {
               "physical_status": "EMPTY",
               "usage_status": "SPARE"
@@ -9338,47 +9366,6 @@
         }
       },
       {
-        "id": "W-212",
-        "end_a": {
-          "kind": "component_pin",
-          "component": "C-MITSUBA-MOTOR-CONTROLLER",
-          "pin": "RearCAN_H"
-        },
-        "end_b": {
-          "kind": "component_pin",
-          "component": "C-REAR-VCU",
-          "pin": "RearCAN_H"
-        },
-        "harness_id": null,
-        "resolution": "UNRESOLVED",
-        "resolution_note": "Created in the connection editor; wire spec not chosen yet."
-      },
-      {
-        "id": "W-213",
-        "end_a": {
-          "kind": "component_pin",
-          "component": "C-MITSUBA-MOTOR-CONTROLLER",
-          "pin": "RearCAN_L"
-        },
-        "end_b": {
-          "kind": "component_pin",
-          "component": "C-REAR-VCU",
-          "pin": "RearCAN_L"
-        },
-        "harness_id": null,
-        "length_mm": {
-          "state": "UNSET"
-        },
-        "overrides": {
-          "color": {
-            "state": "UNSET"
-          },
-          "gauge": {
-            "state": "UNSET"
-          }
-        }
-      },
-      {
         "id": "W-214",
         "end_a": {
           "kind": "component_pin",
@@ -10799,6 +10786,47 @@
           "kind": "component_pin",
           "component": "C-STEERING",
           "pin": "GND"
+        },
+        "harness_id": null,
+        "length_mm": {
+          "state": "UNSET"
+        },
+        "overrides": {
+          "color": {
+            "state": "UNSET"
+          },
+          "gauge": {
+            "state": "UNSET"
+          }
+        }
+      },
+      {
+        "id": "W-275",
+        "end_a": {
+          "kind": "component_pin",
+          "component": "C-MITSUBA-MOTOR-CONTROLLER",
+          "pin": "CAN_H"
+        },
+        "end_b": {
+          "kind": "component_pin",
+          "component": "C-REAR-VCU",
+          "pin": "MC CAN_H"
+        },
+        "harness_id": null,
+        "resolution": "UNRESOLVED",
+        "resolution_note": "Created in the connection editor; wire spec not chosen yet."
+      },
+      {
+        "id": "W-276",
+        "end_a": {
+          "kind": "component_pin",
+          "component": "C-MITSUBA-MOTOR-CONTROLLER",
+          "pin": "CAN_L"
+        },
+        "end_b": {
+          "kind": "component_pin",
+          "component": "C-REAR-VCU",
+          "pin": "MC CAN_L"
         },
         "harness_id": null,
         "length_mm": {
@@ -13162,7 +13190,11 @@
         "provenance": {
           "source": "drawio",
           "source_ref": "cell:B0svhFu7hVh1GH4Wotb_-30"
-        }
+        },
+        "conductor_ids": [
+          "W-275",
+          "W-276"
+        ]
       },
       {
         "id": "L-0055",
@@ -13328,10 +13360,7 @@
           "source": "drawio",
           "source_ref": "cell:mSyV0iOxpWmjnMtRf16I-3"
         },
-        "conductor_ids": [
-          "W-212",
-          "W-213"
-        ]
+        "conductor_ids": []
       },
       {
         "id": "L-0066",
