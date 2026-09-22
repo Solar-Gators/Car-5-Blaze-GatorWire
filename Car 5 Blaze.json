@@ -1,7 +1,7 @@
 {
   "format": "gatorwire-workspace",
   "version": 1,
-  "saved_at": "2026-09-21T23:14:13.695Z",
+  "saved_at": "2026-09-22T00:00:40.697Z",
   "project": "Car 5 Electrical",
   "dataset": {
     "project": {
@@ -4186,36 +4186,6 @@
           "source": "master-sheet",
           "source_ref": "CONNECTIONS!37",
           "note": "Circuit / Function column read \"Solar HV+ precharge leg\"; it seeds the net name, not this conductor."
-        }
-      },
-      {
-        "id": "W-034",
-        "harness_id": null,
-        "end_a": {
-          "kind": "component_pin",
-          "component": "C-SOLAR-CONTACTOR-A",
-          "pin": "A2"
-        },
-        "end_b": {
-          "kind": "component_pin",
-          "component": "C-SOLAR-CONTACTOR-B",
-          "pin": "B1"
-        },
-        "overrides": {
-          "gauge": {
-            "state": "TBD"
-          },
-          "color": {
-            "state": "TBD"
-          }
-        },
-        "length_mm": {
-          "state": "TBD"
-        },
-        "provenance": {
-          "source": "master-sheet",
-          "source_ref": "CONNECTIONS!38",
-          "note": "Circuit / Function column read \"Solar HV+\"; it seeds the net name, not this conductor."
         }
       },
       {
