@@ -1,7 +1,7 @@
 {
   "format": "gatorwire-workspace",
   "version": 1,
-  "saved_at": "2026-09-22T19:15:33.564Z",
+  "saved_at": "2026-09-22T19:16:21.583Z",
   "project": "Car 5 Electrical",
   "dataset": {
     "project": {
@@ -1979,14 +1979,14 @@
             }
           },
           {
-            "pin": "BODY_3",
+            "pin": "Left Turn Signals",
             "status": {
               "physical_status": "POPULATED",
               "usage_status": "ACTIVE"
             }
           },
           {
-            "pin": "BODY_4",
+            "pin": "Right Turn Signals",
             "status": {
               "physical_status": "POPULATED",
               "usage_status": "ACTIVE"
@@ -8131,7 +8131,7 @@
         "end_a": {
           "kind": "component_pin",
           "component": "C-REAR-VCU",
-          "pin": "BODY_3"
+          "pin": "Left Turn Signals"
         },
         "end_b": {
           "kind": "connector_cavity",
@@ -11597,6 +11597,31 @@
             "state": "UNSET"
           }
         }
+      },
+      {
+        "id": "W-319",
+        "end_a": {
+          "kind": "component_pin",
+          "component": "C-REAR-VCU",
+          "pin": "Right Turn Signals"
+        },
+        "end_b": {
+          "kind": "connector_cavity",
+          "connector": "J-R06",
+          "cavity": "12V+ Right Turn Signals"
+        },
+        "harness_id": null,
+        "length_mm": {
+          "state": "UNSET"
+        },
+        "overrides": {
+          "color": {
+            "state": "UNSET"
+          },
+          "gauge": {
+            "state": "UNSET"
+          }
+        }
       }
     ],
     "netdefs": [
@@ -13443,7 +13468,8 @@
           "W-315",
           "W-316",
           "W-317",
-          "W-318"
+          "W-318",
+          "W-319"
         ]
       },
       {
