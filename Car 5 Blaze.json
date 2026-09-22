@@ -1,7 +1,7 @@
 {
   "format": "gatorwire-workspace",
   "version": 1,
-  "saved_at": "2026-09-22T19:12:12.235Z",
+  "saved_at": "2026-09-22T19:13:05.983Z",
   "project": "Car 5 Electrical",
   "dataset": {
     "project": {
@@ -3826,13 +3826,6 @@
             }
           },
           {
-            "cavity": "GND",
-            "status": {
-              "physical_status": "POPULATED",
-              "usage_status": "ACTIVE"
-            }
-          },
-          {
             "cavity": "5",
             "status": {
               "physical_status": "POPULATED",
@@ -3841,6 +3834,13 @@
           },
           {
             "cavity": "6",
+            "status": {
+              "physical_status": "POPULATED",
+              "usage_status": "ACTIVE"
+            }
+          },
+          {
+            "cavity": "GND",
             "status": {
               "physical_status": "POPULATED",
               "usage_status": "ACTIVE"
@@ -8187,37 +8187,6 @@
         }
       },
       {
-        "id": "W-147",
-        "harness_id": null,
-        "end_a": {
-          "kind": "component_pin",
-          "component": "C-REAR-VCU",
-          "pin": "BODY_4"
-        },
-        "end_b": {
-          "kind": "connector_cavity",
-          "connector": "J-R06",
-          "cavity": "GND"
-        },
-        "overrides": {
-          "gauge": {
-            "state": "TBD"
-          },
-          "color": {
-            "state": "TBD"
-          }
-        },
-        "length_mm": {
-          "state": "TBD"
-        },
-        "notes": "Rear box internal",
-        "provenance": {
-          "source": "master-sheet",
-          "source_ref": "CONNECTIONS!151",
-          "note": "Circuit / Function column read \"Side Turn Signals GND\"; it seeds the net name, not this conductor."
-        }
-      },
-      {
         "id": "W-148",
         "harness_id": "H-RL01",
         "end_a": {
@@ -11567,6 +11536,31 @@
             "state": "UNSET"
           }
         }
+      },
+      {
+        "id": "W-315",
+        "end_a": {
+          "kind": "component_pin",
+          "component": "C-REAR-VCU",
+          "pin": "GND"
+        },
+        "end_b": {
+          "kind": "connector_cavity",
+          "connector": "J-R06",
+          "cavity": "GND"
+        },
+        "harness_id": null,
+        "length_mm": {
+          "state": "UNSET"
+        },
+        "overrides": {
+          "color": {
+            "state": "UNSET"
+          },
+          "gauge": {
+            "state": "UNSET"
+          }
+        }
       }
     ],
     "netdefs": [
@@ -13409,7 +13403,8 @@
           "W-310",
           "W-312",
           "W-313",
-          "W-314"
+          "W-314",
+          "W-315"
         ]
       },
       {
