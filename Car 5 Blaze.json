@@ -1,7 +1,7 @@
 {
   "format": "gatorwire-workspace",
   "version": 1,
-  "saved_at": "2026-09-22T18:54:32.836Z",
+  "saved_at": "2026-09-22T18:55:06.955Z",
   "project": "Car 5 Electrical",
   "dataset": {
     "project": {
@@ -11141,114 +11141,32 @@
         }
       },
       {
-        "id": "W-277",
+        "id": "W-283",
         "end_a": {
           "kind": "component_pin",
-          "component": "C-MITSUBA-MOTOR-CONTROLLER",
-          "pin": "Regen 1"
+          "component": "C-REAR-VCU",
+          "pin": "MC CAN_H"
         },
         "end_b": {
-          "kind": "component_pin",
-          "component": "C-REAR-VCU",
-          "pin": "Regen 1"
+          "kind": "connector_cavity",
+          "connector": "J-003",
+          "cavity": "16"
         },
         "harness_id": null,
         "resolution": "UNRESOLVED",
         "resolution_note": "Created in the connection editor; wire spec not chosen yet."
       },
       {
-        "id": "W-278",
+        "id": "W-284",
         "end_a": {
           "kind": "component_pin",
-          "component": "C-MITSUBA-MOTOR-CONTROLLER",
-          "pin": "Regen 2"
+          "component": "C-REAR-VCU",
+          "pin": "MC CAN_L"
         },
         "end_b": {
-          "kind": "component_pin",
-          "component": "C-REAR-VCU",
-          "pin": "Regen 2"
-        },
-        "harness_id": null,
-        "length_mm": {
-          "state": "UNSET"
-        },
-        "overrides": {
-          "color": {
-            "state": "UNSET"
-          },
-          "gauge": {
-            "state": "UNSET"
-          }
-        }
-      },
-      {
-        "id": "W-279",
-        "end_a": {
-          "kind": "component_pin",
-          "component": "C-MITSUBA-MOTOR-CONTROLLER",
-          "pin": "Throttle 1"
-        },
-        "end_b": {
-          "kind": "component_pin",
-          "component": "C-REAR-VCU",
-          "pin": "Throttle 1"
-        },
-        "harness_id": null,
-        "resolution": "UNRESOLVED",
-        "resolution_note": "Created in the connection editor; wire spec not chosen yet."
-      },
-      {
-        "id": "W-280",
-        "end_a": {
-          "kind": "component_pin",
-          "component": "C-MITSUBA-MOTOR-CONTROLLER",
-          "pin": "Throttle 2"
-        },
-        "end_b": {
-          "kind": "component_pin",
-          "component": "C-REAR-VCU",
-          "pin": "Throttle 2"
-        },
-        "harness_id": null,
-        "length_mm": {
-          "state": "UNSET"
-        },
-        "overrides": {
-          "color": {
-            "state": "UNSET"
-          },
-          "gauge": {
-            "state": "UNSET"
-          }
-        }
-      },
-      {
-        "id": "W-281",
-        "end_a": {
-          "kind": "component_pin",
-          "component": "C-MITSUBA-MOTOR-CONTROLLER",
-          "pin": "PWR/ECO"
-        },
-        "end_b": {
-          "kind": "component_pin",
-          "component": "C-REAR-VCU",
-          "pin": "PWR/ECO"
-        },
-        "harness_id": null,
-        "resolution": "UNRESOLVED",
-        "resolution_note": "Created in the connection editor; wire spec not chosen yet."
-      },
-      {
-        "id": "W-282",
-        "end_a": {
-          "kind": "component_pin",
-          "component": "C-MITSUBA-MOTOR-CONTROLLER",
-          "pin": "FWD/REV"
-        },
-        "end_b": {
-          "kind": "component_pin",
-          "component": "C-REAR-VCU",
-          "pin": "FWD/REV"
+          "kind": "connector_cavity",
+          "connector": "J-003",
+          "cavity": "17"
         },
         "harness_id": null,
         "length_mm": {
@@ -13613,14 +13531,7 @@
           "source": "drawio",
           "source_ref": "cell:B0svhFu7hVh1GH4Wotb_-30"
         },
-        "conductor_ids": [
-          "W-277",
-          "W-278",
-          "W-279",
-          "W-280",
-          "W-281",
-          "W-282"
-        ]
+        "conductor_ids": []
       },
       {
         "id": "L-0055",
