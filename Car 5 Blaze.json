@@ -1,7 +1,7 @@
 {
   "format": "gatorwire-workspace",
   "version": 1,
-  "saved_at": "2026-09-22T18:56:04.087Z",
+  "saved_at": "2026-09-22T18:56:15.518Z",
   "project": "Car 5 Electrical",
   "dataset": {
     "project": {
@@ -11265,6 +11265,22 @@
           "kind": "connector_cavity",
           "connector": "J-003",
           "cavity": "5"
+        },
+        "harness_id": null,
+        "resolution": "UNRESOLVED",
+        "resolution_note": "Created in the connection editor; wire spec not chosen yet."
+      },
+      {
+        "id": "W-290",
+        "end_a": {
+          "kind": "component_pin",
+          "component": "C-REAR-VCU",
+          "pin": "FWD/REV"
+        },
+        "end_b": {
+          "kind": "connector_cavity",
+          "connector": "J-003",
+          "cavity": "25"
         },
         "harness_id": null,
         "resolution": "UNRESOLVED",
