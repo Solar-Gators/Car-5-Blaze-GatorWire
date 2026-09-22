@@ -1,7 +1,7 @@
 {
   "format": "gatorwire-workspace",
   "version": 1,
-  "saved_at": "2026-09-22T18:39:31.748Z",
+  "saved_at": "2026-09-22T18:43:16.333Z",
   "project": "Car 5 Electrical",
   "dataset": {
     "project": {
@@ -7116,71 +7116,6 @@
           "source": "master-sheet",
           "source_ref": "CONNECTIONS!115",
           "note": "Circuit / Function column read \"12V+ Main\"; it seeds the net name, not this conductor."
-        }
-      },
-      {
-        "id": "W-113",
-        "harness_id": null,
-        "end_a": {
-          "kind": "component_pin",
-          "component": "C-POWER-BOARD",
-          "pin": "12V_Supp"
-        },
-        "end_b": {
-          "kind": "connector_cavity",
-          "connector": "J-R04",
-          "cavity": "4"
-        },
-        "signal_class": "LV_POWER",
-        "polarity": "POS",
-        "power_domain": "SUPPLEMENTAL_12V",
-        "overrides": {
-          "gauge": {
-            "state": "TBD"
-          },
-          "color": {
-            "state": "TBD"
-          }
-        },
-        "length_mm": {
-          "state": "TBD"
-        },
-        "notes": "Rear box internal",
-        "provenance": {
-          "source": "master-sheet",
-          "source_ref": "CONNECTIONS!117",
-          "note": "Circuit / Function column read \"12V+ Supp\"; it seeds the net name, not this conductor."
-        }
-      },
-      {
-        "id": "W-115",
-        "harness_id": null,
-        "end_a": {
-          "kind": "component_pin",
-          "component": "C-POWER-BOARD",
-          "pin": "GND"
-        },
-        "end_b": {
-          "kind": "connector_cavity",
-          "connector": "J-R04",
-          "cavity": "5"
-        },
-        "overrides": {
-          "gauge": {
-            "state": "TBD"
-          },
-          "color": {
-            "state": "TBD"
-          }
-        },
-        "length_mm": {
-          "state": "TBD"
-        },
-        "notes": "Rear box internal",
-        "provenance": {
-          "source": "master-sheet",
-          "source_ref": "CONNECTIONS!119",
-          "note": "Circuit / Function column read \"GND\"; it seeds the net name, not this conductor."
         }
       },
       {
