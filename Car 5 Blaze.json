@@ -1,7 +1,7 @@
 {
   "format": "gatorwire-workspace",
   "version": 1,
-  "saved_at": "2026-09-22T18:56:15.518Z",
+  "saved_at": "2026-09-22T18:58:53.147Z",
   "project": "Car 5 Electrical",
   "dataset": {
     "project": {
@@ -4054,259 +4054,259 @@
         "mount": "bulkhead",
         "cavities": [
           {
-            "cavity": "1",
+            "cavity": "1 MC_MAIN+",
             "status": {
               "physical_status": "EMPTY",
               "usage_status": "SPARE"
             }
           },
           {
-            "cavity": "2",
+            "cavity": "2 THROTTLE2",
             "status": {
               "physical_status": "EMPTY",
               "usage_status": "SPARE"
             }
           },
           {
-            "cavity": "3",
+            "cavity": "3 THROTTLE1",
             "status": {
               "physical_status": "EMPTY",
               "usage_status": "SPARE"
             }
           },
           {
-            "cavity": "4",
+            "cavity": "4 GND",
             "status": {
               "physical_status": "EMPTY",
               "usage_status": "SPARE"
             }
           },
           {
-            "cavity": "5",
+            "cavity": "5 PWR/ECO+",
             "status": {
               "physical_status": "EMPTY",
               "usage_status": "SPARE"
             }
           },
           {
-            "cavity": "6",
+            "cavity": "6 GND",
             "status": {
               "physical_status": "EMPTY",
               "usage_status": "SPARE"
             }
           },
           {
-            "cavity": "7",
+            "cavity": "7 GND",
             "status": {
               "physical_status": "EMPTY",
               "usage_status": "SPARE"
             }
           },
           {
-            "cavity": "8",
+            "cavity": "8 N/C",
             "status": {
               "physical_status": "EMPTY",
               "usage_status": "SPARE"
             }
           },
           {
-            "cavity": "9",
+            "cavity": "9 N/C",
             "status": {
               "physical_status": "EMPTY",
               "usage_status": "SPARE"
             }
           },
           {
-            "cavity": "10",
+            "cavity": "10 N/C",
             "status": {
               "physical_status": "EMPTY",
               "usage_status": "SPARE"
             }
           },
           {
-            "cavity": "11",
+            "cavity": "11 N/C",
             "status": {
               "physical_status": "EMPTY",
               "usage_status": "SPARE"
             }
           },
           {
-            "cavity": "12",
+            "cavity": "12 N/C",
             "status": {
               "physical_status": "EMPTY",
               "usage_status": "SPARE"
             }
           },
           {
-            "cavity": "13",
+            "cavity": "13 N/C",
             "status": {
               "physical_status": "EMPTY",
               "usage_status": "SPARE"
             }
           },
           {
-            "cavity": "14",
+            "cavity": "14 N/C",
             "status": {
               "physical_status": "EMPTY",
               "usage_status": "SPARE"
             }
           },
           {
-            "cavity": "15",
+            "cavity": "15 MC_LED+",
             "status": {
               "physical_status": "EMPTY",
               "usage_status": "SPARE"
             }
           },
           {
-            "cavity": "16",
+            "cavity": "16 CAN_P",
             "status": {
               "physical_status": "EMPTY",
               "usage_status": "SPARE"
             }
           },
           {
-            "cavity": "17",
+            "cavity": "17 CAN_N",
             "status": {
               "physical_status": "EMPTY",
               "usage_status": "SPARE"
             }
           },
           {
-            "cavity": "18",
+            "cavity": "18 N/C",
             "status": {
               "physical_status": "EMPTY",
               "usage_status": "SPARE"
             }
           },
           {
-            "cavity": "19",
+            "cavity": "19 N/C",
             "status": {
               "physical_status": "EMPTY",
               "usage_status": "SPARE"
             }
           },
           {
-            "cavity": "20",
+            "cavity": "20 MC_MAIN-",
             "status": {
               "physical_status": "EMPTY",
               "usage_status": "SPARE"
             }
           },
           {
-            "cavity": "21",
+            "cavity": "21 GND",
             "status": {
               "physical_status": "EMPTY",
               "usage_status": "SPARE"
             }
           },
           {
-            "cavity": "22",
+            "cavity": "22 REGEN_VOL1",
             "status": {
               "physical_status": "EMPTY",
               "usage_status": "SPARE"
             }
           },
           {
-            "cavity": "23",
+            "cavity": "23 REGEN_VOL2",
             "status": {
               "physical_status": "EMPTY",
               "usage_status": "SPARE"
             }
           },
           {
-            "cavity": "24",
+            "cavity": "24 N/C",
             "status": {
               "physical_status": "EMPTY",
               "usage_status": "SPARE"
             }
           },
           {
-            "cavity": "25",
+            "cavity": "25 FWD/REV+",
             "status": {
               "physical_status": "EMPTY",
               "usage_status": "SPARE"
             }
           },
           {
-            "cavity": "26",
+            "cavity": "26 N/C",
             "status": {
               "physical_status": "EMPTY",
               "usage_status": "SPARE"
             }
           },
           {
-            "cavity": "27",
+            "cavity": "27 N/C",
             "status": {
               "physical_status": "EMPTY",
               "usage_status": "SPARE"
             }
           },
           {
-            "cavity": "28",
+            "cavity": "28 N/C",
             "status": {
               "physical_status": "EMPTY",
               "usage_status": "SPARE"
             }
           },
           {
-            "cavity": "29",
+            "cavity": "29 N/C",
             "status": {
               "physical_status": "EMPTY",
               "usage_status": "SPARE"
             }
           },
           {
-            "cavity": "30",
+            "cavity": "30 N/C",
             "status": {
               "physical_status": "EMPTY",
               "usage_status": "SPARE"
             }
           },
           {
-            "cavity": "31",
+            "cavity": "31 N/C",
             "status": {
               "physical_status": "EMPTY",
               "usage_status": "SPARE"
             }
           },
           {
-            "cavity": "32",
+            "cavity": "32 N/C",
             "status": {
               "physical_status": "EMPTY",
               "usage_status": "SPARE"
             }
           },
           {
-            "cavity": "33",
+            "cavity": "33 N/C",
             "status": {
               "physical_status": "EMPTY",
               "usage_status": "SPARE"
             }
           },
           {
-            "cavity": "34",
+            "cavity": "34 N/C",
             "status": {
               "physical_status": "EMPTY",
               "usage_status": "SPARE"
             }
           },
           {
-            "cavity": "35",
+            "cavity": "35 N/C",
             "status": {
               "physical_status": "EMPTY",
               "usage_status": "SPARE"
             }
           },
           {
-            "cavity": "36",
+            "cavity": "36 N/C",
             "status": {
               "physical_status": "EMPTY",
               "usage_status": "SPARE"
             }
           },
           {
-            "cavity": "37",
+            "cavity": "37 N/C",
             "status": {
               "physical_status": "EMPTY",
               "usage_status": "SPARE"
@@ -11150,7 +11150,7 @@
         "end_b": {
           "kind": "connector_cavity",
           "connector": "J-003",
-          "cavity": "16"
+          "cavity": "16 CAN_P"
         },
         "harness_id": null,
         "resolution": "UNRESOLVED",
@@ -11166,7 +11166,7 @@
         "end_b": {
           "kind": "connector_cavity",
           "connector": "J-003",
-          "cavity": "17"
+          "cavity": "17 CAN_N"
         },
         "harness_id": null,
         "length_mm": {
@@ -11191,7 +11191,7 @@
         "end_b": {
           "kind": "connector_cavity",
           "connector": "J-003",
-          "cavity": "22"
+          "cavity": "22 REGEN_VOL1"
         },
         "harness_id": null,
         "resolution": "UNRESOLVED",
@@ -11207,7 +11207,7 @@
         "end_b": {
           "kind": "connector_cavity",
           "connector": "J-003",
-          "cavity": "23"
+          "cavity": "23 REGEN_VOL2"
         },
         "harness_id": null,
         "length_mm": {
@@ -11232,7 +11232,7 @@
         "end_b": {
           "kind": "connector_cavity",
           "connector": "J-003",
-          "cavity": "3"
+          "cavity": "3 THROTTLE1"
         },
         "harness_id": null,
         "resolution": "UNRESOLVED",
@@ -11248,7 +11248,7 @@
         "end_b": {
           "kind": "connector_cavity",
           "connector": "J-003",
-          "cavity": "2"
+          "cavity": "2 THROTTLE2"
         },
         "harness_id": null,
         "resolution": "UNRESOLVED",
@@ -11264,7 +11264,7 @@
         "end_b": {
           "kind": "connector_cavity",
           "connector": "J-003",
-          "cavity": "5"
+          "cavity": "5 PWR/ECO+"
         },
         "harness_id": null,
         "resolution": "UNRESOLVED",
@@ -11280,7 +11280,39 @@
         "end_b": {
           "kind": "connector_cavity",
           "connector": "J-003",
-          "cavity": "25"
+          "cavity": "25 FWD/REV+"
+        },
+        "harness_id": null,
+        "resolution": "UNRESOLVED",
+        "resolution_note": "Created in the connection editor; wire spec not chosen yet."
+      },
+      {
+        "id": "W-291",
+        "end_a": {
+          "kind": "connector_cavity",
+          "connector": "J-003",
+          "cavity": "3 THROTTLE1"
+        },
+        "end_b": {
+          "kind": "component_pin",
+          "component": "C-MITSUBA-MOTOR-CONTROLLER",
+          "pin": "Throttle 1"
+        },
+        "harness_id": null,
+        "resolution": "UNRESOLVED",
+        "resolution_note": "Created in the connection editor; wire spec not chosen yet."
+      },
+      {
+        "id": "W-292",
+        "end_a": {
+          "kind": "connector_cavity",
+          "connector": "J-003",
+          "cavity": "2 THROTTLE2"
+        },
+        "end_b": {
+          "kind": "component_pin",
+          "component": "C-MITSUBA-MOTOR-CONTROLLER",
+          "pin": "Throttle 2"
         },
         "harness_id": null,
         "resolution": "UNRESOLVED",
