@@ -1,7 +1,7 @@
 {
   "format": "gatorwire-workspace",
   "version": 1,
-  "saved_at": "2026-09-22T18:48:51.389Z",
+  "saved_at": "2026-09-22T18:49:10.421Z",
   "project": "Car 5 Electrical",
   "dataset": {
     "project": {
@@ -1437,20 +1437,6 @@
         "type": "Power electronics",
         "location_id": "ENC-REAR",
         "pins": [
-          {
-            "pin": "RearCAN_H",
-            "status": {
-              "physical_status": "POPULATED",
-              "usage_status": "ACTIVE"
-            }
-          },
-          {
-            "pin": "RearCAN_L",
-            "status": {
-              "physical_status": "POPULATED",
-              "usage_status": "ACTIVE"
-            }
-          },
           {
             "pin": "CAN_H",
             "status": {
