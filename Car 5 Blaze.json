@@ -1,7 +1,7 @@
 {
   "format": "gatorwire-workspace",
   "version": 1,
-  "saved_at": "2026-09-22T18:50:08.958Z",
+  "saved_at": "2026-09-22T18:50:22.279Z",
   "project": "Car 5 Electrical",
   "dataset": {
     "project": {
@@ -1574,6 +1574,20 @@
           },
           {
             "pin": "PWR/ECO",
+            "status": {
+              "physical_status": "EMPTY",
+              "usage_status": "SPARE"
+            }
+          },
+          {
+            "pin": "Throttle 1",
+            "status": {
+              "physical_status": "EMPTY",
+              "usage_status": "SPARE"
+            }
+          },
+          {
+            "pin": "Throttle 2",
             "status": {
               "physical_status": "EMPTY",
               "usage_status": "SPARE"
