@@ -1,7 +1,7 @@
 {
   "format": "gatorwire-workspace",
   "version": 1,
-  "saved_at": "2026-09-22T19:00:10.682Z",
+  "saved_at": "2026-09-22T19:02:06.532Z",
   "project": "Car 5 Electrical",
   "dataset": {
     "project": {
@@ -1438,20 +1438,6 @@
         "location_id": "ENC-REAR",
         "pins": [
           {
-            "pin": "CAN_H",
-            "status": {
-              "physical_status": "EMPTY",
-              "usage_status": "SPARE"
-            }
-          },
-          {
-            "pin": "CAN_L",
-            "status": {
-              "physical_status": "EMPTY",
-              "usage_status": "SPARE"
-            }
-          },
-          {
             "pin": "HALL_A",
             "status": {
               "physical_status": "POPULATED",
@@ -1559,27 +1545,6 @@
             }
           },
           {
-            "pin": "Regen 1",
-            "status": {
-              "physical_status": "EMPTY",
-              "usage_status": "SPARE"
-            }
-          },
-          {
-            "pin": "Regen 2",
-            "status": {
-              "physical_status": "EMPTY",
-              "usage_status": "SPARE"
-            }
-          },
-          {
-            "pin": "PWR/ECO",
-            "status": {
-              "physical_status": "EMPTY",
-              "usage_status": "SPARE"
-            }
-          },
-          {
             "pin": "MC_MAIN+",
             "status": {
               "physical_status": "EMPTY",
@@ -1595,6 +1560,62 @@
           },
           {
             "pin": "THROTTLE2",
+            "status": {
+              "physical_status": "EMPTY",
+              "usage_status": "SPARE"
+            }
+          },
+          {
+            "pin": "GND",
+            "status": {
+              "physical_status": "EMPTY",
+              "usage_status": "SPARE"
+            }
+          },
+          {
+            "pin": "PWR/ECO",
+            "status": {
+              "physical_status": "EMPTY",
+              "usage_status": "SPARE"
+            }
+          },
+          {
+            "pin": "MC_LED+",
+            "status": {
+              "physical_status": "EMPTY",
+              "usage_status": "SPARE"
+            }
+          },
+          {
+            "pin": "CAN_H",
+            "status": {
+              "physical_status": "EMPTY",
+              "usage_status": "SPARE"
+            }
+          },
+          {
+            "pin": "CAN_L",
+            "status": {
+              "physical_status": "EMPTY",
+              "usage_status": "SPARE"
+            }
+          },
+          {
+            "pin": "MC_MAIN-",
+            "status": {
+              "physical_status": "EMPTY",
+              "usage_status": "SPARE"
+            }
+          },
+          {
+            "pin": "REGEN_VOL1",
+            "status": {
+              "physical_status": "EMPTY",
+              "usage_status": "SPARE"
+            }
+          },
+          {
+            "pin": "REGEN_VOL2",
             "status": {
               "physical_status": "EMPTY",
               "usage_status": "SPARE"
@@ -11409,6 +11430,166 @@
           "kind": "component_pin",
           "component": "C-MITSUBA-MOTOR-CONTROLLER",
           "pin": "MC_MAIN+"
+        },
+        "harness_id": null,
+        "resolution": "UNRESOLVED",
+        "resolution_note": "Created in the connection editor; wire spec not chosen yet."
+      },
+      {
+        "id": "W-298",
+        "end_a": {
+          "kind": "connector_cavity",
+          "connector": "J-003",
+          "cavity": "4 GND"
+        },
+        "end_b": {
+          "kind": "component_pin",
+          "component": "C-MITSUBA-MOTOR-CONTROLLER",
+          "pin": "GND"
+        },
+        "harness_id": null,
+        "resolution": "UNRESOLVED",
+        "resolution_note": "Created in the connection editor; wire spec not chosen yet."
+      },
+      {
+        "id": "W-299",
+        "end_a": {
+          "kind": "connector_cavity",
+          "connector": "J-003",
+          "cavity": "6 GND"
+        },
+        "end_b": {
+          "kind": "component_pin",
+          "component": "C-MITSUBA-MOTOR-CONTROLLER",
+          "pin": "GND"
+        },
+        "harness_id": null,
+        "resolution": "UNRESOLVED",
+        "resolution_note": "Created in the connection editor; wire spec not chosen yet."
+      },
+      {
+        "id": "W-300",
+        "end_a": {
+          "kind": "connector_cavity",
+          "connector": "J-003",
+          "cavity": "7 GND"
+        },
+        "end_b": {
+          "kind": "component_pin",
+          "component": "C-MITSUBA-MOTOR-CONTROLLER",
+          "pin": "GND"
+        },
+        "harness_id": null,
+        "resolution": "UNRESOLVED",
+        "resolution_note": "Created in the connection editor; wire spec not chosen yet."
+      },
+      {
+        "id": "W-301",
+        "end_a": {
+          "kind": "connector_cavity",
+          "connector": "J-003",
+          "cavity": "21 GND"
+        },
+        "end_b": {
+          "kind": "component_pin",
+          "component": "C-MITSUBA-MOTOR-CONTROLLER",
+          "pin": "GND"
+        },
+        "harness_id": null,
+        "resolution": "UNRESOLVED",
+        "resolution_note": "Created in the connection editor; wire spec not chosen yet."
+      },
+      {
+        "id": "W-302",
+        "end_a": {
+          "kind": "connector_cavity",
+          "connector": "J-003",
+          "cavity": "5 PWR/ECO+"
+        },
+        "end_b": {
+          "kind": "component_pin",
+          "component": "C-MITSUBA-MOTOR-CONTROLLER",
+          "pin": "PWR/ECO"
+        },
+        "harness_id": null,
+        "resolution": "UNRESOLVED",
+        "resolution_note": "Created in the connection editor; wire spec not chosen yet."
+      },
+      {
+        "id": "W-303",
+        "end_a": {
+          "kind": "connector_cavity",
+          "connector": "J-003",
+          "cavity": "16 CAN_P"
+        },
+        "end_b": {
+          "kind": "component_pin",
+          "component": "C-MITSUBA-MOTOR-CONTROLLER",
+          "pin": "CAN_H"
+        },
+        "harness_id": null,
+        "resolution": "UNRESOLVED",
+        "resolution_note": "Created in the connection editor; wire spec not chosen yet."
+      },
+      {
+        "id": "W-304",
+        "end_a": {
+          "kind": "connector_cavity",
+          "connector": "J-003",
+          "cavity": "17 CAN_N"
+        },
+        "end_b": {
+          "kind": "component_pin",
+          "component": "C-MITSUBA-MOTOR-CONTROLLER",
+          "pin": "CAN_L"
+        },
+        "harness_id": null,
+        "resolution": "UNRESOLVED",
+        "resolution_note": "Created in the connection editor; wire spec not chosen yet."
+      },
+      {
+        "id": "W-305",
+        "end_a": {
+          "kind": "connector_cavity",
+          "connector": "J-003",
+          "cavity": "15 MC_LED+"
+        },
+        "end_b": {
+          "kind": "component_pin",
+          "component": "C-MITSUBA-MOTOR-CONTROLLER",
+          "pin": "MC_LED+"
+        },
+        "harness_id": null,
+        "resolution": "UNRESOLVED",
+        "resolution_note": "Created in the connection editor; wire spec not chosen yet."
+      },
+      {
+        "id": "W-306",
+        "end_a": {
+          "kind": "connector_cavity",
+          "connector": "J-003",
+          "cavity": "22 REGEN_VOL1"
+        },
+        "end_b": {
+          "kind": "component_pin",
+          "component": "C-MITSUBA-MOTOR-CONTROLLER",
+          "pin": "REGEN_VOL1"
+        },
+        "harness_id": null,
+        "resolution": "UNRESOLVED",
+        "resolution_note": "Created in the connection editor; wire spec not chosen yet."
+      },
+      {
+        "id": "W-307",
+        "end_a": {
+          "kind": "connector_cavity",
+          "connector": "J-003",
+          "cavity": "23 REGEN_VOL2"
+        },
+        "end_b": {
+          "kind": "component_pin",
+          "component": "C-MITSUBA-MOTOR-CONTROLLER",
+          "pin": "REGEN_VOL2"
         },
         "harness_id": null,
         "resolution": "UNRESOLVED",
