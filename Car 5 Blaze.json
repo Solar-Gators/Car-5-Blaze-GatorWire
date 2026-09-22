@@ -1,7 +1,7 @@
 {
   "format": "gatorwire-workspace",
   "version": 1,
-  "saved_at": "2026-09-22T19:05:07.477Z",
+  "saved_at": "2026-09-22T19:05:34.330Z",
   "project": "Car 5 Electrical",
   "dataset": {
     "project": {
@@ -7324,38 +7324,6 @@
           "source": "master-sheet",
           "source_ref": "CONNECTIONS!103",
           "note": "Circuit / Function column read \"Supp battery return\"; it seeds the net name, not this conductor."
-        }
-      },
-      {
-        "id": "W-106",
-        "harness_id": null,
-        "end_a": {
-          "kind": "component_pin",
-          "component": "C-MITSUBA-MOTOR-CONTROLLER",
-          "pin": "LV_CTRL"
-        },
-        "end_b": {
-          "kind": "component_pin",
-          "component": "C-REAR-VCU",
-          "pin": "MC_CTRL"
-        },
-        "overrides": {
-          "gauge": {
-            "state": "TBD"
-          },
-          "color": {
-            "state": "TBD"
-          }
-        },
-        "length_mm": {
-          "state": "TBD"
-        },
-        "resolution": "UNRESOLVED",
-        "resolution_note": "UNRESOLVED - a second (green LV) link is drawn but its function is not labelled",
-        "provenance": {
-          "source": "master-sheet",
-          "source_ref": "CONNECTIONS!110",
-          "note": "Circuit / Function column read \"Controller LV control link\"; it seeds the net name, not this conductor."
         }
       },
       {
