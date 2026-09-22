@@ -1,7 +1,7 @@
 {
   "format": "gatorwire-workspace",
   "version": 1,
-  "saved_at": "2026-09-22T05:08:54.980Z",
+  "saved_at": "2026-09-22T16:37:04.357Z",
   "project": "Car 5 Electrical",
   "dataset": {
     "project": {
@@ -1405,7 +1405,7 @@
         "location_id": "ZONE-TOP",
         "pins": [
           {
-            "pin": "12V+",
+            "pin": "GND",
             "status": {
               "physical_status": "POPULATED",
               "usage_status": "ACTIVE"
@@ -4437,7 +4437,7 @@
         "end_a": {
           "kind": "component_pin",
           "component": "C-KILL-SWITCH",
-          "pin": "12V+"
+          "pin": "GND"
         },
         "end_b": {
           "kind": "connector_cavity",
