@@ -1,7 +1,7 @@
 {
   "format": "gatorwire-workspace",
   "version": 1,
-  "saved_at": "2026-09-22T18:49:10.421Z",
+  "saved_at": "2026-09-22T18:50:08.958Z",
   "project": "Car 5 Electrical",
   "dataset": {
     "project": {
@@ -1549,6 +1549,34 @@
             "status": {
               "physical_status": "POPULATED",
               "usage_status": "ACTIVE"
+            }
+          },
+          {
+            "pin": "FWD/REV",
+            "status": {
+              "physical_status": "EMPTY",
+              "usage_status": "SPARE"
+            }
+          },
+          {
+            "pin": "Regen 1",
+            "status": {
+              "physical_status": "EMPTY",
+              "usage_status": "SPARE"
+            }
+          },
+          {
+            "pin": "Regen 2",
+            "status": {
+              "physical_status": "EMPTY",
+              "usage_status": "SPARE"
+            }
+          },
+          {
+            "pin": "PWR/ECO",
+            "status": {
+              "physical_status": "EMPTY",
+              "usage_status": "SPARE"
             }
           }
         ],
