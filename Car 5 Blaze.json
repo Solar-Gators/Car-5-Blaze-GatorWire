@@ -1,7 +1,7 @@
 {
   "format": "gatorwire-workspace",
   "version": 1,
-  "saved_at": "2026-09-22T18:43:16.333Z",
+  "saved_at": "2026-09-22T18:44:01.174Z",
   "project": "Car 5 Electrical",
   "dataset": {
     "project": {
@@ -3529,14 +3529,14 @@
             }
           },
           {
-            "cavity": "4",
+            "cavity": "12V+ Main",
             "status": {
               "physical_status": "POPULATED",
               "usage_status": "ACTIVE"
             }
           },
           {
-            "cavity": "5",
+            "cavity": "GND",
             "status": {
               "physical_status": "POPULATED",
               "usage_status": "ACTIVE"
@@ -10718,12 +10718,87 @@
         "end_a": {
           "kind": "connector_cavity",
           "connector": "J-R04",
-          "cavity": "4"
+          "cavity": "12V+ Main"
         },
         "end_b": {
           "kind": "component_pin",
           "component": "C-STEERING",
           "pin": "12V+"
+        },
+        "harness_id": null,
+        "length_mm": {
+          "state": "UNSET"
+        },
+        "overrides": {
+          "color": {
+            "state": "UNSET"
+          },
+          "gauge": {
+            "state": "UNSET"
+          }
+        }
+      },
+      {
+        "id": "W-272",
+        "end_a": {
+          "kind": "component_pin",
+          "component": "C-REAR-VCU",
+          "pin": "12V_Main"
+        },
+        "end_b": {
+          "kind": "connector_cavity",
+          "connector": "J-R04",
+          "cavity": "12V+ Main"
+        },
+        "harness_id": null,
+        "length_mm": {
+          "state": "UNSET"
+        },
+        "overrides": {
+          "color": {
+            "state": "UNSET"
+          },
+          "gauge": {
+            "state": "UNSET"
+          }
+        }
+      },
+      {
+        "id": "W-273",
+        "end_a": {
+          "kind": "component_pin",
+          "component": "C-REAR-VCU",
+          "pin": "GND"
+        },
+        "end_b": {
+          "kind": "connector_cavity",
+          "connector": "J-R04",
+          "cavity": "GND"
+        },
+        "harness_id": null,
+        "length_mm": {
+          "state": "UNSET"
+        },
+        "overrides": {
+          "color": {
+            "state": "UNSET"
+          },
+          "gauge": {
+            "state": "UNSET"
+          }
+        }
+      },
+      {
+        "id": "W-274",
+        "end_a": {
+          "kind": "connector_cavity",
+          "connector": "J-R04",
+          "cavity": "GND"
+        },
+        "end_b": {
+          "kind": "component_pin",
+          "component": "C-STEERING",
+          "pin": "GND"
         },
         "harness_id": null,
         "length_mm": {
