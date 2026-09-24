@@ -1,7 +1,7 @@
 {
   "format": "gatorwire-workspace",
   "version": 1,
-  "saved_at": "2026-09-24T07:28:34.485Z",
+  "saved_at": "2026-09-24T07:29:51.185Z",
   "project": "Car 5 Electrical",
   "dataset": {
     "project": {
@@ -3319,14 +3319,14 @@
         },
         "cavities": [
           {
-            "cavity": "1",
+            "cavity": "Kill Switch GND",
             "status": {
               "physical_status": "POPULATED",
               "usage_status": "ACTIVE"
             }
           },
           {
-            "cavity": "Kill Switch",
+            "cavity": "Kill Switch NO",
             "status": {
               "physical_status": "POPULATED",
               "usage_status": "ACTIVE"
@@ -4831,7 +4831,7 @@
         "end_b": {
           "kind": "connector_cavity",
           "connector": "J-F04",
-          "cavity": "1"
+          "cavity": "Kill Switch GND"
         },
         "overrides": {
           "gauge": {
@@ -4861,7 +4861,7 @@
         "end_b": {
           "kind": "connector_cavity",
           "connector": "J-F04",
-          "cavity": "Kill Switch"
+          "cavity": "Kill Switch NO"
         },
         "overrides": {
           "gauge": {
@@ -4886,7 +4886,7 @@
         "end_a": {
           "kind": "connector_cavity",
           "connector": "J-F04",
-          "cavity": "1"
+          "cavity": "Kill Switch GND"
         },
         "end_b": {
           "kind": "component_pin",
@@ -4917,7 +4917,7 @@
         "end_a": {
           "kind": "connector_cavity",
           "connector": "J-F04",
-          "cavity": "Kill Switch"
+          "cavity": "Kill Switch NO"
         },
         "end_b": {
           "kind": "component_pin",
