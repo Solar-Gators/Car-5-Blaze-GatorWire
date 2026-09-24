@@ -1,7 +1,7 @@
 {
   "format": "gatorwire-workspace",
   "version": 1,
-  "saved_at": "2026-09-24T07:21:45.107Z",
+  "saved_at": "2026-09-24T07:23:14.524Z",
   "project": "Car 5 Electrical",
   "dataset": {
     "project": {
@@ -1230,7 +1230,7 @@
             }
           },
           {
-            "pin": "Tach",
+            "pin": "Tach (Unused)",
             "status": {
               "physical_status": "EMPTY",
               "usage_status": "SPARE"
