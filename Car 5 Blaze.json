@@ -1,7 +1,7 @@
 {
   "format": "gatorwire-workspace",
   "version": 1,
-  "saved_at": "2026-09-24T07:19:35.873Z",
+  "saved_at": "2026-09-24T07:19:46.038Z",
   "project": "Car 5 Electrical",
   "dataset": {
     "project": {
@@ -2014,7 +2014,7 @@
             }
           },
           {
-            "pin": "DRV_2",
+            "pin": "Brake SW NO",
             "status": {
               "physical_status": "POPULATED",
               "usage_status": "ACTIVE"
@@ -7598,7 +7598,7 @@
         "end_a": {
           "kind": "component_pin",
           "component": "C-REAR-VCU",
-          "pin": "DRV_2"
+          "pin": "Brake SW NO"
         },
         "end_b": {
           "kind": "connector_cavity",
