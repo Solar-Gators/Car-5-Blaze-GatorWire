@@ -1,7 +1,7 @@
 {
   "format": "gatorwire-workspace",
   "version": 1,
-  "saved_at": "2026-09-24T07:27:30.034Z",
+  "saved_at": "2026-09-24T07:28:03.386Z",
   "project": "Car 5 Electrical",
   "dataset": {
     "project": {
@@ -3188,14 +3188,14 @@
             }
           },
           {
-            "cavity": "S1",
+            "cavity": "S1 Main CAN_H",
             "status": {
               "physical_status": "POPULATED",
               "usage_status": "ACTIVE"
             }
           },
           {
-            "cavity": "S2",
+            "cavity": "S2 Main CAN_L",
             "status": {
               "physical_status": "POPULATED",
               "usage_status": "ACTIVE"
@@ -3490,14 +3490,14 @@
             }
           },
           {
-            "cavity": "S1",
+            "cavity": "S1 Main CAN_H",
             "status": {
               "physical_status": "POPULATED",
               "usage_status": "ACTIVE"
             }
           },
           {
-            "cavity": "S2",
+            "cavity": "S2 Main CAN_L",
             "status": {
               "physical_status": "POPULATED",
               "usage_status": "ACTIVE"
@@ -5872,7 +5872,7 @@
         "end_b": {
           "kind": "connector_cavity",
           "connector": "J-F02",
-          "cavity": "S1"
+          "cavity": "S1 Main CAN_H"
         },
         "overrides": {
           "gauge": {
@@ -5902,7 +5902,7 @@
         "end_b": {
           "kind": "connector_cavity",
           "connector": "J-F02",
-          "cavity": "S2"
+          "cavity": "S2 Main CAN_L"
         },
         "overrides": {
           "gauge": {
@@ -6055,12 +6055,12 @@
         "end_a": {
           "kind": "connector_cavity",
           "connector": "J-F02",
-          "cavity": "S1"
+          "cavity": "S1 Main CAN_H"
         },
         "end_b": {
           "kind": "connector_cavity",
           "connector": "J-R02",
-          "cavity": "S1"
+          "cavity": "S1 Main CAN_H"
         },
         "overrides": {
           "gauge": {
@@ -6115,12 +6115,12 @@
         "end_a": {
           "kind": "connector_cavity",
           "connector": "J-F02",
-          "cavity": "S2"
+          "cavity": "S2 Main CAN_L"
         },
         "end_b": {
           "kind": "connector_cavity",
           "connector": "J-R02",
-          "cavity": "S2"
+          "cavity": "S2 Main CAN_L"
         },
         "overrides": {
           "gauge": {
@@ -11552,6 +11552,47 @@
           "kind": "connector_cavity",
           "connector": "J-R06",
           "cavity": "12V+"
+        },
+        "harness_id": null,
+        "length_mm": {
+          "state": "UNSET"
+        },
+        "overrides": {
+          "color": {
+            "state": "UNSET"
+          },
+          "gauge": {
+            "state": "UNSET"
+          }
+        }
+      },
+      {
+        "id": "W-322",
+        "end_a": {
+          "kind": "connector_cavity",
+          "connector": "J-R02",
+          "cavity": "S1 Main CAN_H"
+        },
+        "end_b": {
+          "kind": "component_pin",
+          "component": "C-REAR-VCU",
+          "pin": "SW CAN_H"
+        },
+        "harness_id": null,
+        "resolution": "UNRESOLVED",
+        "resolution_note": "Created in the connection editor; wire spec not chosen yet."
+      },
+      {
+        "id": "W-323",
+        "end_a": {
+          "kind": "connector_cavity",
+          "connector": "J-R02",
+          "cavity": "S2 Main CAN_L"
+        },
+        "end_b": {
+          "kind": "component_pin",
+          "component": "C-REAR-VCU",
+          "pin": "SW CAN_L"
         },
         "harness_id": null,
         "length_mm": {
