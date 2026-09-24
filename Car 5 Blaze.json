@@ -1,7 +1,7 @@
 {
   "format": "gatorwire-workspace",
   "version": 1,
-  "saved_at": "2026-09-24T07:21:20.707Z",
+  "saved_at": "2026-09-24T07:21:45.107Z",
   "project": "Car 5 Electrical",
   "dataset": {
     "project": {
@@ -2042,7 +2042,7 @@
             }
           },
           {
-            "pin": "Drvr Fan 12V+",
+            "pin": "Driver Fan 12V+",
             "status": {
               "physical_status": "POPULATED",
               "usage_status": "ACTIVE"
@@ -2056,14 +2056,14 @@
             }
           },
           {
-            "pin": "DRV_8",
+            "pin": "Horn 12V+",
             "status": {
               "physical_status": "POPULATED",
               "usage_status": "ACTIVE"
             }
           },
           {
-            "pin": "DRV_9",
+            "pin": "Horn GND+",
             "status": {
               "physical_status": "POPULATED",
               "usage_status": "ACTIVE"
@@ -7842,7 +7842,7 @@
         "end_a": {
           "kind": "component_pin",
           "component": "C-REAR-VCU",
-          "pin": "Drvr Fan 12V+"
+          "pin": "Driver Fan 12V+"
         },
         "end_b": {
           "kind": "connector_cavity",
@@ -7964,7 +7964,7 @@
         "end_a": {
           "kind": "component_pin",
           "component": "C-REAR-VCU",
-          "pin": "DRV_8"
+          "pin": "Horn 12V+"
         },
         "end_b": {
           "kind": "connector_cavity",
@@ -8025,7 +8025,7 @@
         "end_a": {
           "kind": "component_pin",
           "component": "C-REAR-VCU",
-          "pin": "DRV_9"
+          "pin": "Horn GND+"
         },
         "end_b": {
           "kind": "connector_cavity",
