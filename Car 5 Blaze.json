@@ -1,7 +1,7 @@
 {
   "format": "gatorwire-workspace",
   "version": 1,
-  "saved_at": "2026-09-24T07:23:14.524Z",
+  "saved_at": "2026-09-24T07:27:30.034Z",
   "project": "Car 5 Electrical",
   "dataset": {
     "project": {
@@ -6605,68 +6605,6 @@
           "source": "master-sheet",
           "source_ref": "CONNECTIONS!79",
           "note": "Circuit / Function column read \"HV- to controller\"; it seeds the net name, not this conductor."
-        }
-      },
-      {
-        "id": "W-076",
-        "harness_id": null,
-        "end_a": {
-          "kind": "connector_cavity",
-          "connector": "J-R02",
-          "cavity": "S1"
-        },
-        "end_b": {
-          "kind": "component_pin",
-          "component": "C-REAR-VCU",
-          "pin": "SW CAN_H"
-        },
-        "overrides": {
-          "gauge": {
-            "state": "TBD"
-          },
-          "color": {
-            "state": "TBD"
-          }
-        },
-        "length_mm": {
-          "state": "TBD"
-        },
-        "notes": "Rear box internal",
-        "provenance": {
-          "source": "master-sheet",
-          "source_ref": "CONNECTIONS!80",
-          "note": "Circuit / Function column read \"CAN high\"; it seeds the net name, not this conductor."
-        }
-      },
-      {
-        "id": "W-077",
-        "harness_id": null,
-        "end_a": {
-          "kind": "connector_cavity",
-          "connector": "J-R02",
-          "cavity": "S2"
-        },
-        "end_b": {
-          "kind": "component_pin",
-          "component": "C-REAR-VCU",
-          "pin": "SW CAN_L"
-        },
-        "overrides": {
-          "gauge": {
-            "state": "TBD"
-          },
-          "color": {
-            "state": "TBD"
-          }
-        },
-        "length_mm": {
-          "state": "TBD"
-        },
-        "notes": "Rear box internal",
-        "provenance": {
-          "source": "master-sheet",
-          "source_ref": "CONNECTIONS!81",
-          "note": "Circuit / Function column read \"CAN low\"; it seeds the net name, not this conductor."
         }
       },
       {
