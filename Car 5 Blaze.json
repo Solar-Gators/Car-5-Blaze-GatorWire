@@ -1,7 +1,7 @@
 {
   "format": "gatorwire-workspace",
   "version": 1,
-  "saved_at": "2026-09-24T07:29:51.185Z",
+  "saved_at": "2026-09-24T07:30:12.906Z",
   "project": "Car 5 Electrical",
   "dataset": {
     "project": {
@@ -3340,7 +3340,7 @@
             }
           },
           {
-            "cavity": "4",
+            "cavity": "Strobe GND",
             "status": {
               "physical_status": "POPULATED",
               "usage_status": "ACTIVE"
@@ -3354,7 +3354,7 @@
             }
           },
           {
-            "cavity": "6",
+            "cavity": "Canopy Brake Light GND",
             "status": {
               "physical_status": "POPULATED",
               "usage_status": "ACTIVE"
@@ -4983,7 +4983,7 @@
         "end_b": {
           "kind": "connector_cavity",
           "connector": "J-F04",
-          "cavity": "4"
+          "cavity": "Strobe GND"
         },
         "overrides": {
           "gauge": {
@@ -5039,7 +5039,7 @@
         "end_a": {
           "kind": "connector_cavity",
           "connector": "J-F04",
-          "cavity": "4"
+          "cavity": "Strobe GND"
         },
         "end_b": {
           "kind": "component_pin",
@@ -5105,7 +5105,7 @@
         "end_b": {
           "kind": "connector_cavity",
           "connector": "J-F04",
-          "cavity": "6"
+          "cavity": "Canopy Brake Light GND"
         },
         "overrides": {
           "gauge": {
@@ -5161,7 +5161,7 @@
         "end_a": {
           "kind": "connector_cavity",
           "connector": "J-F04",
-          "cavity": "6"
+          "cavity": "Canopy Brake Light GND"
         },
         "end_b": {
           "kind": "component_pin",
