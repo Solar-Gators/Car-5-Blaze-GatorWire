@@ -1,7 +1,7 @@
 {
   "format": "gatorwire-workspace",
   "version": 1,
-  "saved_at": "2026-09-24T07:20:11.692Z",
+  "saved_at": "2026-09-24T07:21:01.692Z",
   "project": "Car 5 Electrical",
   "dataset": {
     "project": {
@@ -2028,14 +2028,14 @@
             }
           },
           {
-            "pin": "DRV_4",
+            "pin": "Throttle Wiper",
             "status": {
               "physical_status": "POPULATED",
               "usage_status": "ACTIVE"
             }
           },
           {
-            "pin": "DRV_5",
+            "pin": "Throttle GND",
             "status": {
               "physical_status": "POPULATED",
               "usage_status": "ACTIVE"
@@ -7720,7 +7720,7 @@
         "end_a": {
           "kind": "component_pin",
           "component": "C-REAR-VCU",
-          "pin": "DRV_4"
+          "pin": "Throttle Wiper"
         },
         "end_b": {
           "kind": "connector_cavity",
@@ -7781,7 +7781,7 @@
         "end_a": {
           "kind": "component_pin",
           "component": "C-REAR-VCU",
-          "pin": "DRV_5"
+          "pin": "Throttle GND"
         },
         "end_b": {
           "kind": "connector_cavity",
