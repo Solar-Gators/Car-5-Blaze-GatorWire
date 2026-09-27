@@ -1,7 +1,7 @@
 {
   "format": "gatorwire-workspace",
   "version": 1,
-  "saved_at": "2026-09-27T01:00:46.146Z",
+  "saved_at": "2026-09-27T01:00:58.152Z",
   "project": "Car 5 Electrical",
   "dataset": {
     "project": {
@@ -3439,7 +3439,7 @@
             }
           },
           {
-            "cavity": "S6",
+            "cavity": "GND2",
             "status": {
               "physical_status": "POPULATED",
               "usage_status": "SPARE"
@@ -6394,7 +6394,7 @@
         "end_b": {
           "kind": "connector_cavity",
           "connector": "J-R01",
-          "cavity": "S6"
+          "cavity": "GND2"
         },
         "overrides": {
           "gauge": {
@@ -9153,7 +9153,7 @@
         "end_a": {
           "kind": "connector_cavity",
           "connector": "J-R01",
-          "cavity": "S6"
+          "cavity": "GND2"
         },
         "end_b": {
           "kind": "component_pin",
