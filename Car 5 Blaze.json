@@ -1,7 +1,7 @@
 {
   "format": "gatorwire-workspace",
   "version": 1,
-  "saved_at": "2026-09-27T23:06:45.256Z",
+  "saved_at": "2026-09-27T23:07:08.745Z",
   "project": "Car 5 Electrical",
   "dataset": {
     "project": {
@@ -3730,28 +3730,28 @@
             }
           },
           {
-            "cavity": "6",
+            "cavity": "Driver Fan 12V+",
             "status": {
               "physical_status": "POPULATED",
               "usage_status": "ACTIVE"
             }
           },
           {
-            "cavity": "7",
+            "cavity": "Driver Fan GND",
             "status": {
               "physical_status": "POPULATED",
               "usage_status": "ACTIVE"
             }
           },
           {
-            "cavity": "8",
+            "cavity": "Horn 12V+",
             "status": {
               "physical_status": "POPULATED",
               "usage_status": "ACTIVE"
             }
           },
           {
-            "cavity": "9",
+            "cavity": "Horn GND",
             "status": {
               "physical_status": "POPULATED",
               "usage_status": "ACTIVE"
@@ -7723,7 +7723,7 @@
         "end_b": {
           "kind": "connector_cavity",
           "connector": "J-R05",
-          "cavity": "6"
+          "cavity": "Driver Fan 12V+"
         },
         "overrides": {
           "gauge": {
@@ -7749,7 +7749,7 @@
         "end_a": {
           "kind": "connector_cavity",
           "connector": "J-R05",
-          "cavity": "6"
+          "cavity": "Driver Fan 12V+"
         },
         "end_b": {
           "kind": "component_pin",
@@ -7784,7 +7784,7 @@
         "end_b": {
           "kind": "connector_cavity",
           "connector": "J-R05",
-          "cavity": "7"
+          "cavity": "Driver Fan GND"
         },
         "overrides": {
           "gauge": {
@@ -7810,7 +7810,7 @@
         "end_a": {
           "kind": "connector_cavity",
           "connector": "J-R05",
-          "cavity": "7"
+          "cavity": "Driver Fan GND"
         },
         "end_b": {
           "kind": "component_pin",
@@ -7845,7 +7845,7 @@
         "end_b": {
           "kind": "connector_cavity",
           "connector": "J-R05",
-          "cavity": "8"
+          "cavity": "Horn 12V+"
         },
         "overrides": {
           "gauge": {
@@ -7871,7 +7871,7 @@
         "end_a": {
           "kind": "connector_cavity",
           "connector": "J-R05",
-          "cavity": "8"
+          "cavity": "Horn 12V+"
         },
         "end_b": {
           "kind": "component_pin",
@@ -7906,7 +7906,7 @@
         "end_b": {
           "kind": "connector_cavity",
           "connector": "J-R05",
-          "cavity": "9"
+          "cavity": "Horn GND"
         },
         "overrides": {
           "gauge": {
@@ -7932,7 +7932,7 @@
         "end_a": {
           "kind": "connector_cavity",
           "connector": "J-R05",
-          "cavity": "9"
+          "cavity": "Horn GND"
         },
         "end_b": {
           "kind": "component_pin",
