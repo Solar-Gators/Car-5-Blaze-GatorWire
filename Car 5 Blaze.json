@@ -1,7 +1,7 @@
 {
   "format": "gatorwire-workspace",
   "version": 1,
-  "saved_at": "2026-09-27T01:03:01.379Z",
+  "saved_at": "2026-09-27T23:06:45.256Z",
   "project": "Car 5 Electrical",
   "dataset": {
     "project": {
@@ -3695,35 +3695,35 @@
         },
         "cavities": [
           {
-            "cavity": "1",
+            "cavity": "Brake SW GND",
             "status": {
               "physical_status": "POPULATED",
               "usage_status": "ACTIVE"
             }
           },
           {
-            "cavity": "2",
+            "cavity": "Brake SW NO",
             "status": {
               "physical_status": "POPULATED",
               "usage_status": "ACTIVE"
             }
           },
           {
-            "cavity": "3",
+            "cavity": "Throttle 12V+",
             "status": {
               "physical_status": "POPULATED",
               "usage_status": "ACTIVE"
             }
           },
           {
-            "cavity": "4",
+            "cavity": "Throttle Wiper",
             "status": {
               "physical_status": "POPULATED",
               "usage_status": "ACTIVE"
             }
           },
           {
-            "cavity": "5",
+            "cavity": "Throttle GND",
             "status": {
               "physical_status": "POPULATED",
               "usage_status": "ACTIVE"
@@ -7418,7 +7418,7 @@
         "end_b": {
           "kind": "connector_cavity",
           "connector": "J-R05",
-          "cavity": "1"
+          "cavity": "Brake SW GND"
         },
         "overrides": {
           "gauge": {
@@ -7444,7 +7444,7 @@
         "end_a": {
           "kind": "connector_cavity",
           "connector": "J-R05",
-          "cavity": "1"
+          "cavity": "Brake SW GND"
         },
         "end_b": {
           "kind": "component_pin",
@@ -7479,7 +7479,7 @@
         "end_b": {
           "kind": "connector_cavity",
           "connector": "J-R05",
-          "cavity": "2"
+          "cavity": "Brake SW NO"
         },
         "overrides": {
           "gauge": {
@@ -7505,7 +7505,7 @@
         "end_a": {
           "kind": "connector_cavity",
           "connector": "J-R05",
-          "cavity": "2"
+          "cavity": "Brake SW NO"
         },
         "end_b": {
           "kind": "component_pin",
@@ -7540,7 +7540,7 @@
         "end_b": {
           "kind": "connector_cavity",
           "connector": "J-R05",
-          "cavity": "3"
+          "cavity": "Throttle 12V+"
         },
         "overrides": {
           "gauge": {
@@ -7566,7 +7566,7 @@
         "end_a": {
           "kind": "connector_cavity",
           "connector": "J-R05",
-          "cavity": "3"
+          "cavity": "Throttle 12V+"
         },
         "end_b": {
           "kind": "component_pin",
@@ -7601,7 +7601,7 @@
         "end_b": {
           "kind": "connector_cavity",
           "connector": "J-R05",
-          "cavity": "4"
+          "cavity": "Throttle Wiper"
         },
         "overrides": {
           "gauge": {
@@ -7627,7 +7627,7 @@
         "end_a": {
           "kind": "connector_cavity",
           "connector": "J-R05",
-          "cavity": "4"
+          "cavity": "Throttle Wiper"
         },
         "end_b": {
           "kind": "component_pin",
@@ -7662,7 +7662,7 @@
         "end_b": {
           "kind": "connector_cavity",
           "connector": "J-R05",
-          "cavity": "5"
+          "cavity": "Throttle GND"
         },
         "overrides": {
           "gauge": {
@@ -7688,7 +7688,7 @@
         "end_a": {
           "kind": "connector_cavity",
           "connector": "J-R05",
-          "cavity": "5"
+          "cavity": "Throttle GND"
         },
         "end_b": {
           "kind": "component_pin",
