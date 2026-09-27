@@ -1,7 +1,7 @@
 {
   "format": "gatorwire-workspace",
   "version": 1,
-  "saved_at": "2026-09-27T00:56:47.914Z",
+  "saved_at": "2026-09-27T01:00:34.031Z",
   "project": "Car 5 Electrical",
   "dataset": {
     "project": {
@@ -3404,28 +3404,28 @@
             }
           },
           {
-            "cavity": "S1",
+            "cavity": "Main CAN_H",
             "status": {
               "physical_status": "POPULATED",
               "usage_status": "ACTIVE"
             }
           },
           {
-            "cavity": "S2",
+            "cavity": "Main CAN_L",
             "status": {
               "physical_status": "POPULATED",
               "usage_status": "ACTIVE"
             }
           },
           {
-            "cavity": "S3",
+            "cavity": "12V+ Main",
             "status": {
               "physical_status": "POPULATED",
               "usage_status": "ACTIVE"
             }
           },
           {
-            "cavity": "S4",
+            "cavity": "12V+ Supp",
             "status": {
               "physical_status": "POPULATED",
               "usage_status": "ACTIVE"
@@ -6090,7 +6090,7 @@
         "end_b": {
           "kind": "connector_cavity",
           "connector": "J-R01",
-          "cavity": "S1"
+          "cavity": "Main CAN_H"
         },
         "overrides": {
           "gauge": {
@@ -6150,7 +6150,7 @@
         "end_b": {
           "kind": "connector_cavity",
           "connector": "J-R01",
-          "cavity": "S2"
+          "cavity": "Main CAN_L"
         },
         "overrides": {
           "gauge": {
@@ -6212,7 +6212,7 @@
         "end_b": {
           "kind": "connector_cavity",
           "connector": "J-R01",
-          "cavity": "S3"
+          "cavity": "12V+ Main"
         },
         "overrides": {
           "gauge": {
@@ -6274,7 +6274,7 @@
         "end_b": {
           "kind": "connector_cavity",
           "connector": "J-R01",
-          "cavity": "S4"
+          "cavity": "12V+ Supp"
         },
         "overrides": {
           "gauge": {
@@ -9105,7 +9105,7 @@
         "end_a": {
           "kind": "connector_cavity",
           "connector": "J-R01",
-          "cavity": "S3"
+          "cavity": "12V+ Main"
         },
         "end_b": {
           "kind": "component_pin",
@@ -9121,7 +9121,7 @@
         "end_a": {
           "kind": "connector_cavity",
           "connector": "J-R01",
-          "cavity": "S4"
+          "cavity": "12V+ Supp"
         },
         "end_b": {
           "kind": "component_pin",
@@ -11550,7 +11550,7 @@
         "end_a": {
           "kind": "connector_cavity",
           "connector": "J-R01",
-          "cavity": "S1"
+          "cavity": "Main CAN_H"
         },
         "end_b": {
           "kind": "component_pin",
@@ -11575,7 +11575,7 @@
         "end_a": {
           "kind": "connector_cavity",
           "connector": "J-R01",
-          "cavity": "S2"
+          "cavity": "Main CAN_L"
         },
         "end_b": {
           "kind": "component_pin",
