@@ -1,7 +1,7 @@
 {
   "format": "gatorwire-workspace",
   "version": 1,
-  "saved_at": "2026-09-27T01:00:58.152Z",
+  "saved_at": "2026-09-27T01:01:35.813Z",
   "project": "Car 5 Electrical",
   "dataset": {
     "project": {
@@ -2965,42 +2965,42 @@
             }
           },
           {
-            "cavity": "S1",
+            "cavity": "Main CAN_H",
             "status": {
               "physical_status": "POPULATED",
               "usage_status": "ACTIVE"
             }
           },
           {
-            "cavity": "S2",
+            "cavity": "Main CAN_L",
             "status": {
               "physical_status": "POPULATED",
               "usage_status": "ACTIVE"
             }
           },
           {
-            "cavity": "S3",
+            "cavity": "12V+ Main",
             "status": {
               "physical_status": "POPULATED",
               "usage_status": "ACTIVE"
             }
           },
           {
-            "cavity": "S4",
+            "cavity": "12V+ Supp",
             "status": {
               "physical_status": "POPULATED",
               "usage_status": "ACTIVE"
             }
           },
           {
-            "cavity": "S5",
+            "cavity": "GND",
             "status": {
               "physical_status": "POPULATED",
               "usage_status": "ACTIVE"
             }
           },
           {
-            "cavity": "S6",
+            "cavity": "GND2",
             "status": {
               "physical_status": "POPULATED",
               "usage_status": "SPARE"
@@ -6085,7 +6085,7 @@
         "end_a": {
           "kind": "connector_cavity",
           "connector": "J-B01",
-          "cavity": "S1"
+          "cavity": "Main CAN_H"
         },
         "end_b": {
           "kind": "connector_cavity",
@@ -6145,7 +6145,7 @@
         "end_a": {
           "kind": "connector_cavity",
           "connector": "J-B01",
-          "cavity": "S2"
+          "cavity": "Main CAN_L"
         },
         "end_b": {
           "kind": "connector_cavity",
@@ -6207,7 +6207,7 @@
         "end_a": {
           "kind": "connector_cavity",
           "connector": "J-B01",
-          "cavity": "S3"
+          "cavity": "12V+ Main"
         },
         "end_b": {
           "kind": "connector_cavity",
@@ -6269,7 +6269,7 @@
         "end_a": {
           "kind": "connector_cavity",
           "connector": "J-B01",
-          "cavity": "S4"
+          "cavity": "12V+ Supp"
         },
         "end_b": {
           "kind": "connector_cavity",
@@ -6329,7 +6329,7 @@
         "end_a": {
           "kind": "connector_cavity",
           "connector": "J-B01",
-          "cavity": "S5"
+          "cavity": "GND"
         },
         "end_b": {
           "kind": "connector_cavity",
@@ -6389,7 +6389,7 @@
         "end_a": {
           "kind": "connector_cavity",
           "connector": "J-B01",
-          "cavity": "S6"
+          "cavity": "GND2"
         },
         "end_b": {
           "kind": "connector_cavity",
@@ -6804,7 +6804,7 @@
         "end_b": {
           "kind": "connector_cavity",
           "connector": "J-B01",
-          "cavity": "S1"
+          "cavity": "Main CAN_H"
         },
         "overrides": {
           "gauge": {
@@ -6834,7 +6834,7 @@
         "end_b": {
           "kind": "connector_cavity",
           "connector": "J-B01",
-          "cavity": "S2"
+          "cavity": "Main CAN_L"
         },
         "overrides": {
           "gauge": {
@@ -8843,7 +8843,7 @@
         "end_b": {
           "kind": "connector_cavity",
           "connector": "J-B01",
-          "cavity": "S3"
+          "cavity": "12V+ Main"
         },
         "harness_id": null,
         "resolution": "UNRESOLVED",
@@ -8859,7 +8859,7 @@
         "end_b": {
           "kind": "connector_cavity",
           "connector": "J-B01",
-          "cavity": "S4"
+          "cavity": "12V+ Supp"
         },
         "harness_id": null,
         "resolution": "UNRESOLVED",
@@ -8875,7 +8875,7 @@
         "end_b": {
           "kind": "connector_cavity",
           "connector": "J-B01",
-          "cavity": "S5"
+          "cavity": "GND"
         },
         "harness_id": null,
         "resolution": "UNRESOLVED",
@@ -8891,7 +8891,7 @@
         "end_b": {
           "kind": "connector_cavity",
           "connector": "J-B01",
-          "cavity": "S6"
+          "cavity": "GND2"
         },
         "harness_id": null,
         "resolution": "UNRESOLVED",
