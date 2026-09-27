@@ -1,7 +1,7 @@
 {
   "format": "gatorwire-workspace",
   "version": 1,
-  "saved_at": "2026-09-27T23:07:08.745Z",
+  "saved_at": "2026-09-27T23:09:15.430Z",
   "project": "Car 5 Electrical",
   "dataset": {
     "project": {
@@ -2056,6 +2056,13 @@
             }
           },
           {
+            "pin": "Driver Fan Ctrl",
+            "status": {
+              "physical_status": "EMPTY",
+              "usage_status": "SPARE"
+            }
+          },
+          {
             "pin": "Horn 12V+",
             "status": {
               "physical_status": "POPULATED",
@@ -3741,6 +3748,13 @@
             "status": {
               "physical_status": "POPULATED",
               "usage_status": "ACTIVE"
+            }
+          },
+          {
+            "cavity": "Driver Fan Ctrl",
+            "status": {
+              "physical_status": "EMPTY",
+              "usage_status": "SPARE"
             }
           },
           {
@@ -11581,6 +11595,56 @@
           "kind": "component_pin",
           "component": "C-REAR-VCU",
           "pin": "Main CAN_L"
+        },
+        "harness_id": null,
+        "length_mm": {
+          "state": "UNSET"
+        },
+        "overrides": {
+          "color": {
+            "state": "UNSET"
+          },
+          "gauge": {
+            "state": "UNSET"
+          }
+        }
+      },
+      {
+        "id": "W-328",
+        "end_a": {
+          "kind": "connector_cavity",
+          "connector": "J-R05",
+          "cavity": "Driver Fan Ctrl"
+        },
+        "end_b": {
+          "kind": "component_pin",
+          "component": "C-DRIVER-FAN",
+          "pin": "PWM"
+        },
+        "harness_id": null,
+        "length_mm": {
+          "state": "UNSET"
+        },
+        "overrides": {
+          "color": {
+            "state": "UNSET"
+          },
+          "gauge": {
+            "state": "UNSET"
+          }
+        }
+      },
+      {
+        "id": "W-329",
+        "end_a": {
+          "kind": "component_pin",
+          "component": "C-REAR-VCU",
+          "pin": "Driver Fan Ctrl"
+        },
+        "end_b": {
+          "kind": "connector_cavity",
+          "connector": "J-R05",
+          "cavity": "Driver Fan Ctrl"
         },
         "harness_id": null,
         "length_mm": {
