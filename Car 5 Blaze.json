@@ -1,7 +1,7 @@
 {
   "format": "gatorwire-workspace",
   "version": 1,
-  "saved_at": "2026-09-27T23:09:15.430Z",
+  "saved_at": "2026-09-27T23:17:40.744Z",
   "project": "Car 5 Electrical",
   "dataset": {
     "project": {
@@ -2014,7 +2014,7 @@
             }
           },
           {
-            "pin": "Brake SW NO",
+            "pin": "Brake SW",
             "status": {
               "physical_status": "POPULATED",
               "usage_status": "ACTIVE"
@@ -3709,7 +3709,7 @@
             }
           },
           {
-            "cavity": "Brake SW NO",
+            "cavity": "Brake SW",
             "status": {
               "physical_status": "POPULATED",
               "usage_status": "ACTIVE"
@@ -7488,12 +7488,12 @@
         "end_a": {
           "kind": "component_pin",
           "component": "C-REAR-VCU",
-          "pin": "Brake SW NO"
+          "pin": "Brake SW"
         },
         "end_b": {
           "kind": "connector_cavity",
           "connector": "J-R05",
-          "cavity": "Brake SW NO"
+          "cavity": "Brake SW"
         },
         "overrides": {
           "gauge": {
@@ -7510,36 +7510,6 @@
         "provenance": {
           "source": "master-sheet",
           "source_ref": "CONNECTIONS!129",
-          "note": "Circuit / Function column read \"Brake Sensor GND\"; it seeds the net name, not this conductor."
-        }
-      },
-      {
-        "id": "W-126",
-        "harness_id": "H-RD02",
-        "end_a": {
-          "kind": "connector_cavity",
-          "connector": "J-R05",
-          "cavity": "Brake SW NO"
-        },
-        "end_b": {
-          "kind": "component_pin",
-          "component": "C-BRAKE-SENSOR",
-          "pin": "NO"
-        },
-        "overrides": {
-          "gauge": {
-            "state": "TBD"
-          },
-          "color": {
-            "state": "TBD"
-          }
-        },
-        "length_mm": {
-          "state": "TBD"
-        },
-        "provenance": {
-          "source": "master-sheet",
-          "source_ref": "CONNECTIONS!130",
           "note": "Circuit / Function column read \"Brake Sensor GND\"; it seeds the net name, not this conductor."
         }
       },
@@ -11645,6 +11615,47 @@
           "kind": "connector_cavity",
           "connector": "J-R05",
           "cavity": "Driver Fan Ctrl"
+        },
+        "harness_id": null,
+        "length_mm": {
+          "state": "UNSET"
+        },
+        "overrides": {
+          "color": {
+            "state": "UNSET"
+          },
+          "gauge": {
+            "state": "UNSET"
+          }
+        }
+      },
+      {
+        "id": "W-330",
+        "end_a": {
+          "kind": "component_pin",
+          "component": "C-REAR-VCU",
+          "pin": "Brake SW NO"
+        },
+        "end_b": {
+          "kind": "component_pin",
+          "component": "C-BRAKE-SENSOR",
+          "pin": "NC"
+        },
+        "harness_id": null,
+        "resolution": "UNRESOLVED",
+        "resolution_note": "Created in the connection editor; wire spec not chosen yet."
+      },
+      {
+        "id": "W-331",
+        "end_a": {
+          "kind": "connector_cavity",
+          "connector": "J-R05",
+          "cavity": "Brake SW"
+        },
+        "end_b": {
+          "kind": "component_pin",
+          "component": "C-BRAKE-SENSOR",
+          "pin": "NC"
         },
         "harness_id": null,
         "length_mm": {
