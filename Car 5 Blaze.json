@@ -1,7 +1,7 @@
 {
   "format": "gatorwire-workspace",
   "version": 1,
-  "saved_at": "2026-09-27T00:56:05.251Z",
+  "saved_at": "2026-09-27T00:56:47.914Z",
   "project": "Car 5 Electrical",
   "dataset": {
     "project": {
@@ -11580,7 +11580,7 @@
         "end_b": {
           "kind": "component_pin",
           "component": "C-REAR-VCU",
-          "pin": "MC CAN_L"
+          "pin": "Main CAN_L"
         },
         "harness_id": null,
         "length_mm": {
