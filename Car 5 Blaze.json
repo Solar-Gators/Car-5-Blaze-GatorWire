@@ -1,7 +1,7 @@
 {
   "format": "gatorwire-workspace",
   "version": 1,
-  "saved_at": "2026-09-27T01:01:35.813Z",
+  "saved_at": "2026-09-27T01:03:01.379Z",
   "project": "Car 5 Electrical",
   "dataset": {
     "project": {
@@ -11505,47 +11505,6 @@
         }
       },
       {
-        "id": "W-322",
-        "end_a": {
-          "kind": "connector_cavity",
-          "connector": "J-R02",
-          "cavity": "S1 Main CAN_H"
-        },
-        "end_b": {
-          "kind": "component_pin",
-          "component": "C-REAR-VCU",
-          "pin": "SW CAN_H"
-        },
-        "harness_id": null,
-        "resolution": "UNRESOLVED",
-        "resolution_note": "Created in the connection editor; wire spec not chosen yet."
-      },
-      {
-        "id": "W-323",
-        "end_a": {
-          "kind": "connector_cavity",
-          "connector": "J-R02",
-          "cavity": "S2 Main CAN_L"
-        },
-        "end_b": {
-          "kind": "component_pin",
-          "component": "C-REAR-VCU",
-          "pin": "SW CAN_L"
-        },
-        "harness_id": null,
-        "length_mm": {
-          "state": "UNSET"
-        },
-        "overrides": {
-          "color": {
-            "state": "UNSET"
-          },
-          "gauge": {
-            "state": "UNSET"
-          }
-        }
-      },
-      {
         "id": "W-324",
         "end_a": {
           "kind": "connector_cavity",
@@ -11576,6 +11535,47 @@
           "kind": "connector_cavity",
           "connector": "J-R01",
           "cavity": "Main CAN_L"
+        },
+        "end_b": {
+          "kind": "component_pin",
+          "component": "C-REAR-VCU",
+          "pin": "Main CAN_L"
+        },
+        "harness_id": null,
+        "length_mm": {
+          "state": "UNSET"
+        },
+        "overrides": {
+          "color": {
+            "state": "UNSET"
+          },
+          "gauge": {
+            "state": "UNSET"
+          }
+        }
+      },
+      {
+        "id": "W-326",
+        "end_a": {
+          "kind": "connector_cavity",
+          "connector": "J-R02",
+          "cavity": "S1 Main CAN_H"
+        },
+        "end_b": {
+          "kind": "component_pin",
+          "component": "C-REAR-VCU",
+          "pin": "Main CAN_H"
+        },
+        "harness_id": null,
+        "resolution": "UNRESOLVED",
+        "resolution_note": "Created in the connection editor; wire spec not chosen yet."
+      },
+      {
+        "id": "W-327",
+        "end_a": {
+          "kind": "connector_cavity",
+          "connector": "J-R02",
+          "cavity": "S2 Main CAN_L"
         },
         "end_b": {
           "kind": "component_pin",
