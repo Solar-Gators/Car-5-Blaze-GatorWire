@@ -1,7 +1,7 @@
 {
   "format": "gatorwire-workspace",
   "version": 1,
-  "saved_at": "2026-09-29T11:29:29.416Z",
+  "saved_at": "2026-09-29T11:30:22.338Z",
   "project": "Car 5 Electrical",
   "dataset": {
     "project": {
@@ -4388,66 +4388,6 @@
     "junctions": [],
     "matings": [],
     "segments": [
-      {
-        "id": "W-001",
-        "harness_id": "H-TF01",
-        "end_a": {
-          "kind": "component_pin",
-          "component": "C-ARRAY-1",
-          "pin": "+"
-        },
-        "end_b": {
-          "kind": "connector_cavity",
-          "connector": "J-F01",
-          "cavity": "S1+"
-        },
-        "overrides": {
-          "gauge": {
-            "state": "TBD"
-          },
-          "color": {
-            "state": "TBD"
-          }
-        },
-        "length_mm": {
-          "state": "TBD"
-        },
-        "provenance": {
-          "source": "master-sheet",
-          "source_ref": "CONNECTIONS!5",
-          "note": "Circuit / Function column read \"ARRAY1+\"; it seeds the net name, not this conductor."
-        }
-      },
-      {
-        "id": "W-002",
-        "harness_id": "H-TF01",
-        "end_a": {
-          "kind": "component_pin",
-          "component": "C-ARRAY-1",
-          "pin": "-"
-        },
-        "end_b": {
-          "kind": "connector_cavity",
-          "connector": "J-F01",
-          "cavity": "S1-"
-        },
-        "overrides": {
-          "gauge": {
-            "state": "TBD"
-          },
-          "color": {
-            "state": "TBD"
-          }
-        },
-        "length_mm": {
-          "state": "TBD"
-        },
-        "provenance": {
-          "source": "master-sheet",
-          "source_ref": "CONNECTIONS!6",
-          "note": "Circuit / Function column read \"ARRAY1-\"; it seeds the net name, not this conductor."
-        }
-      },
       {
         "id": "W-003",
         "harness_id": null,
@@ -11698,6 +11638,79 @@
           "kind": "component_pin",
           "component": "C-BRAKE-SENSOR",
           "pin": "NC"
+        },
+        "harness_id": null,
+        "length_mm": {
+          "state": "UNSET"
+        },
+        "overrides": {
+          "color": {
+            "state": "UNSET"
+          },
+          "gauge": {
+            "state": "UNSET"
+          }
+        }
+      },
+      {
+        "id": "W-332",
+        "end_a": {
+          "kind": "component_pin",
+          "component": "C-ARRAY-1",
+          "pin": "-"
+        },
+        "end_b": {
+          "kind": "component_pin",
+          "component": "C-NEW-002",
+          "pin": "+"
+        },
+        "harness_id": null,
+        "resolution": "UNRESOLVED",
+        "resolution_note": "Created in the connection editor; wire spec not chosen yet."
+      },
+      {
+        "id": "W-333",
+        "end_a": {
+          "kind": "component_pin",
+          "component": "C-NEW-002",
+          "pin": "+"
+        },
+        "end_b": {
+          "kind": "connector_cavity",
+          "connector": "J-F01",
+          "cavity": "S1-"
+        },
+        "harness_id": null,
+        "resolution": "UNRESOLVED",
+        "resolution_note": "Created in the connection editor; wire spec not chosen yet."
+      },
+      {
+        "id": "W-334",
+        "end_a": {
+          "kind": "component_pin",
+          "component": "C-ARRAY-1",
+          "pin": "+"
+        },
+        "end_b": {
+          "kind": "component_pin",
+          "component": "C-NEW-002",
+          "pin": "-"
+        },
+        "harness_id": null,
+        "resolution": "UNRESOLVED",
+        "resolution_note": "Created in the connection editor; wire spec not chosen yet."
+      },
+      {
+        "id": "W-335",
+        "end_a": {
+          "kind": "component_pin",
+          "component": "C-NEW-002",
+          "pin": "-"
+        },
+        "end_b": {
+          "kind": "connector_cavity",
+          "connector": "J-F01",
+          "cavity": "S1+"
         },
         "harness_id": null,
         "length_mm": {
