@@ -1,7 +1,7 @@
 {
   "format": "gatorwire-workspace",
   "version": 1,
-  "saved_at": "2026-09-29T11:28:15.618Z",
+  "saved_at": "2026-09-29T11:29:29.416Z",
   "project": "Car 5 Electrical",
   "dataset": {
     "project": {
@@ -2950,7 +2950,22 @@
         "name": "Fuse (7A0",
         "location_id": "ENC-BATT",
         "type": "unknown",
-        "pins": [],
+        "pins": [
+          {
+            "pin": "+",
+            "status": {
+              "physical_status": "EMPTY",
+              "usage_status": "SPARE"
+            }
+          },
+          {
+            "pin": "-",
+            "status": {
+              "physical_status": "EMPTY",
+              "usage_status": "SPARE"
+            }
+          }
+        ],
         "resolution": "UNRESOLVED",
         "resolution_note": "Created from an imported drawing; pins not defined yet."
       },
