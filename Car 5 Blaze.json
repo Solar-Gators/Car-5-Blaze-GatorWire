@@ -1,7 +1,7 @@
 {
   "format": "gatorwire-workspace",
   "version": 1,
-  "saved_at": "2026-09-29T11:30:22.338Z",
+  "saved_at": "2026-09-29T11:31:56.619Z",
   "project": "Car 5 Electrical",
   "dataset": {
     "project": {
@@ -2974,7 +2974,22 @@
         "name": "Fuse (7A0",
         "location_id": "ENC-BATT",
         "type": "unknown",
-        "pins": [],
+        "pins": [
+          {
+            "pin": "1",
+            "status": {
+              "physical_status": "EMPTY",
+              "usage_status": "SPARE"
+            }
+          },
+          {
+            "pin": "2",
+            "status": {
+              "physical_status": "EMPTY",
+              "usage_status": "SPARE"
+            }
+          }
+        ],
         "resolution": "UNRESOLVED",
         "resolution_note": "Created from an imported drawing; pins not defined yet."
       },
@@ -4448,66 +4463,6 @@
           "source": "master-sheet",
           "source_ref": "CONNECTIONS!8",
           "note": "Circuit / Function column read \"ARRAY1-\"; it seeds the net name, not this conductor."
-        }
-      },
-      {
-        "id": "W-005",
-        "harness_id": "H-TF01",
-        "end_a": {
-          "kind": "component_pin",
-          "component": "C-ARRAY-2",
-          "pin": "+"
-        },
-        "end_b": {
-          "kind": "connector_cavity",
-          "connector": "J-F01",
-          "cavity": "S2+"
-        },
-        "overrides": {
-          "gauge": {
-            "state": "TBD"
-          },
-          "color": {
-            "state": "TBD"
-          }
-        },
-        "length_mm": {
-          "state": "TBD"
-        },
-        "provenance": {
-          "source": "master-sheet",
-          "source_ref": "CONNECTIONS!9",
-          "note": "Circuit / Function column read \"ARRAY2+\"; it seeds the net name, not this conductor."
-        }
-      },
-      {
-        "id": "W-006",
-        "harness_id": "H-TF01",
-        "end_a": {
-          "kind": "component_pin",
-          "component": "C-ARRAY-2",
-          "pin": "-"
-        },
-        "end_b": {
-          "kind": "connector_cavity",
-          "connector": "J-F01",
-          "cavity": "S2-"
-        },
-        "overrides": {
-          "gauge": {
-            "state": "TBD"
-          },
-          "color": {
-            "state": "TBD"
-          }
-        },
-        "length_mm": {
-          "state": "TBD"
-        },
-        "provenance": {
-          "source": "master-sheet",
-          "source_ref": "CONNECTIONS!10",
-          "note": "Circuit / Function column read \"ARRAY2-\"; it seeds the net name, not this conductor."
         }
       },
       {
@@ -11711,6 +11666,79 @@
           "kind": "connector_cavity",
           "connector": "J-F01",
           "cavity": "S1+"
+        },
+        "harness_id": null,
+        "length_mm": {
+          "state": "UNSET"
+        },
+        "overrides": {
+          "color": {
+            "state": "UNSET"
+          },
+          "gauge": {
+            "state": "UNSET"
+          }
+        }
+      },
+      {
+        "id": "W-336",
+        "end_a": {
+          "kind": "component_pin",
+          "component": "C-ARRAY-2",
+          "pin": "-"
+        },
+        "end_b": {
+          "kind": "component_pin",
+          "component": "C-NEW-003",
+          "pin": "1"
+        },
+        "harness_id": null,
+        "resolution": "UNRESOLVED",
+        "resolution_note": "Created in the connection editor; wire spec not chosen yet."
+      },
+      {
+        "id": "W-337",
+        "end_a": {
+          "kind": "component_pin",
+          "component": "C-NEW-003",
+          "pin": "1"
+        },
+        "end_b": {
+          "kind": "connector_cavity",
+          "connector": "J-F01",
+          "cavity": "S2-"
+        },
+        "harness_id": null,
+        "resolution": "UNRESOLVED",
+        "resolution_note": "Created in the connection editor; wire spec not chosen yet."
+      },
+      {
+        "id": "W-338",
+        "end_a": {
+          "kind": "component_pin",
+          "component": "C-ARRAY-2",
+          "pin": "+"
+        },
+        "end_b": {
+          "kind": "component_pin",
+          "component": "C-NEW-003",
+          "pin": "2"
+        },
+        "harness_id": null,
+        "resolution": "UNRESOLVED",
+        "resolution_note": "Created in the connection editor; wire spec not chosen yet."
+      },
+      {
+        "id": "W-339",
+        "end_a": {
+          "kind": "component_pin",
+          "component": "C-NEW-003",
+          "pin": "2"
+        },
+        "end_b": {
+          "kind": "connector_cavity",
+          "connector": "J-F01",
+          "cavity": "S2+"
         },
         "harness_id": null,
         "length_mm": {
