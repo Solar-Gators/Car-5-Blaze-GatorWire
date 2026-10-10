@@ -1,7 +1,7 @@
 {
   "format": "gatorwire-workspace",
   "version": 1,
-  "saved_at": "2026-10-10T04:01:25.923Z",
+  "saved_at": "2026-10-10T06:31:07.093Z",
   "project": "Car 5 Electrical",
   "dataset": {
     "project": {
@@ -1836,14 +1836,14 @@
             }
           },
           {
-            "pin": "CAN_H",
+            "pin": "LV 4 CAN_H",
             "status": {
               "physical_status": "POPULATED",
               "usage_status": "ACTIVE"
             }
           },
           {
-            "pin": "CAN_L",
+            "pin": "LV 5 CAN_L",
             "status": {
               "physical_status": "POPULATED",
               "usage_status": "ACTIVE"
@@ -1861,6 +1861,34 @@
             "status": {
               "physical_status": "POPULATED",
               "usage_status": "ACTIVE"
+            }
+          },
+          {
+            "pin": "LV 1 12V+",
+            "status": {
+              "physical_status": "EMPTY",
+              "usage_status": "SPARE"
+            }
+          },
+          {
+            "pin": "LV 2 GND",
+            "status": {
+              "physical_status": "EMPTY",
+              "usage_status": "SPARE"
+            }
+          },
+          {
+            "pin": "LC 3 N/C",
+            "status": {
+              "physical_status": "EMPTY",
+              "usage_status": "SPARE"
+            }
+          },
+          {
+            "pin": "LV 6 N/C",
+            "status": {
+              "physical_status": "EMPTY",
+              "usage_status": "SPARE"
             }
           }
         ],
@@ -6287,7 +6315,7 @@
         "end_b": {
           "kind": "component_pin",
           "component": "C-MPPT-3",
-          "pin": "CAN_H"
+          "pin": "LV 4 CAN_H"
         },
         "overrides": {
           "gauge": {
@@ -10551,7 +10579,7 @@
         "end_b": {
           "kind": "component_pin",
           "component": "C-MPPT-3",
-          "pin": "CAN_L"
+          "pin": "LV 5 CAN_L"
         },
         "overrides": {
           "gauge": {
