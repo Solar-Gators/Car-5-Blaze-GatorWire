@@ -1,7 +1,7 @@
 {
   "format": "gatorwire-workspace",
   "version": 1,
-  "saved_at": "2026-10-10T06:33:21.964Z",
+  "saved_at": "2026-10-10T06:34:03.384Z",
   "project": "Car 5 Electrical",
   "dataset": {
     "project": {
@@ -1375,6 +1375,20 @@
           },
           {
             "pin": "MPPT CAN_L",
+            "status": {
+              "physical_status": "EMPTY",
+              "usage_status": "SPARE"
+            }
+          },
+          {
+            "pin": "12V+ Main",
+            "status": {
+              "physical_status": "EMPTY",
+              "usage_status": "SPARE"
+            }
+          },
+          {
+            "pin": "GND",
             "status": {
               "physical_status": "EMPTY",
               "usage_status": "SPARE"
@@ -11765,6 +11779,47 @@
         "harness_id": null,
         "resolution": "UNRESOLVED",
         "resolution_note": "Created in the connection editor; wire spec not chosen yet."
+      },
+      {
+        "id": "W-370",
+        "end_a": {
+          "kind": "component_pin",
+          "component": "C-FRONT-VCU",
+          "pin": "12V+ Main"
+        },
+        "end_b": {
+          "kind": "component_pin",
+          "component": "C-MPPT-3",
+          "pin": "LV 1 12V+"
+        },
+        "harness_id": null,
+        "resolution": "UNRESOLVED",
+        "resolution_note": "Created in the connection editor; wire spec not chosen yet."
+      },
+      {
+        "id": "W-371",
+        "end_a": {
+          "kind": "component_pin",
+          "component": "C-FRONT-VCU",
+          "pin": "GND"
+        },
+        "end_b": {
+          "kind": "component_pin",
+          "component": "C-MPPT-3",
+          "pin": "LV 2 GND"
+        },
+        "harness_id": null,
+        "length_mm": {
+          "state": "UNSET"
+        },
+        "overrides": {
+          "color": {
+            "state": "UNSET"
+          },
+          "gauge": {
+            "state": "UNSET"
+          }
+        }
       }
     ],
     "netdefs": [
@@ -14207,7 +14262,9 @@
         },
         "conductor_ids": [
           "W-368",
-          "W-369"
+          "W-369",
+          "W-370",
+          "W-371"
         ]
       },
       {
