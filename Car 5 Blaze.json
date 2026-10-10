@@ -1,7 +1,7 @@
 {
   "format": "gatorwire-workspace",
   "version": 1,
-  "saved_at": "2026-10-10T06:35:34.107Z",
+  "saved_at": "2026-10-10T06:35:53.135Z",
   "project": "Car 5 Electrical",
   "dataset": {
     "project": {
@@ -11814,9 +11814,18 @@
           "component": "C-MPPT-2",
           "pin": "LV 4 CAN_H"
         },
-        "harness_id": null,
-        "resolution": "UNRESOLVED",
-        "resolution_note": "Created in the connection editor; wire spec not chosen yet."
+        "harness_id": "H-FI01",
+        "length_mm": {
+          "state": "UNSET"
+        },
+        "overrides": {
+          "color": {
+            "state": "UNSET"
+          },
+          "gauge": {
+            "state": "UNSET"
+          }
+        }
       },
       {
         "id": "W-377",
@@ -11830,9 +11839,18 @@
           "component": "C-MPPT-2",
           "pin": "LV 5 CAN_L"
         },
-        "harness_id": null,
-        "resolution": "UNRESOLVED",
-        "resolution_note": "Created in the connection editor; wire spec not chosen yet."
+        "harness_id": "H-FI01",
+        "length_mm": {
+          "state": "UNSET"
+        },
+        "overrides": {
+          "color": {
+            "state": "UNSET"
+          },
+          "gauge": {
+            "state": "UNSET"
+          }
+        }
       }
     ],
     "netdefs": [
