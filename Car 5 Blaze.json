@@ -1,7 +1,7 @@
 {
   "format": "gatorwire-workspace",
   "version": 1,
-  "saved_at": "2026-10-10T06:33:05.775Z",
+  "saved_at": "2026-10-10T06:33:21.964Z",
   "project": "Car 5 Electrical",
   "dataset": {
     "project": {
@@ -1795,20 +1795,6 @@
             }
           },
           {
-            "pin": "LV 4 CAN_H",
-            "status": {
-              "physical_status": "POPULATED",
-              "usage_status": "ACTIVE"
-            }
-          },
-          {
-            "pin": "LV 5 CAN_L",
-            "status": {
-              "physical_status": "POPULATED",
-              "usage_status": "ACTIVE"
-            }
-          },
-          {
             "pin": "OUT_HV-",
             "status": {
               "physical_status": "POPULATED",
@@ -1837,7 +1823,28 @@
             }
           },
           {
-            "pin": "LV3 N/C",
+            "pin": "LV 3 N/C",
+            "status": {
+              "physical_status": "EMPTY",
+              "usage_status": "SPARE"
+            }
+          },
+          {
+            "pin": "LV 4 CAN_H",
+            "status": {
+              "physical_status": "POPULATED",
+              "usage_status": "ACTIVE"
+            }
+          },
+          {
+            "pin": "LV 5 CAN_L",
+            "status": {
+              "physical_status": "POPULATED",
+              "usage_status": "ACTIVE"
+            }
+          },
+          {
+            "pin": "LV 6 N/C",
             "status": {
               "physical_status": "EMPTY",
               "usage_status": "SPARE"
