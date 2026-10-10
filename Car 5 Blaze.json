@@ -1,7 +1,7 @@
 {
   "format": "gatorwire-workspace",
   "version": 1,
-  "saved_at": "2026-10-10T06:34:03.384Z",
+  "saved_at": "2026-10-10T06:35:34.107Z",
   "project": "Car 5 Electrical",
   "dataset": {
     "project": {
@@ -1755,17 +1755,45 @@
             }
           },
           {
-            "pin": "CAN_H",
+            "pin": "LV 1 12V+",
+            "status": {
+              "physical_status": "EMPTY",
+              "usage_status": "SPARE"
+            }
+          },
+          {
+            "pin": "LV 2 GND",
+            "status": {
+              "physical_status": "EMPTY",
+              "usage_status": "SPARE"
+            }
+          },
+          {
+            "pin": "LV 3 N/C",
+            "status": {
+              "physical_status": "EMPTY",
+              "usage_status": "SPARE"
+            }
+          },
+          {
+            "pin": "LV 4 CAN_H",
             "status": {
               "physical_status": "POPULATED",
               "usage_status": "ACTIVE"
             }
           },
           {
-            "pin": "CAN_L",
+            "pin": "LV 5 CAN_L",
             "status": {
               "physical_status": "POPULATED",
               "usage_status": "ACTIVE"
+            }
+          },
+          {
+            "pin": "LV 6 N/C",
+            "status": {
+              "physical_status": "EMPTY",
+              "usage_status": "SPARE"
             }
           },
           {
@@ -6301,66 +6329,6 @@
         }
       },
       {
-        "id": "W-135",
-        "harness_id": "H-FI01",
-        "end_a": {
-          "kind": "component_pin",
-          "component": "C-FRONT-VCU",
-          "pin": "Main CAN_H"
-        },
-        "end_b": {
-          "kind": "component_pin",
-          "component": "C-MPPT-1",
-          "pin": "CAN_H"
-        },
-        "overrides": {
-          "gauge": {
-            "state": "TBD"
-          },
-          "color": {
-            "state": "TBD"
-          }
-        },
-        "length_mm": {
-          "state": "TBD"
-        },
-        "provenance": {
-          "source": "master-sheet",
-          "source_ref": "CONNECTIONS!48",
-          "note": "Circuit / Function column read \"CAN high\"; it seeds the net name, not this conductor."
-        }
-      },
-      {
-        "id": "W-136",
-        "harness_id": "H-FI01",
-        "end_a": {
-          "kind": "component_pin",
-          "component": "C-FRONT-VCU",
-          "pin": "Main CAN_H"
-        },
-        "end_b": {
-          "kind": "component_pin",
-          "component": "C-MPPT-2",
-          "pin": "LV 4 CAN_H"
-        },
-        "overrides": {
-          "gauge": {
-            "state": "TBD"
-          },
-          "color": {
-            "state": "TBD"
-          }
-        },
-        "length_mm": {
-          "state": "TBD"
-        },
-        "provenance": {
-          "source": "master-sheet",
-          "source_ref": "CONNECTIONS!50",
-          "note": "Circuit / Function column read \"CAN high\"; it seeds the net name, not this conductor."
-        }
-      },
-      {
         "id": "W-138",
         "harness_id": "H-FI01",
         "end_a": {
@@ -6418,36 +6386,6 @@
           "source": "master-sheet",
           "source_ref": "CONNECTIONS!56",
           "note": "Circuit / Function column read \"CAN high\"; it seeds the net name, not this conductor."
-        }
-      },
-      {
-        "id": "W-140",
-        "harness_id": "H-FI01",
-        "end_a": {
-          "kind": "component_pin",
-          "component": "C-FRONT-VCU",
-          "pin": "Main CAN_L"
-        },
-        "end_b": {
-          "kind": "component_pin",
-          "component": "C-MPPT-1",
-          "pin": "CAN_L"
-        },
-        "overrides": {
-          "gauge": {
-            "state": "TBD"
-          },
-          "color": {
-            "state": "TBD"
-          }
-        },
-        "length_mm": {
-          "state": "TBD"
-        },
-        "provenance": {
-          "source": "master-sheet",
-          "source_ref": "CONNECTIONS!49",
-          "note": "Circuit / Function column read \"CAN low\"; it seeds the net name, not this conductor."
         }
       },
       {
@@ -10565,36 +10503,6 @@
         }
       },
       {
-        "id": "W-141",
-        "harness_id": "H-FI01",
-        "end_a": {
-          "kind": "component_pin",
-          "component": "C-FRONT-VCU",
-          "pin": "Main CAN_L"
-        },
-        "end_b": {
-          "kind": "component_pin",
-          "component": "C-MPPT-2",
-          "pin": "LV 5 CAN_L"
-        },
-        "overrides": {
-          "gauge": {
-            "state": "TBD"
-          },
-          "color": {
-            "state": "TBD"
-          }
-        },
-        "length_mm": {
-          "state": "TBD"
-        },
-        "provenance": {
-          "source": "master-sheet",
-          "source_ref": "CONNECTIONS!51",
-          "note": "Circuit / Function column read \"CAN low\"; it seeds the net name, not this conductor."
-        }
-      },
-      {
         "id": "W-143",
         "harness_id": "H-FI01",
         "end_a": {
@@ -11820,6 +11728,111 @@
             "state": "UNSET"
           }
         }
+      },
+      {
+        "id": "W-372",
+        "end_a": {
+          "kind": "component_pin",
+          "component": "C-FRONT-VCU",
+          "pin": "MPPT CAN_H"
+        },
+        "end_b": {
+          "kind": "component_pin",
+          "component": "C-MPPT-1",
+          "pin": "LV 4 CAN_H"
+        },
+        "harness_id": null,
+        "resolution": "UNRESOLVED",
+        "resolution_note": "Created in the connection editor; wire spec not chosen yet."
+      },
+      {
+        "id": "W-373",
+        "end_a": {
+          "kind": "component_pin",
+          "component": "C-FRONT-VCU",
+          "pin": "MPPT CAN_L"
+        },
+        "end_b": {
+          "kind": "component_pin",
+          "component": "C-MPPT-1",
+          "pin": "LV 5 CAN_L"
+        },
+        "harness_id": null,
+        "resolution": "UNRESOLVED",
+        "resolution_note": "Created in the connection editor; wire spec not chosen yet."
+      },
+      {
+        "id": "W-374",
+        "end_a": {
+          "kind": "component_pin",
+          "component": "C-FRONT-VCU",
+          "pin": "12V+ Main"
+        },
+        "end_b": {
+          "kind": "component_pin",
+          "component": "C-MPPT-1",
+          "pin": "LV 1 12V+"
+        },
+        "harness_id": null,
+        "resolution": "UNRESOLVED",
+        "resolution_note": "Created in the connection editor; wire spec not chosen yet."
+      },
+      {
+        "id": "W-375",
+        "end_a": {
+          "kind": "component_pin",
+          "component": "C-FRONT-VCU",
+          "pin": "GND"
+        },
+        "end_b": {
+          "kind": "component_pin",
+          "component": "C-MPPT-1",
+          "pin": "LV 2 GND"
+        },
+        "harness_id": null,
+        "length_mm": {
+          "state": "UNSET"
+        },
+        "overrides": {
+          "color": {
+            "state": "UNSET"
+          },
+          "gauge": {
+            "state": "UNSET"
+          }
+        }
+      },
+      {
+        "id": "W-376",
+        "end_a": {
+          "kind": "component_pin",
+          "component": "C-FRONT-VCU",
+          "pin": "Main CAN_H"
+        },
+        "end_b": {
+          "kind": "component_pin",
+          "component": "C-MPPT-2",
+          "pin": "LV 4 CAN_H"
+        },
+        "harness_id": null,
+        "resolution": "UNRESOLVED",
+        "resolution_note": "Created in the connection editor; wire spec not chosen yet."
+      },
+      {
+        "id": "W-377",
+        "end_a": {
+          "kind": "component_pin",
+          "component": "C-FRONT-VCU",
+          "pin": "Main CAN_L"
+        },
+        "end_b": {
+          "kind": "component_pin",
+          "component": "C-MPPT-2",
+          "pin": "LV 5 CAN_L"
+        },
+        "harness_id": null,
+        "resolution": "UNRESOLVED",
+        "resolution_note": "Created in the connection editor; wire spec not chosen yet."
       }
     ],
     "netdefs": [
@@ -14231,7 +14244,13 @@
         "provenance": {
           "source": "drawio",
           "source_ref": "cell:B0svhFu7hVh1GH4Wotb_-32"
-        }
+        },
+        "conductor_ids": [
+          "W-372",
+          "W-373",
+          "W-374",
+          "W-375"
+        ]
       },
       {
         "id": "L-0056",
@@ -14245,7 +14264,11 @@
         "provenance": {
           "source": "drawio",
           "source_ref": "cell:B0svhFu7hVh1GH4Wotb_-33"
-        }
+        },
+        "conductor_ids": [
+          "W-376",
+          "W-377"
+        ]
       },
       {
         "id": "L-0057",
