@@ -1,7 +1,7 @@
 {
   "format": "gatorwire-workspace",
   "version": 1,
-  "saved_at": "2026-10-10T06:35:53.135Z",
+  "saved_at": "2026-10-10T06:43:23.493Z",
   "project": "Car 5 Electrical",
   "dataset": {
     "project": {
@@ -11851,6 +11851,47 @@
             "state": "UNSET"
           }
         }
+      },
+      {
+        "id": "W-378",
+        "end_a": {
+          "kind": "component_pin",
+          "component": "C-FRONT-VCU",
+          "pin": "12V+ Main"
+        },
+        "end_b": {
+          "kind": "component_pin",
+          "component": "C-MPPT-2",
+          "pin": "LV 1 12V+"
+        },
+        "harness_id": null,
+        "resolution": "UNRESOLVED",
+        "resolution_note": "Created in the connection editor; wire spec not chosen yet."
+      },
+      {
+        "id": "W-379",
+        "end_a": {
+          "kind": "component_pin",
+          "component": "C-FRONT-VCU",
+          "pin": "GND"
+        },
+        "end_b": {
+          "kind": "component_pin",
+          "component": "C-MPPT-2",
+          "pin": "LV 2 GND"
+        },
+        "harness_id": null,
+        "length_mm": {
+          "state": "UNSET"
+        },
+        "overrides": {
+          "color": {
+            "state": "UNSET"
+          },
+          "gauge": {
+            "state": "UNSET"
+          }
+        }
       }
     ],
     "netdefs": [
@@ -14285,7 +14326,9 @@
         },
         "conductor_ids": [
           "W-376",
-          "W-377"
+          "W-377",
+          "W-378",
+          "W-379"
         ]
       },
       {
