@@ -1,7 +1,7 @@
 {
   "format": "gatorwire-workspace",
   "version": 1,
-  "saved_at": "2026-10-14T02:49:02.523Z",
+  "saved_at": "2026-10-14T05:13:03.304Z",
   "project": "Car 5 Electrical",
   "dataset": {
     "project": {
@@ -4522,6 +4522,38 @@
     "matings": [],
     "segments": [
       {
+        "id": "W-001",
+        "end_a": {
+          "kind": "component_pin",
+          "component": "C-ARRAY-1",
+          "pin": "+"
+        },
+        "end_b": {
+          "kind": "component_pin",
+          "component": "C-NEW-002",
+          "pin": "IN"
+        },
+        "harness_id": "H-TF01",
+        "resolution": "UNRESOLVED",
+        "resolution_note": "Created in the connection editor; wire spec not chosen yet."
+      },
+      {
+        "id": "W-002",
+        "end_a": {
+          "kind": "component_pin",
+          "component": "C-ARRAY-1",
+          "pin": "-"
+        },
+        "end_b": {
+          "kind": "connector_cavity",
+          "connector": "J-F01",
+          "cavity": "S1-"
+        },
+        "harness_id": "H-TF01",
+        "resolution": "UNRESOLVED",
+        "resolution_note": "Negative leg runs straight through; only the positive leg is fused."
+      },
+      {
         "id": "W-003",
         "end_a": {
           "kind": "component_pin",
@@ -4548,6 +4580,38 @@
           "kind": "connector_cavity",
           "connector": "J-F01",
           "cavity": "S2-"
+        },
+        "harness_id": "H-TF01",
+        "resolution": "UNRESOLVED",
+        "resolution_note": "Negative leg runs straight through; only the positive leg is fused."
+      },
+      {
+        "id": "W-005",
+        "end_a": {
+          "kind": "component_pin",
+          "component": "C-ARRAY-3",
+          "pin": "+"
+        },
+        "end_b": {
+          "kind": "component_pin",
+          "component": "C-NEW-004",
+          "pin": "IN"
+        },
+        "harness_id": "H-TF01",
+        "resolution": "UNRESOLVED",
+        "resolution_note": "Created in the connection editor; wire spec not chosen yet."
+      },
+      {
+        "id": "W-006",
+        "end_a": {
+          "kind": "component_pin",
+          "component": "C-ARRAY-3",
+          "pin": "-"
+        },
+        "end_b": {
+          "kind": "connector_cavity",
+          "connector": "J-F01",
+          "cavity": "S3-"
         },
         "harness_id": "H-TF01",
         "resolution": "UNRESOLVED",
@@ -4589,6 +4653,31 @@
           "kind": "connector_cavity",
           "connector": "J-F01",
           "cavity": "S2+"
+        },
+        "harness_id": "H-TF01",
+        "length_mm": {
+          "state": "UNSET"
+        },
+        "overrides": {
+          "color": {
+            "state": "UNSET"
+          },
+          "gauge": {
+            "state": "UNSET"
+          }
+        }
+      },
+      {
+        "id": "W-009",
+        "end_a": {
+          "kind": "component_pin",
+          "component": "C-NEW-004",
+          "pin": "OUT"
+        },
+        "end_b": {
+          "kind": "connector_cavity",
+          "connector": "J-F01",
+          "cavity": "S3+"
         },
         "harness_id": "H-TF01",
         "length_mm": {
@@ -11555,95 +11644,6 @@
           "pin": "FWD/REV+"
         },
         "harness_id": "H-RI01",
-        "length_mm": {
-          "state": "UNSET"
-        },
-        "overrides": {
-          "color": {
-            "state": "UNSET"
-          },
-          "gauge": {
-            "state": "UNSET"
-          }
-        }
-      },
-      {
-        "id": "W-002",
-        "end_a": {
-          "kind": "component_pin",
-          "component": "C-ARRAY-1",
-          "pin": "-"
-        },
-        "end_b": {
-          "kind": "connector_cavity",
-          "connector": "J-F01",
-          "cavity": "S1-"
-        },
-        "harness_id": "H-TF01",
-        "resolution": "UNRESOLVED",
-        "resolution_note": "Negative leg runs straight through; only the positive leg is fused."
-      },
-      {
-        "id": "W-001",
-        "end_a": {
-          "kind": "component_pin",
-          "component": "C-ARRAY-1",
-          "pin": "+"
-        },
-        "end_b": {
-          "kind": "component_pin",
-          "component": "C-NEW-002",
-          "pin": "IN"
-        },
-        "harness_id": "H-TF01",
-        "resolution": "UNRESOLVED",
-        "resolution_note": "Created in the connection editor; wire spec not chosen yet."
-      },
-      {
-        "id": "W-006",
-        "end_a": {
-          "kind": "component_pin",
-          "component": "C-ARRAY-3",
-          "pin": "-"
-        },
-        "end_b": {
-          "kind": "connector_cavity",
-          "connector": "J-F01",
-          "cavity": "S3-"
-        },
-        "harness_id": "H-TF01",
-        "resolution": "UNRESOLVED",
-        "resolution_note": "Negative leg runs straight through; only the positive leg is fused."
-      },
-      {
-        "id": "W-005",
-        "end_a": {
-          "kind": "component_pin",
-          "component": "C-ARRAY-3",
-          "pin": "+"
-        },
-        "end_b": {
-          "kind": "component_pin",
-          "component": "C-NEW-004",
-          "pin": "IN"
-        },
-        "harness_id": "H-TF01",
-        "resolution": "UNRESOLVED",
-        "resolution_note": "Created in the connection editor; wire spec not chosen yet."
-      },
-      {
-        "id": "W-009",
-        "end_a": {
-          "kind": "component_pin",
-          "component": "C-NEW-004",
-          "pin": "OUT"
-        },
-        "end_b": {
-          "kind": "connector_cavity",
-          "connector": "J-F01",
-          "cavity": "S3+"
-        },
-        "harness_id": "H-TF01",
         "length_mm": {
           "state": "UNSET"
         },
