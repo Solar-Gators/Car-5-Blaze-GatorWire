@@ -1,7 +1,7 @@
 {
   "format": "gatorwire-workspace",
   "version": 1,
-  "saved_at": "2026-10-14T05:13:03.304Z",
+  "saved_at": "2026-10-14T05:15:21.305Z",
   "project": "Car 5 Electrical",
   "dataset": {
     "project": {
@@ -3672,14 +3672,28 @@
             }
           },
           {
-            "cavity": "S1 Main CAN_H",
+            "cavity": "S5 Main CAN_H",
             "status": {
               "physical_status": "POPULATED",
               "usage_status": "ACTIVE"
             }
           },
           {
-            "cavity": "S2 Main CAN_L",
+            "cavity": "S6 Main CAN_L",
+            "status": {
+              "physical_status": "POPULATED",
+              "usage_status": "ACTIVE"
+            }
+          },
+          {
+            "cavity": "S1",
+            "status": {
+              "physical_status": "POPULATED",
+              "usage_status": "ACTIVE"
+            }
+          },
+          {
+            "cavity": "S2",
             "status": {
               "physical_status": "POPULATED",
               "usage_status": "ACTIVE"
@@ -3687,20 +3701,6 @@
           },
           {
             "cavity": "S3",
-            "status": {
-              "physical_status": "POPULATED",
-              "usage_status": "ACTIVE"
-            }
-          },
-          {
-            "cavity": "S4",
-            "status": {
-              "physical_status": "POPULATED",
-              "usage_status": "ACTIVE"
-            }
-          },
-          {
-            "cavity": "S5",
             "status": {
               "physical_status": "POPULATED",
               "usage_status": "ACTIVE"
@@ -5007,7 +5007,7 @@
         "end_b": {
           "kind": "connector_cavity",
           "connector": "J-R02",
-          "cavity": "S1 Main CAN_H"
+          "cavity": "S5 Main CAN_H"
         },
         "overrides": {
           "gauge": {
@@ -5037,7 +5037,7 @@
         "end_b": {
           "kind": "connector_cavity",
           "connector": "J-R02",
-          "cavity": "S3"
+          "cavity": "S1"
         },
         "overrides": {
           "gauge": {
@@ -5069,7 +5069,7 @@
         "end_b": {
           "kind": "connector_cavity",
           "connector": "J-R02",
-          "cavity": "S4"
+          "cavity": "S2"
         },
         "overrides": {
           "gauge": {
@@ -5099,7 +5099,7 @@
         "end_b": {
           "kind": "connector_cavity",
           "connector": "J-R02",
-          "cavity": "S5"
+          "cavity": "S3"
         },
         "overrides": {
           "gauge": {
@@ -7486,7 +7486,7 @@
         "end_a": {
           "kind": "connector_cavity",
           "connector": "J-R02",
-          "cavity": "S1 Main CAN_H"
+          "cavity": "S5 Main CAN_H"
         },
         "end_b": {
           "kind": "component_pin",
@@ -7502,7 +7502,7 @@
         "end_a": {
           "kind": "connector_cavity",
           "connector": "J-R02",
-          "cavity": "S2 Main CAN_L"
+          "cavity": "S6 Main CAN_L"
         },
         "end_b": {
           "kind": "component_pin",
@@ -10573,7 +10573,7 @@
         "end_b": {
           "kind": "connector_cavity",
           "connector": "J-R02",
-          "cavity": "S2 Main CAN_L"
+          "cavity": "S6 Main CAN_L"
         },
         "overrides": {
           "gauge": {
