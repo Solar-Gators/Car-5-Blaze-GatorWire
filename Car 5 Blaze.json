@@ -1,7 +1,7 @@
 {
   "format": "gatorwire-workspace",
   "version": 1,
-  "saved_at": "2026-10-16T20:18:08.812Z",
+  "saved_at": "2026-10-19T19:44:44.592Z",
   "project": "Car 5 Electrical",
   "dataset": {
     "project": {
@@ -4522,6 +4522,38 @@
     "matings": [],
     "segments": [
       {
+        "id": "W-001",
+        "end_a": {
+          "kind": "component_pin",
+          "component": "C-ARRAY-1",
+          "pin": "+"
+        },
+        "end_b": {
+          "kind": "component_pin",
+          "component": "C-NEW-002",
+          "pin": "IN"
+        },
+        "harness_id": "H-TF01",
+        "resolution": "UNRESOLVED",
+        "resolution_note": "Created in the connection editor; wire spec not chosen yet."
+      },
+      {
+        "id": "W-002",
+        "end_a": {
+          "kind": "component_pin",
+          "component": "C-ARRAY-1",
+          "pin": "-"
+        },
+        "end_b": {
+          "kind": "connector_cavity",
+          "connector": "J-F01",
+          "cavity": "S1-"
+        },
+        "harness_id": "H-TF01",
+        "resolution": "UNRESOLVED",
+        "resolution_note": "Negative leg runs straight through; only the positive leg is fused."
+      },
+      {
         "id": "W-003",
         "end_a": {
           "kind": "component_pin",
@@ -4548,6 +4580,38 @@
           "kind": "connector_cavity",
           "connector": "J-F01",
           "cavity": "S2-"
+        },
+        "harness_id": "H-TF01",
+        "resolution": "UNRESOLVED",
+        "resolution_note": "Negative leg runs straight through; only the positive leg is fused."
+      },
+      {
+        "id": "W-005",
+        "end_a": {
+          "kind": "component_pin",
+          "component": "C-ARRAY-3",
+          "pin": "+"
+        },
+        "end_b": {
+          "kind": "component_pin",
+          "component": "C-NEW-004",
+          "pin": "IN"
+        },
+        "harness_id": "H-TF01",
+        "resolution": "UNRESOLVED",
+        "resolution_note": "Created in the connection editor; wire spec not chosen yet."
+      },
+      {
+        "id": "W-006",
+        "end_a": {
+          "kind": "component_pin",
+          "component": "C-ARRAY-3",
+          "pin": "-"
+        },
+        "end_b": {
+          "kind": "connector_cavity",
+          "connector": "J-F01",
+          "cavity": "S3-"
         },
         "harness_id": "H-TF01",
         "resolution": "UNRESOLVED",
@@ -4589,6 +4653,31 @@
           "kind": "connector_cavity",
           "connector": "J-F01",
           "cavity": "S2+"
+        },
+        "harness_id": "H-TF01",
+        "length_mm": {
+          "state": "UNSET"
+        },
+        "overrides": {
+          "color": {
+            "state": "UNSET"
+          },
+          "gauge": {
+            "state": "UNSET"
+          }
+        }
+      },
+      {
+        "id": "W-009",
+        "end_a": {
+          "kind": "component_pin",
+          "component": "C-NEW-004",
+          "pin": "OUT"
+        },
+        "end_b": {
+          "kind": "connector_cavity",
+          "connector": "J-F01",
+          "cavity": "S3+"
         },
         "harness_id": "H-TF01",
         "length_mm": {
@@ -4935,6 +5024,36 @@
           "source": "master-sheet",
           "source_ref": "CONNECTIONS!62",
           "note": "Circuit / Function column read \"CAN high\"; it seeds the net name, not this conductor."
+        }
+      },
+      {
+        "id": "W-034",
+        "harness_id": "H-FR01",
+        "end_a": {
+          "kind": "connector_cavity",
+          "connector": "J-F02",
+          "cavity": "S6 Main CAN_L"
+        },
+        "end_b": {
+          "kind": "connector_cavity",
+          "connector": "J-R02",
+          "cavity": "S6 Main CAN_L"
+        },
+        "overrides": {
+          "gauge": {
+            "state": "TBD"
+          },
+          "color": {
+            "state": "TBD"
+          }
+        },
+        "length_mm": {
+          "state": "TBD"
+        },
+        "provenance": {
+          "source": "master-sheet",
+          "source_ref": "CONNECTIONS!64",
+          "note": "Circuit / Function column read \"CAN low\"; it seeds the net name, not this conductor."
         }
       },
       {
@@ -5996,6 +6115,96 @@
         }
       },
       {
+        "id": "W-112",
+        "harness_id": "H-RM01",
+        "end_a": {
+          "kind": "connector_cavity",
+          "connector": "J-R03",
+          "cavity": "B"
+        },
+        "end_b": {
+          "kind": "component_pin",
+          "component": "C-MOTOR",
+          "pin": "PHASE_B"
+        },
+        "overrides": {
+          "gauge": {
+            "state": "TBD"
+          },
+          "color": {
+            "state": "TBD"
+          }
+        },
+        "length_mm": {
+          "state": "TBD"
+        },
+        "provenance": {
+          "source": "master-sheet",
+          "source_ref": "CONNECTIONS!168",
+          "note": "Circuit / Function column read \"PHASE_B\"; it seeds the net name, not this conductor."
+        }
+      },
+      {
+        "id": "W-113",
+        "harness_id": "H-RM01",
+        "end_a": {
+          "kind": "connector_cavity",
+          "connector": "J-R03",
+          "cavity": "C"
+        },
+        "end_b": {
+          "kind": "component_pin",
+          "component": "C-MOTOR",
+          "pin": "PHASE_C"
+        },
+        "overrides": {
+          "gauge": {
+            "state": "TBD"
+          },
+          "color": {
+            "state": "TBD"
+          }
+        },
+        "length_mm": {
+          "state": "TBD"
+        },
+        "provenance": {
+          "source": "master-sheet",
+          "source_ref": "CONNECTIONS!170",
+          "note": "Circuit / Function column read \"PHASE_C\"; it seeds the net name, not this conductor."
+        }
+      },
+      {
+        "id": "W-121",
+        "harness_id": "H-RM02",
+        "end_a": {
+          "kind": "connector_cavity",
+          "connector": "J-R07",
+          "cavity": "A"
+        },
+        "end_b": {
+          "kind": "component_pin",
+          "component": "C-MOTOR",
+          "pin": "HALL_A"
+        },
+        "overrides": {
+          "gauge": {
+            "state": "TBD"
+          },
+          "color": {
+            "state": "TBD"
+          }
+        },
+        "length_mm": {
+          "state": "TBD"
+        },
+        "provenance": {
+          "source": "master-sheet",
+          "source_ref": "CONNECTIONS!176",
+          "note": "Circuit / Function column read \"Hall A\"; it seeds the net name, not this conductor."
+        }
+      },
+      {
         "id": "W-122",
         "harness_id": "H-RM02",
         "end_a": {
@@ -6113,6 +6322,36 @@
           "source": "master-sheet",
           "source_ref": "CONNECTIONS!174",
           "note": "Circuit / Function column read \"Sensor GND\"; it seeds the net name, not this conductor."
+        }
+      },
+      {
+        "id": "W-126",
+        "harness_id": "H-RM02",
+        "end_a": {
+          "kind": "connector_cavity",
+          "connector": "J-R07",
+          "cavity": "PWR"
+        },
+        "end_b": {
+          "kind": "component_pin",
+          "component": "C-MOTOR",
+          "pin": "HALL_PWR"
+        },
+        "overrides": {
+          "gauge": {
+            "state": "TBD"
+          },
+          "color": {
+            "state": "TBD"
+          }
+        },
+        "length_mm": {
+          "state": "TBD"
+        },
+        "provenance": {
+          "source": "master-sheet",
+          "source_ref": "CONNECTIONS!172",
+          "note": "Circuit / Function column read \"Sensor power +\"; it seeds the net name, not this conductor."
         }
       },
       {
@@ -6300,6 +6539,66 @@
         }
       },
       {
+        "id": "W-143",
+        "harness_id": "H-FI01",
+        "end_a": {
+          "kind": "component_pin",
+          "component": "C-FRONT-VCU",
+          "pin": "Main CAN_L"
+        },
+        "end_b": {
+          "kind": "component_pin",
+          "component": "C-TELEMETRY",
+          "pin": "CAN_L"
+        },
+        "overrides": {
+          "gauge": {
+            "state": "TBD"
+          },
+          "color": {
+            "state": "TBD"
+          }
+        },
+        "length_mm": {
+          "state": "TBD"
+        },
+        "provenance": {
+          "source": "master-sheet",
+          "source_ref": "CONNECTIONS!55",
+          "note": "Circuit / Function column read \"CAN low\"; it seeds the net name, not this conductor."
+        }
+      },
+      {
+        "id": "W-144",
+        "harness_id": "H-FI01",
+        "end_a": {
+          "kind": "component_pin",
+          "component": "C-FRONT-VCU",
+          "pin": "Main CAN_L"
+        },
+        "end_b": {
+          "kind": "connector_cavity",
+          "connector": "J-F02",
+          "cavity": "S6 Main CAN_L"
+        },
+        "overrides": {
+          "gauge": {
+            "state": "TBD"
+          },
+          "color": {
+            "state": "TBD"
+          }
+        },
+        "length_mm": {
+          "state": "TBD"
+        },
+        "provenance": {
+          "source": "master-sheet",
+          "source_ref": "CONNECTIONS!57",
+          "note": "Circuit / Function column read \"CAN low\"; it seeds the net name, not this conductor."
+        }
+      },
+      {
         "id": "W-145",
         "harness_id": "H-FI01",
         "end_a": {
@@ -6362,6 +6661,37 @@
         }
       },
       {
+        "id": "W-147",
+        "harness_id": "H-FI01",
+        "end_a": {
+          "kind": "connector_cavity",
+          "connector": "J-F01",
+          "cavity": "S2+"
+        },
+        "end_b": {
+          "kind": "component_pin",
+          "component": "C-MPPT-2",
+          "pin": "ARR_HV+"
+        },
+        "overrides": {
+          "gauge": {
+            "state": "TBD"
+          },
+          "color": {
+            "state": "TBD"
+          }
+        },
+        "length_mm": {
+          "state": "TBD"
+        },
+        "notes": "Front box internal",
+        "provenance": {
+          "source": "master-sheet",
+          "source_ref": "CONNECTIONS!11",
+          "note": "Circuit / Function column read \"ARRAY2+\"; it seeds the net name, not this conductor."
+        }
+      },
+      {
         "id": "W-148",
         "harness_id": "H-FI01",
         "end_a": {
@@ -6421,6 +6751,99 @@
           "source": "master-sheet",
           "source_ref": "CONNECTIONS!15",
           "note": "Circuit / Function column read \"ARRAY3+\"; it seeds the net name, not this conductor."
+        }
+      },
+      {
+        "id": "W-150",
+        "harness_id": "H-FI01",
+        "end_a": {
+          "kind": "connector_cavity",
+          "connector": "J-F01",
+          "cavity": "S3-"
+        },
+        "end_b": {
+          "kind": "component_pin",
+          "component": "C-MPPT-3",
+          "pin": "ARR_HV-"
+        },
+        "overrides": {
+          "gauge": {
+            "state": "TBD"
+          },
+          "color": {
+            "state": "TBD"
+          }
+        },
+        "length_mm": {
+          "state": "TBD"
+        },
+        "notes": "Front box internal",
+        "provenance": {
+          "source": "master-sheet",
+          "source_ref": "CONNECTIONS!16",
+          "note": "Circuit / Function column read \"ARRAY3-\"; it seeds the net name, not this conductor."
+        }
+      },
+      {
+        "id": "W-151",
+        "harness_id": "H-FI01",
+        "end_a": {
+          "kind": "connector_cavity",
+          "connector": "J-F04",
+          "cavity": "Canopy Brake Light 12V+"
+        },
+        "end_b": {
+          "kind": "component_pin",
+          "component": "C-FRONT-VCU",
+          "pin": "TOP_5"
+        },
+        "overrides": {
+          "gauge": {
+            "state": "TBD"
+          },
+          "color": {
+            "state": "TBD"
+          }
+        },
+        "length_mm": {
+          "state": "TBD"
+        },
+        "notes": "Front box internal",
+        "provenance": {
+          "source": "master-sheet",
+          "source_ref": "CONNECTIONS!31",
+          "note": "Circuit / Function column read \"Canopy Brake Light 12V+\"; it seeds the net name, not this conductor."
+        }
+      },
+      {
+        "id": "W-152",
+        "harness_id": "H-FI01",
+        "end_a": {
+          "kind": "connector_cavity",
+          "connector": "J-F04",
+          "cavity": "Canopy Brake Light GND"
+        },
+        "end_b": {
+          "kind": "component_pin",
+          "component": "C-FRONT-VCU",
+          "pin": "TOP_6"
+        },
+        "overrides": {
+          "gauge": {
+            "state": "TBD"
+          },
+          "color": {
+            "state": "TBD"
+          }
+        },
+        "length_mm": {
+          "state": "TBD"
+        },
+        "notes": "Front box internal",
+        "provenance": {
+          "source": "master-sheet",
+          "source_ref": "CONNECTIONS!32",
+          "note": "Circuit / Function column read \"Canopy Brake Light GND\"; it seeds the net name, not this conductor."
         }
       },
       {
@@ -7760,6 +8183,38 @@
           "source_ref": "CONNECTIONS!101",
           "note": "Circuit / Function column read \"Supp 12V+ fused feed\"; it seeds the net name, not this conductor."
         }
+      },
+      {
+        "id": "W-212",
+        "end_a": {
+          "kind": "component_pin",
+          "component": "C-POWER-BOARD",
+          "pin": "12V_Supp"
+        },
+        "end_b": {
+          "kind": "component_pin",
+          "component": "C-REAR-VCU",
+          "pin": "RearCan_H"
+        },
+        "harness_id": "H-RI01",
+        "resolution": "UNRESOLVED",
+        "resolution_note": "Created in the connection editor; wire spec not chosen yet."
+      },
+      {
+        "id": "W-213",
+        "end_a": {
+          "kind": "component_pin",
+          "component": "C-POWER-BOARD",
+          "pin": "12V_Supp"
+        },
+        "end_b": {
+          "kind": "component_pin",
+          "component": "C-REAR-VCU",
+          "pin": "12V_Supp"
+        },
+        "harness_id": "H-RI01",
+        "resolution": "UNRESOLVED",
+        "resolution_note": "Created in the connection editor; wire spec not chosen yet."
       },
       {
         "id": "W-214",
@@ -10196,68 +10651,6 @@
         }
       },
       {
-        "id": "W-147",
-        "harness_id": "H-FI01",
-        "end_a": {
-          "kind": "connector_cavity",
-          "connector": "J-F01",
-          "cavity": "S2+"
-        },
-        "end_b": {
-          "kind": "component_pin",
-          "component": "C-MPPT-2",
-          "pin": "ARR_HV+"
-        },
-        "overrides": {
-          "gauge": {
-            "state": "TBD"
-          },
-          "color": {
-            "state": "TBD"
-          }
-        },
-        "length_mm": {
-          "state": "TBD"
-        },
-        "notes": "Front box internal",
-        "provenance": {
-          "source": "master-sheet",
-          "source_ref": "CONNECTIONS!11",
-          "note": "Circuit / Function column read \"ARRAY2+\"; it seeds the net name, not this conductor."
-        }
-      },
-      {
-        "id": "W-150",
-        "harness_id": "H-FI01",
-        "end_a": {
-          "kind": "connector_cavity",
-          "connector": "J-F01",
-          "cavity": "S3-"
-        },
-        "end_b": {
-          "kind": "component_pin",
-          "component": "C-MPPT-3",
-          "pin": "ARR_HV-"
-        },
-        "overrides": {
-          "gauge": {
-            "state": "TBD"
-          },
-          "color": {
-            "state": "TBD"
-          }
-        },
-        "length_mm": {
-          "state": "TBD"
-        },
-        "notes": "Front box internal",
-        "provenance": {
-          "source": "master-sheet",
-          "source_ref": "CONNECTIONS!16",
-          "note": "Circuit / Function column read \"ARRAY3-\"; it seeds the net name, not this conductor."
-        }
-      },
-      {
         "id": "W-158",
         "harness_id": "H-FI01",
         "end_a": {
@@ -10320,68 +10713,6 @@
         }
       },
       {
-        "id": "W-151",
-        "harness_id": "H-FI01",
-        "end_a": {
-          "kind": "connector_cavity",
-          "connector": "J-F04",
-          "cavity": "Canopy Brake Light 12V+"
-        },
-        "end_b": {
-          "kind": "component_pin",
-          "component": "C-FRONT-VCU",
-          "pin": "TOP_5"
-        },
-        "overrides": {
-          "gauge": {
-            "state": "TBD"
-          },
-          "color": {
-            "state": "TBD"
-          }
-        },
-        "length_mm": {
-          "state": "TBD"
-        },
-        "notes": "Front box internal",
-        "provenance": {
-          "source": "master-sheet",
-          "source_ref": "CONNECTIONS!31",
-          "note": "Circuit / Function column read \"Canopy Brake Light 12V+\"; it seeds the net name, not this conductor."
-        }
-      },
-      {
-        "id": "W-152",
-        "harness_id": "H-FI01",
-        "end_a": {
-          "kind": "connector_cavity",
-          "connector": "J-F04",
-          "cavity": "Canopy Brake Light GND"
-        },
-        "end_b": {
-          "kind": "component_pin",
-          "component": "C-FRONT-VCU",
-          "pin": "TOP_6"
-        },
-        "overrides": {
-          "gauge": {
-            "state": "TBD"
-          },
-          "color": {
-            "state": "TBD"
-          }
-        },
-        "length_mm": {
-          "state": "TBD"
-        },
-        "notes": "Front box internal",
-        "provenance": {
-          "source": "master-sheet",
-          "source_ref": "CONNECTIONS!32",
-          "note": "Circuit / Function column read \"Canopy Brake Light GND\"; it seeds the net name, not this conductor."
-        }
-      },
-      {
         "id": "W-160",
         "harness_id": "H-FI01",
         "end_a": {
@@ -10411,96 +10742,6 @@
           "source": "master-sheet",
           "source_ref": "CONNECTIONS!41",
           "note": "Circuit / Function column read \"MPPT HV- bus\"; it seeds the net name, not this conductor."
-        }
-      },
-      {
-        "id": "W-143",
-        "harness_id": "H-FI01",
-        "end_a": {
-          "kind": "component_pin",
-          "component": "C-FRONT-VCU",
-          "pin": "Main CAN_L"
-        },
-        "end_b": {
-          "kind": "component_pin",
-          "component": "C-TELEMETRY",
-          "pin": "CAN_L"
-        },
-        "overrides": {
-          "gauge": {
-            "state": "TBD"
-          },
-          "color": {
-            "state": "TBD"
-          }
-        },
-        "length_mm": {
-          "state": "TBD"
-        },
-        "provenance": {
-          "source": "master-sheet",
-          "source_ref": "CONNECTIONS!55",
-          "note": "Circuit / Function column read \"CAN low\"; it seeds the net name, not this conductor."
-        }
-      },
-      {
-        "id": "W-144",
-        "harness_id": "H-FI01",
-        "end_a": {
-          "kind": "component_pin",
-          "component": "C-FRONT-VCU",
-          "pin": "Main CAN_L"
-        },
-        "end_b": {
-          "kind": "connector_cavity",
-          "connector": "J-F02",
-          "cavity": "S6 Main CAN_L"
-        },
-        "overrides": {
-          "gauge": {
-            "state": "TBD"
-          },
-          "color": {
-            "state": "TBD"
-          }
-        },
-        "length_mm": {
-          "state": "TBD"
-        },
-        "provenance": {
-          "source": "master-sheet",
-          "source_ref": "CONNECTIONS!57",
-          "note": "Circuit / Function column read \"CAN low\"; it seeds the net name, not this conductor."
-        }
-      },
-      {
-        "id": "W-034",
-        "harness_id": "H-FR01",
-        "end_a": {
-          "kind": "connector_cavity",
-          "connector": "J-F02",
-          "cavity": "S6 Main CAN_L"
-        },
-        "end_b": {
-          "kind": "connector_cavity",
-          "connector": "J-R02",
-          "cavity": "S6 Main CAN_L"
-        },
-        "overrides": {
-          "gauge": {
-            "state": "TBD"
-          },
-          "color": {
-            "state": "TBD"
-          }
-        },
-        "length_mm": {
-          "state": "TBD"
-        },
-        "provenance": {
-          "source": "master-sheet",
-          "source_ref": "CONNECTIONS!64",
-          "note": "Circuit / Function column read \"CAN low\"; it seeds the net name, not this conductor."
         }
       },
       {
@@ -10751,126 +10992,6 @@
         }
       },
       {
-        "id": "W-112",
-        "harness_id": "H-RM01",
-        "end_a": {
-          "kind": "connector_cavity",
-          "connector": "J-R03",
-          "cavity": "B"
-        },
-        "end_b": {
-          "kind": "component_pin",
-          "component": "C-MOTOR",
-          "pin": "PHASE_B"
-        },
-        "overrides": {
-          "gauge": {
-            "state": "TBD"
-          },
-          "color": {
-            "state": "TBD"
-          }
-        },
-        "length_mm": {
-          "state": "TBD"
-        },
-        "provenance": {
-          "source": "master-sheet",
-          "source_ref": "CONNECTIONS!168",
-          "note": "Circuit / Function column read \"PHASE_B\"; it seeds the net name, not this conductor."
-        }
-      },
-      {
-        "id": "W-113",
-        "harness_id": "H-RM01",
-        "end_a": {
-          "kind": "connector_cavity",
-          "connector": "J-R03",
-          "cavity": "C"
-        },
-        "end_b": {
-          "kind": "component_pin",
-          "component": "C-MOTOR",
-          "pin": "PHASE_C"
-        },
-        "overrides": {
-          "gauge": {
-            "state": "TBD"
-          },
-          "color": {
-            "state": "TBD"
-          }
-        },
-        "length_mm": {
-          "state": "TBD"
-        },
-        "provenance": {
-          "source": "master-sheet",
-          "source_ref": "CONNECTIONS!170",
-          "note": "Circuit / Function column read \"PHASE_C\"; it seeds the net name, not this conductor."
-        }
-      },
-      {
-        "id": "W-126",
-        "harness_id": "H-RM02",
-        "end_a": {
-          "kind": "connector_cavity",
-          "connector": "J-R07",
-          "cavity": "PWR"
-        },
-        "end_b": {
-          "kind": "component_pin",
-          "component": "C-MOTOR",
-          "pin": "HALL_PWR"
-        },
-        "overrides": {
-          "gauge": {
-            "state": "TBD"
-          },
-          "color": {
-            "state": "TBD"
-          }
-        },
-        "length_mm": {
-          "state": "TBD"
-        },
-        "provenance": {
-          "source": "master-sheet",
-          "source_ref": "CONNECTIONS!172",
-          "note": "Circuit / Function column read \"Sensor power +\"; it seeds the net name, not this conductor."
-        }
-      },
-      {
-        "id": "W-121",
-        "harness_id": "H-RM02",
-        "end_a": {
-          "kind": "connector_cavity",
-          "connector": "J-R07",
-          "cavity": "A"
-        },
-        "end_b": {
-          "kind": "component_pin",
-          "component": "C-MOTOR",
-          "pin": "HALL_A"
-        },
-        "overrides": {
-          "gauge": {
-            "state": "TBD"
-          },
-          "color": {
-            "state": "TBD"
-          }
-        },
-        "length_mm": {
-          "state": "TBD"
-        },
-        "provenance": {
-          "source": "master-sheet",
-          "source_ref": "CONNECTIONS!176",
-          "note": "Circuit / Function column read \"Hall A\"; it seeds the net name, not this conductor."
-        }
-      },
-      {
         "id": "W-101",
         "end_a": {
           "kind": "component_pin",
@@ -10931,38 +11052,6 @@
           "pin": "+5V"
         },
         "harness_id": "H-BI01",
-        "resolution": "UNRESOLVED",
-        "resolution_note": "Created in the connection editor; wire spec not chosen yet."
-      },
-      {
-        "id": "W-212",
-        "end_a": {
-          "kind": "component_pin",
-          "component": "C-POWER-BOARD",
-          "pin": "12V_Supp"
-        },
-        "end_b": {
-          "kind": "component_pin",
-          "component": "C-REAR-VCU",
-          "pin": "RearCan_H"
-        },
-        "harness_id": "H-RI01",
-        "resolution": "UNRESOLVED",
-        "resolution_note": "Created in the connection editor; wire spec not chosen yet."
-      },
-      {
-        "id": "W-213",
-        "end_a": {
-          "kind": "component_pin",
-          "component": "C-POWER-BOARD",
-          "pin": "12V_Supp"
-        },
-        "end_b": {
-          "kind": "component_pin",
-          "component": "C-REAR-VCU",
-          "pin": "12V_Supp"
-        },
-        "harness_id": "H-RI01",
         "resolution": "UNRESOLVED",
         "resolution_note": "Created in the connection editor; wire spec not chosen yet."
       },
@@ -11555,95 +11644,6 @@
           "pin": "FWD/REV+"
         },
         "harness_id": "H-RI01",
-        "length_mm": {
-          "state": "UNSET"
-        },
-        "overrides": {
-          "color": {
-            "state": "UNSET"
-          },
-          "gauge": {
-            "state": "UNSET"
-          }
-        }
-      },
-      {
-        "id": "W-002",
-        "end_a": {
-          "kind": "component_pin",
-          "component": "C-ARRAY-1",
-          "pin": "-"
-        },
-        "end_b": {
-          "kind": "connector_cavity",
-          "connector": "J-F01",
-          "cavity": "S1-"
-        },
-        "harness_id": "H-TF01",
-        "resolution": "UNRESOLVED",
-        "resolution_note": "Negative leg runs straight through; only the positive leg is fused."
-      },
-      {
-        "id": "W-001",
-        "end_a": {
-          "kind": "component_pin",
-          "component": "C-ARRAY-1",
-          "pin": "+"
-        },
-        "end_b": {
-          "kind": "component_pin",
-          "component": "C-NEW-002",
-          "pin": "IN"
-        },
-        "harness_id": "H-TF01",
-        "resolution": "UNRESOLVED",
-        "resolution_note": "Created in the connection editor; wire spec not chosen yet."
-      },
-      {
-        "id": "W-006",
-        "end_a": {
-          "kind": "component_pin",
-          "component": "C-ARRAY-3",
-          "pin": "-"
-        },
-        "end_b": {
-          "kind": "connector_cavity",
-          "connector": "J-F01",
-          "cavity": "S3-"
-        },
-        "harness_id": "H-TF01",
-        "resolution": "UNRESOLVED",
-        "resolution_note": "Negative leg runs straight through; only the positive leg is fused."
-      },
-      {
-        "id": "W-005",
-        "end_a": {
-          "kind": "component_pin",
-          "component": "C-ARRAY-3",
-          "pin": "+"
-        },
-        "end_b": {
-          "kind": "component_pin",
-          "component": "C-NEW-004",
-          "pin": "IN"
-        },
-        "harness_id": "H-TF01",
-        "resolution": "UNRESOLVED",
-        "resolution_note": "Created in the connection editor; wire spec not chosen yet."
-      },
-      {
-        "id": "W-009",
-        "end_a": {
-          "kind": "component_pin",
-          "component": "C-NEW-004",
-          "pin": "OUT"
-        },
-        "end_b": {
-          "kind": "connector_cavity",
-          "connector": "J-F01",
-          "cavity": "S3+"
-        },
-        "harness_id": "H-TF01",
         "length_mm": {
           "state": "UNSET"
         },
